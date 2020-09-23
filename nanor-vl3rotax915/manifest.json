@@ -1,0 +1,20 @@
+{
+  "dependencies": [
+    {
+      "name": "fs-base-propdefs",
+      "package_version": "0.1.21"
+    }
+  ],
+  "content_type": "AIRCRAFT",
+  "title": "nanor-vl3rotax915",
+  "manufacturer": "JMB Aircraft",
+  "creator": "nanor",
+  "package_version": "0.1.21",
+  "minimum_game_version": "1.7.12",
+  "release_notes": {
+    "neutral": {
+      "LastUpdate": "",
+      "OlderHistory": ""
+    }
+  }
+}

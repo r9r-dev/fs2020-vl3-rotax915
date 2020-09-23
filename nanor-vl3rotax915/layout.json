@@ -1,0 +1,19 @@
+{
+  "content": [
+    {
+      "path": "SimObjects/Airplanes/Asobo_VL3/cockpit.cfg",
+      "size": 5161,
+      "date": 132448077335602895
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_VL3/engines.cfg",
+      "size": 11185,
+      "date": 132447667566072947
+    },
+    {
+      "path": "SimObjects/Airplanes/Asobo_VL3/flight_model.cfg",
+      "size": 16093,
+      "date": 132448038460882905
+    }
+  ]
+}
