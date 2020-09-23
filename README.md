@@ -15,7 +15,7 @@ To the right of this page, you can find the release section. Click on the one wi
 
 ### 2. Locate your community folder
 
-To verify that you are on the "Latest release" and in "Assets" download the file `nanor-vl3rotax915.zip` by click on it.
+Verify that you are on the "Latest release" and in "Assets" download the file `nanor-vl3rotax915.zip` by click on it.
 
 ![Installation Step 2](readme-img/installation-step-2.png)
 
