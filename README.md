@@ -9,7 +9,7 @@ This mod is expermental. It has been made by gamers, not experts !
 
 ## Edit this mod
 
-After cloning this repo, all you have to do is running `.\MSFSLayoutGenerator.exe .\nanor-vl3rotax915\` to update `layout.json`.
+After cloning this repo and making modifications, all you have to do is running `.\MSFSLayoutGenerator.exe .\nanor-vl3rotax915\` to update `layout.json`.
 
 ## More info about this Aircraft and the engine
 
