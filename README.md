@@ -1,9 +1,17 @@
 
 # Flight Simulator 2020 - JMB Aircraft VL3 915
 
+![splash screen](readme-img/splash.png)
+
 Attempt to modify the JMB VL3 with a Rotax 915 engine on Flight Simulator 2020.
 
 This mod is experimental. It has been made by gamers, not experts !
+
+## More info about this Aircraft and the engine
+
+* [Official website specifications](https://www.jmbaircraft.com/aircraft)
+* [Rotax 915 operators manual](http://www.aviagamma.ru/om915is-0-0.pdf)
+* [Additional manuals from rotax-owner.com](https://www.rotax-owner.com/en/support-topmenu/engine-manuals)
 
 ## Installation
 
@@ -37,12 +45,11 @@ If you are not sure how to do it, download and install 7-zip from [here](https:/
 
 After cloning this repo and making modifications, all you have to do is running `.\MSFSLayoutGenerator.exe .\nanor-vl3rotax915\` to update `layout.json`.
 
-## More info about this Aircraft and the engine
-
-* [Official website specifications](https://www.jmbaircraft.com/aircraft)
-* [Rotax 915 operators manual](http://www.aviagamma.ru/om915is-0-0.pdf)
-* [Additional manuals from rotax-owner.com](https://www.rotax-owner.com/en/support-topmenu/engine-manuals)
-
 ## Credits
 
 Thanks to [ryanbatc](https://forums.flightsimulator.com/u/ryanbatc) for this idea and creating the Rotax 914 engine mod.
+
+No one here is affiliated with Rotax or JMB Aircraft. This addon is purely amateur and was created by fans of Flight Simulator 2020.
+
+* Rotax website: https://www.flyrotax.com/home.html
+* JMB Aircraft website: https://www.jmbaircraft.com/
