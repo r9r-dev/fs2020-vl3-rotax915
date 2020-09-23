@@ -12,6 +12,7 @@ This mod is experimental. It has been made by gamers, not experts !
 * [Official website specifications](https://www.jmbaircraft.com/aircraft)
 * [Rotax 915 operators manual](http://www.aviagamma.ru/om915is-0-0.pdf)
 * [Additional manuals from rotax-owner.com](https://www.rotax-owner.com/en/support-topmenu/engine-manuals)
+* [Operating limitations from experimentalaircraft.info](https://www.experimentalaircraft.info/homebuilt-aircraft/rotax-aircraft-engines-3.php)
 
 ## Installation
 
