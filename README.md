@@ -43,7 +43,7 @@ If you are not sure how to do it, download and install 7-zip from [here](https:/
 
 ## Edit this mod
 
-After cloning this repo and making modifications, all you have to do is running `.\MSFSLayoutGenerator.exe .\nanor-vl3rotax915\` to update `layout.json`.
+After cloning this repo and making modifications, all you have to do is running `.\MSFSLayoutGenerator.exe .\nanor-vl3rotax915\layout.json` to update `layout.json`.
 
 ## Credits
 
