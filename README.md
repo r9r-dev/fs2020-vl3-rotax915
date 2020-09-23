@@ -3,7 +3,7 @@
 
 ![splash screen](readme-img/splash.png)
 
-Attempt to modify the JMB VL3 with a Rotax 915 engine on Flight Simulator 2020.
+Attempt to modify the JMB VL3 Evolution with a Rotax 915 iS engine on Flight Simulator 2020.
 
 This mod is experimental. It has been made by gamers, not experts !
 
@@ -51,5 +51,6 @@ Thanks to [ryanbatc](https://forums.flightsimulator.com/u/ryanbatc) for this ide
 
 No one here is affiliated with Rotax or JMB Aircraft. This addon is purely amateur and was created by fans of Flight Simulator 2020.
 
-* Rotax website: https://www.flyrotax.com/home.html
-* JMB Aircraft website: https://www.jmbaircraft.com/
+* Rotax website: <https://www.flyrotax.com/>
+* JMB Aircraft website: <https://www.jmbaircraft.com/>
+
