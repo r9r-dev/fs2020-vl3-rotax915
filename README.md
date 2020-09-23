@@ -21,7 +21,7 @@ Verify that you are on the "Latest release" and in "Assets" download the file `n
 
 On your computer, search for the `Community` folder of Flight Simulator 2020. The location of this folder depends on whether you have installed it from the Windows Store, Steam and also if you have changed the folder where the packages are located.
 
-* If you changed the location of packages, it's the simplest because it should be in the `Community` sub folder.
+* If you changed the location of packages, it's the simplest because you should find a `Community` sub folder in it.
 * For Steam, it should be localted in `C:\Users\[Computer Name]\AppData\Local\Packages\Microsoft.FlightDashboard_8wekyb3d8bbwe\LocalCache\Packages\Community`
 * For Windows Store `C:\Users\[Computer Name]\AppData\Local\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalCache\Packages\Community`
 
