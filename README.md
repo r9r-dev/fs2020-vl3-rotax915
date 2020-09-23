@@ -41,6 +41,7 @@ After cloning this repo and making modifications, all you have to do is running 
 
 * [Official website specifications](https://www.jmbaircraft.com/aircraft)
 * [Rotax 915 operators manual](http://www.aviagamma.ru/om915is-0-0.pdf)
+* [Additional manuals from rotax-owner.com](https://www.rotax-owner.com/en/support-topmenu/engine-manuals)
 
 ## Credits
 
