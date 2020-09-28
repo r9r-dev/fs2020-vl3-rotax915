@@ -13,6 +13,7 @@ This mod is experimental. It has been made by gamers, not experts !
 * [Rotax 915 operators manual](http://www.aviagamma.ru/om915is-0-0.pdf)
 * [Additional manuals from rotax-owner.com](https://www.rotax-owner.com/en/support-topmenu/engine-manuals)
 * [Operating limitations from experimentalaircraft.info](https://www.experimentalaircraft.info/homebuilt-aircraft/rotax-aircraft-engines-3.php)
+* [Some more informations about the Rotax 915iS](https://www.kitplanes.com/more-rotax-915is/)
 
 ## Installation
 
@@ -48,7 +49,12 @@ After cloning this repo and making modifications, all you have to do is running 
 
 ## Credits
 
-Thanks to [ryanbatc](https://forums.flightsimulator.com/u/ryanbatc) for this idea and creating the Rotax 914 engine mod.
+### Special thanks
+
+* [ryanbatc](https://forums.flightsimulator.com/u/ryanbatc) for this idea and creating the Rotax 914 engine mod.
+* [GotGravel](https://forums.flightsimulator.com/u/GotGravel) for multiples improvements on the mod.
+
+### Disclaimer
 
 No one here is affiliated with Rotax or JMB Aircraft. This addon is purely amateur and was created by fans of Flight Simulator 2020.
 
