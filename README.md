@@ -49,10 +49,11 @@ After cloning this repo and making modifications, all you have to do is running 
 
 ## Credits
 
-### Special thanks
+### Contributors and Special thanks
 
 * [ryanbatc](https://forums.flightsimulator.com/u/ryanbatc) for this idea and creating the Rotax 914 engine mod.
 * [GotGravel](https://forums.flightsimulator.com/u/GotGravel) for multiples improvements on the mod.
+* [CodenameJack447](https://forums.flightsimulator.com/u/CodenameJack447) for multiples improvements on the mod.
 
 ### Disclaimer
 
@@ -60,4 +61,3 @@ No one here is affiliated with Rotax or JMB Aircraft. This addon is purely amate
 
 * Rotax website: <https://www.flyrotax.com/>
 * JMB Aircraft website: <https://www.jmbaircraft.com/>
-
