@@ -15,6 +15,10 @@ This mod is experimental. It has been made by gamers, not experts !
 * [Operating limitations from experimentalaircraft.info](https://www.experimentalaircraft.info/homebuilt-aircraft/rotax-aircraft-engines-3.php)
 * [Some more informations about the Rotax 915iS](https://www.kitplanes.com/more-rotax-915is/)
 
+## Livery
+
+You can find the Racing Livery on [CMDR Orvidius's website](https://orvidius.com/msfs2020/).
+
 ## Installation
 
 ### 1. Download the file
