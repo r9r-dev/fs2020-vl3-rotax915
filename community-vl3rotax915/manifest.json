@@ -6,9 +6,9 @@
     }
   ],
   "content_type": "AIRCRAFT",
-  "title": "nanor-vl3rotax915",
+  "title": "community-vl3rotax915",
   "manufacturer": "JMB Aircraft",
-  "creator": "nanor",
+  "creator": "Flight Simulator Community",
   "package_version": "0.1.21",
   "minimum_game_version": "1.7.12",
   "release_notes": {
