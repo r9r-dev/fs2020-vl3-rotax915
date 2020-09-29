@@ -67,7 +67,7 @@
 				<End>45</End>
 			</ColorZone>
 			<ColorZone>
-				<Color>amber</Color>
+				<Color>yellow</Color>
 				<Begin>45</Begin>
 				<End>48</End>
 			</ColorZone>
@@ -107,12 +107,12 @@
 			<ColorZone>
 				<Color>yellow</Color>
 				<Begin>5500</Begin>
-				<End>5800</End>
+				<End>5799</End>
 			</ColorZone>
 			<ColorZone>
 				<Color>red</Color>
-				<Begin>5800</Begin>
-				<End>7000</End>
+				<Begin>5799</Begin>
+				<End>5800</End>
 			</ColorZone>
 			<BeginText></BeginText>
 			<EndText></EndText>
@@ -270,20 +270,14 @@
 				<Begin>0</Begin>
 				<End>10</End>
 			</ColorZone>
-
 			<ColorZone>
-				<Color>green</Color>
+				<Color>yellow</Color>
 				<Begin>10</Begin>
 				<End>12</End>
 			</ColorZone>
 			<ColorZone>
-				<Color>yellow</Color>
+				<Color>green</Color>		
 				<Begin>12</Begin>
-				<End>15</End>
-			</ColorZone>
-			<ColorZone>
-				<Color>red</Color>		
-				<Begin>15</Begin>
 				<End>30</End>
 			</ColorZone>
 			<BeginText></BeginText>
