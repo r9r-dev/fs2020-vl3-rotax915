@@ -1,5 +1,4 @@
 <PlaneHTMLConfig>
-
 	<Instrument>
 		<Name>AS3X_Touch_1</Name>
 		<SyntheticVision>True</SyntheticVision>
@@ -49,8 +48,8 @@
 		<Gauge> <!-- /!\ Values extrapolated, absolutly not sure /!\ -->
 			<Type>Circular</Type>
 			<ID>MANIN_Gauge</ID>
-			<Unit>MAN IN</Unit>
-			<Minimum>0</Minimum>
+			<Unit>Man.inHG</Unit>
+			<Minimum>1.77</Minimum>
 			<Maximum>51</Maximum>
 			<Style>
 				<BeginAngle>-45</BeginAngle>
@@ -79,6 +78,7 @@
 			<BeginText></BeginText>
 			<EndText></EndText>			  					  
 		</Gauge>
+  
 		<Gauge>
 			<Type>Circular</Type>
 			<ID>RPM_Gauge</ID>
@@ -95,7 +95,7 @@
 				<Simvar name="GENERAL ENG RPM:1" unit="rpm"/>
 			</Value>
 			<ColorZone>
-				<Color>red</Color>
+				<Color>yellow</Color>
 				<Begin>0</Begin>
 				<End>1500</End>
 			</ColorZone>
@@ -107,12 +107,12 @@
 			<ColorZone>
 				<Color>yellow</Color>
 				<Begin>5500</Begin>
-				<End>5799</End>
+				<End>5800</End>
 			</ColorZone>
 			<ColorZone>
 				<Color>red</Color>
-				<Begin>5799</Begin>
-				<End>5800</End>
+				<Begin>5801</Begin>
+				<End>7000</End>
 			</ColorZone>
 			<BeginText></BeginText>
 			<EndText></EndText>
@@ -127,8 +127,8 @@
 		<Gauge>
 			<Type>Horizontal</Type>
 			<ID>FuelFlow_Gauge</ID>
-			<Title>FUEL</Title>
-			<Unit>GPH</Unit>
+			<Title>Fuel</Title>
+			<Unit>Gph</Unit>
 			<Minimum>0</Minimum>
 			<Maximum>13.20</Maximum>
 			<Style>
@@ -144,56 +144,47 @@
 		<Gauge>
 			<Type>Horizontal</Type>
 			<ID>OilPsi_Gauge</ID>
-			<Title>OIL</Title>
-			<Unit>PSI</Unit>
-			<Minimum>0</Minimum>
-			<Maximum>145</Maximum> <!-- Not Sure -->
+			<Title>Oil</Title>
+			<Unit>Bar</Unit>
+			<Minimum>0.0</Minimum>
+			<Maximum>7.0</Maximum> <!-- Not Sure -->
 			<Style>
 				<ValuePos>End</ValuePos>
 			</Style>
 			<Value>
-				<Simvar name="GENERAL ENG OIL PRESSURE:1" unit="psi"/>
+				<Simvar name="GENERAL ENG OIL PRESSURE:1" unit="bar"/>
 			</Value>
-			<ColorZone>
-			        <Color>red</Color>
-				<Begin>0</Begin>
-				<End>21.75</End>
-			</ColorZone>
-			<ColorZone>
+				<ColorZone>
 				<Color>yellow</Color>
-				<Begin>21.75</Begin>
-				<End>43.51</End>
+				<Begin>0.0</Begin>
+				<End>2.0</End>
 			</ColorZone>
 			<ColorZone>
 				<Color>green</Color>
-				<Begin>43.51</Begin>
-				<End>72.51</End>
+				<Begin>2.0</Begin>
+				<End>5.0</End>
 			</ColorZone>
 			<ColorZone>
 				<Color>yellow</Color>
-				<Begin>72.51</Begin>
-				<End>101.526</End>
+				<Begin>5.0</Begin>
+				<End>6.0</End>
 			</ColorZone>
 			<ColorZone>
 				<Color>red</Color>
-				<Begin>101.526</Begin>
-				<End>145</End>
+				<Begin>6.0</Begin>
+				<End>7.0</End>
 			</ColorZone>
-			<ColorLine>
-				<Color>red</Color>
-				<Position>145</Position>
-			</ColorLine>
 			<BeginText></BeginText>
 			<EndText></EndText>
 			<RedBlink>
 				<Or>
 					<Greater>
-						<Simvar name="GENERAL ENG OIL PRESSURE:1" unit="psi"/>
-						<Constant>115</Constant>
+						<Simvar name="GENERAL ENG OIL PRESSURE:1" unit="bar"/>
+						<Constant>7</Constant>
 					</Greater>
 					<Lower>
-						<Simvar name="GENERAL ENG OIL PRESSURE:1" unit="psi"/>
-						<Constant>25</Constant>
+						<Simvar name="GENERAL ENG OIL PRESSURE:1" unit="bar"/>
+						<Constant>2</Constant>
 					</Lower>
 				</Or>
 			</RedBlink>
@@ -202,10 +193,10 @@
 		<Gauge>
 			<Type>Horizontal</Type>
 			<ID>OilTemp_Gauge</ID>
-			<Title>OIL</Title>
-			<Unit>TEMP</Unit>
-			<Minimum>-65</Minimum>
-			<Maximum>150</Maximum> <!-- Not Sure -->
+			<Title>Oil</Title>
+			<Unit>Temp °C</Unit>
+			<Minimum>50</Minimum>
+			<Maximum>130</Maximum> <!-- Not Sure -->
 			<Style>
 				<ValuePos>End</ValuePos>
 			</Style>
@@ -214,12 +205,12 @@
 			</Value>
 			<ColorZone>
 				<Color>yellow</Color>
-				<Begin>-65</Begin>
-				<End>50</End>
+				<Begin>50</Begin>
+				<End>80</End>
 			</ColorZone>
 			<ColorZone>
 				<Color>green</Color>
-				<Begin>50</Begin>
+				<Begin>80</Begin>
 				<End>110</End>
 			</ColorZone>
 			<ColorZone>
@@ -230,7 +221,7 @@
 			<ColorZone>
 				<Color>red</Color>
 				<Begin>130</Begin>
-				<End>150</End>
+				<End>130</End>
 			</ColorZone>
 			<BeginText></BeginText>
 			<EndText></EndText>
@@ -243,7 +234,7 @@
 		</Gauge>
 		
 		<Text>
-			<Left>VOLTS</Left>
+			<Left>Volts</Left>
 		</Text>
 		
 		<Gauge> <!-- WRONG VALUES Come directly from TBM930 -->
@@ -273,19 +264,29 @@
 			<ColorZone>
 				<Color>yellow</Color>
 				<Begin>10</Begin>
-				<End>12</End>
+				<End>15</End>
 			</ColorZone>
 			<ColorZone>
 				<Color>green</Color>		
-				<Begin>12</Begin>
+				<Begin>15</Begin>
 				<End>30</End>
+			</ColorZone>
+				<ColorZone>
+				<Color>yellow</Color>
+				<Begin>30</Begin>
+				<End>32</End>
+			</ColorZone>
+				<ColorZone>
+				<Color>red</Color>
+				<Begin>32</Begin>
+				<End>32</End>
 			</ColorZone>
 			<BeginText></BeginText>
 			<EndText></EndText>
 		</Gauge>
 		
 		<Text>
-			<Left>CHT Â°C</Left>
+			<Left>CHT °C</Left>
 			<Right id="CHT">
 				<ToFixed precision="0">
 					<Simvar name="ENG CYLINDER HEAD TEMPERATURE:1" unit="celsius"/>
@@ -294,7 +295,7 @@
 		</Text>
 		
 		<Text>
-			<Left>EGT Â°C</Left>
+			<Left>EGT °C</Left>
 			<Right id="EGT">
 				<ToFixed precision="0">
 					<Simvar name="GENERAL ENG EXHAUST GAS TEMPERATURE:1" unit="celsius"/>
@@ -308,7 +309,7 @@
 				<ValuePos>None</ValuePos>
 			</Style>
 			<ID>Fuel_Qty</ID>
-			<Title>FUEL QTY</Title>
+			<Title>Fuel Qty</Title>
 			<Unit></Unit>
 			<CursorText>L</CursorText>
 			<CursorText2>R</CursorText2>
