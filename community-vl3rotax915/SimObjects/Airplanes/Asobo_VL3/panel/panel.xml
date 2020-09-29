@@ -84,7 +84,7 @@
 			<ID>RPM_Gauge</ID>
 			<Unit>RPM</Unit>
 			<Minimum>0</Minimum>
-			<Maximum>7000</Maximum> <!-- Not Sure -->
+			<Maximum>6500</Maximum> <!-- Not Sure -->
 			<Style>
 				<BeginAngle>-45</BeginAngle>
 				<EndAngle>180</EndAngle>
@@ -111,8 +111,8 @@
 			</ColorZone>
 			<ColorZone>
 				<Color>red</Color>
-				<Begin>5801</Begin>
-				<End>7000</End>
+				<Begin>5800</Begin>
+				<End>6500</End>
 			</ColorZone>
 			<BeginText></BeginText>
 			<EndText></EndText>
@@ -122,24 +122,7 @@
 					<Constant>5800</Constant>
 				</Greater>
 			</RedBlink>
-		</Gauge>
-		
-		<Gauge>
-			<Type>Horizontal</Type>
-			<ID>FuelFlow_Gauge</ID>
-			<Title>Fuel</Title>
-			<Unit>Gph</Unit>
-			<Minimum>0</Minimum>
-			<Maximum>13.20</Maximum>
-			<Style>
-				<ValuePos>End</ValuePos>
-			</Style>
-			<Value>
-				<Simvar name="ENG FUEL FLOW GPH:1" unit="gallons per hour"/>
-			</Value>
-			<BeginText></BeginText>
-			<EndText></EndText>
-		</Gauge>
+		</Gauge>		
 		
 		<Gauge>
 			<Type>Horizontal</Type>
@@ -195,7 +178,7 @@
 			<ID>OilTemp_Gauge</ID>
 			<Title>Oil</Title>
 			<Unit>Temp °C</Unit>
-			<Minimum>50</Minimum>
+			<Minimum>40</Minimum>
 			<Maximum>130</Maximum> <!-- Not Sure -->
 			<Style>
 				<ValuePos>End</ValuePos>
@@ -204,7 +187,12 @@
 				<Simvar name="GENERAL ENG OIL TEMPERATURE:1" unit="celsius"/>
 			</Value>
 			<ColorZone>
-				<Color>yellow</Color>
+				<Color>red</Color>
+				<Begin>40</Begin>
+				<End>50</End>
+			</ColorZone>
+			<ColorZone>
+				<Color>white</Color>
 				<Begin>50</Begin>
 				<End>80</End>
 			</ColorZone>
@@ -216,11 +204,11 @@
 			<ColorZone>
 				<Color>yellow</Color>
 				<Begin>110</Begin>
-				<End>130</End>
+				<End>115</End>
 			</ColorZone>
 			<ColorZone>
 				<Color>red</Color>
-				<Begin>130</Begin>
+				<Begin>115</Begin>
 				<End>130</End>
 			</ColorZone>
 			<BeginText></BeginText>
@@ -233,57 +221,7 @@
 			</RedBlink>
 		</Gauge>
 		
-		<Text>
-			<Left>Volts</Left>
-		</Text>
-		
-		<Gauge> <!-- WRONG VALUES Come directly from TBM930 -->
-			<Type>DoubleHorizontal</Type>
-			<Style>
-				<TitlePos>None</TitlePos>
-				<ValuePos>Right</ValuePos>
-			</Style>
-			<ID>Turbo_VoltsGauge</ID>
-			<Title></Title>
-			<Unit></Unit>
-			<CursorText>B</CursorText>
-			<CursorText2>E</CursorText2>
-			<Minimum>0</Minimum>
-			<Maximum>32</Maximum>
-			<Value>
-				<Simvar name="ELECTRICAL MAIN BUS VOLTAGE:1" unit="volts"/>
-			</Value>
-			<Value2>
-				<Simvar name="ELECTRICAL MAIN BUS VOLTAGE:2" unit="volts"/>
-			</Value2>
-			<ColorZone>
-				<Color>red</Color>
-				<Begin>0</Begin>
-				<End>10</End>
-			</ColorZone>
-			<ColorZone>
-				<Color>yellow</Color>
-				<Begin>10</Begin>
-				<End>15</End>
-			</ColorZone>
-			<ColorZone>
-				<Color>green</Color>		
-				<Begin>15</Begin>
-				<End>30</End>
-			</ColorZone>
-				<ColorZone>
-				<Color>yellow</Color>
-				<Begin>30</Begin>
-				<End>32</End>
-			</ColorZone>
-				<ColorZone>
-				<Color>red</Color>
-				<Begin>32</Begin>
-				<End>32</End>
-			</ColorZone>
-			<BeginText></BeginText>
-			<EndText></EndText>
-		</Gauge>
+
 		
 		<Text>
 			<Left>CHT °C</Left>
@@ -302,6 +240,51 @@
 				</ToFixed>
 			</Right>
 		</Text>
+
+
+				
+		<Gauge>
+					<Type>Horizontal</Type>
+					<ID>FuelPress_Gauge</ID>
+					<Title>Fuel</Title>
+					<Unit>Bar</Unit>
+					<Minimum>0.8</Minimum>
+					<Maximum>5.0</Maximum>
+					<Style>
+						<ValuePos>End</ValuePos>
+					</Style>
+					<Value>
+						<Simvar name="GENERAL ENG FUEL PRESSURE:1" unit="bar"/>
+					</Value>
+					<ColorZone>
+						<Color>red</Color>
+						<Begin>0.8</Begin>
+						<End>2.0</End>
+					</ColorZone>
+					<ColorZone>
+						<Color>yellow</Color>
+						<Begin>2.0</Begin>
+						<End>2.5</End>
+					</ColorZone>
+					<ColorZone>
+						<Color>green</Color>
+						<Begin>2.5</Begin>
+						<End>3.8</End>
+					</ColorZone>
+					<ColorZone>
+						<Color>yellow</Color>
+						<Begin>3.8</Begin>
+						<End>4.2</End>
+					</ColorZone>
+					<ColorZone>
+						<Color>red</Color>
+						<Begin>4.2</Begin>
+						<End>5.0</End>
+					</ColorZone>
+
+					<BeginText></BeginText>
+					<EndText></EndText>
+		</Gauge>
 		
 		<Gauge>
 			<Type>DoubleHorizontal</Type>
@@ -339,5 +322,23 @@
 			<BeginText></BeginText>
 			<EndText></EndText>
 		</Gauge>
+
+		<Gauge>
+			<Type>Horizontal</Type>
+			<ID>FuelFlow_Gauge</ID>
+			<Title>Fuel</Title>
+			<Unit>Gph</Unit>
+			<Minimum>0</Minimum>
+			<Maximum>13.20</Maximum>
+			<Style>
+				<ValuePos>End</ValuePos>
+			</Style>
+			<Value>
+				<Simvar name="ENG FUEL FLOW GPH:1" unit="gallons per hour"/>
+			</Value>
+			<BeginText></BeginText>
+			<EndText></EndText>
+		</Gauge>
+		
 	</EngineDisplay>
 </PlaneHTMLConfig>
