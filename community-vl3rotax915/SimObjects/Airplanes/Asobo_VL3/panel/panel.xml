@@ -265,11 +265,11 @@
 			<Value2>
 				<Simvar name="ELECTRICAL MAIN BUS VOLTAGE:2" unit="volts"/>
 			</Value2>
-			<ColorLine>
+			<ColorZone>
 				<Color>red</Color>
 				<Begin>0</Begin>
 				<End>10</End>
-			</ColorLine>
+			</ColorZone>
 
 			<ColorZone>
 				<Color>green</Color>
@@ -281,16 +281,17 @@
 				<Begin>12</Begin>
 				<End>15</End>
 			</ColorZone>
-			<ColorLine>
+			<ColorZone>
+				<Color>red</Color>		
 				<Begin>15</Begin>
 				<End>30</End>
-			</ColorLine>
+			</ColorZone>
 			<BeginText></BeginText>
 			<EndText></EndText>
 		</Gauge>
 		
 		<Text>
-			<Left>CHT °C</Left>
+			<Left>CHT Â°C</Left>
 			<Right id="CHT">
 				<ToFixed precision="0">
 					<Simvar name="ENG CYLINDER HEAD TEMPERATURE:1" unit="celsius"/>
@@ -299,7 +300,7 @@
 		</Text>
 		
 		<Text>
-			<Left>EGT °C</Left>
+			<Left>EGT Â°C</Left>
 			<Right id="EGT">
 				<ToFixed precision="0">
 					<Simvar name="GENERAL ENG EXHAUST GAS TEMPERATURE:1" unit="celsius"/>
