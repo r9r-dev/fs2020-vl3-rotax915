@@ -71,15 +71,14 @@
 				<Begin>45</Begin>
 				<End>48</End>
 			</ColorZone>
-			<BeginText></BeginText>
-			<EndText></EndText>
 			<ColorZone>
 				<Color>red</Color>
 				<Begin>48</Begin>
 				<End>51</End>
 			</ColorZone>
+			<BeginText></BeginText>
+			<EndText></EndText>			  					  
 		</Gauge>
-  
 		<Gauge>
 			<Type>Circular</Type>
 			<ID>RPM_Gauge</ID>
@@ -223,15 +222,16 @@
 				<Begin>50</Begin>
 				<End>110</End>
 			</ColorZone>
-			<ColorLine>
+			<ColorZone>
 				<Color>yellow</Color>
 				<Begin>110</Begin>
 				<End>130</End>
-			</ColorLine>
+			</ColorZone>
+			<ColorZone>
 				<Color>red</Color>
 				<Begin>130</Begin>
 				<End>150</End>
-			</ColorLine>
+			</ColorZone>
 			<BeginText></BeginText>
 			<EndText></EndText>
 			<RedBlink>
