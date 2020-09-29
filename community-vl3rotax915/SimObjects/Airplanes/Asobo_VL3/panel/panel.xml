@@ -63,16 +63,21 @@
 			</Value>
 			<ColorZone>
 				<Color>green</Color>
-				<Begin>0</Begin>
-				<End>30</End>
+				<Begin>1.77</Begin>
+				<End>45</End>
 			</ColorZone>
 			<ColorZone>
-				<Color>white</Color>
-				<Begin>30</Begin>
-				<End>40</End>
+				<Color>amber</Color>
+				<Begin>45</Begin>
+				<End>48</End>
 			</ColorZone>
 			<BeginText></BeginText>
 			<EndText></EndText>
+			<ColorZone>
+				<Color>red</Color>
+				<Begin>48</Begin>
+				<End>51</End>
+			</ColorZone>
 		</Gauge>
   
 		<Gauge>
@@ -91,6 +96,11 @@
 				<Simvar name="GENERAL ENG RPM:1" unit="rpm"/>
 			</Value>
 			<ColorZone>
+				<Color>red</Color>
+				<Begin>0</Begin>
+				<End>1500</End>
+			</ColorZone>
+			<ColorZone>
 				<Color>green</Color>
 				<Begin>1500</Begin>
 				<End>5500</End>
@@ -99,6 +109,11 @@
 				<Color>yellow</Color>
 				<Begin>5500</Begin>
 				<End>5800</End>
+			</ColorZone>
+			<ColorZone>
+				<Color>red</Color>
+				<Begin>5800</Begin>
+				<End>7000</End>
 			</ColorZone>
 			<BeginText></BeginText>
 			<EndText></EndText>
@@ -185,27 +200,32 @@
 			<ID>OilTemp_Gauge</ID>
 			<Title>OIL</Title>
 			<Unit>TEMP</Unit>
-			<Minimum>0</Minimum>
-			<Maximum>250</Maximum> <!-- Not Sure -->
+			<Minimum>-65</Minimum>
+			<Maximum>150</Maximum> <!-- Not Sure -->
 			<Style>
 				<ValuePos>End</ValuePos>
 			</Style>
 			<Value>
-				<Simvar name="GENERAL ENG OIL TEMPERATURE:1" unit="farenheit"/>
+				<Simvar name="GENERAL ENG OIL TEMPERATURE:1" unit="celsius"/>
 			</Value>
 			<ColorZone>
 				<Color>yellow</Color>
-				<Begin>0</Begin>
-				<End>100</End>
+				<Begin>-65</Begin>
+				<End>50</End>
 			</ColorZone>
 			<ColorZone>
 				<Color>green</Color>
-				<Begin>100</Begin>
-				<End>245</End>
+				<Begin>50</Begin>
+				<End>110</End>
 			</ColorZone>
 			<ColorLine>
+				<Color>yellow</Color>
+				<Begin>110</Begin>
+				<End>130</End>
+			</ColorLine>
 				<Color>red</Color>
-				<Position>246</Position>
+				<Begin>130</Begin>
+				<End>150</End>
 			</ColorLine>
 			<BeginText></BeginText>
 			<EndText></EndText>
@@ -233,7 +253,7 @@
 			<CursorText>B</CursorText>
 			<CursorText2>E</CursorText2>
 			<Minimum>0</Minimum>
-			<Maximum>40</Maximum>
+			<Maximum>32</Maximum>
 			<Value>
 				<Simvar name="ELECTRICAL MAIN BUS VOLTAGE:1" unit="volts"/>
 			</Value>
@@ -242,40 +262,42 @@
 			</Value2>
 			<ColorLine>
 				<Color>red</Color>
-				<Position>20</Position>
+				<Begin>0</Begin>
+				<End>10</End>
 			</ColorLine>
-			<ColorZone>
-				<Color>yellow</Color>
-				<Begin>20</Begin>
-				<End>28</End>
-			</ColorZone>
+
 			<ColorZone>
 				<Color>green</Color>
-				<Begin>28</Begin>
-				<End>30</End>
+				<Begin>10</Begin>
+				<End>12</End>
+			</ColorZone>
+			<ColorZone>
+				<Color>yellow</Color>
+				<Begin>12</Begin>
+				<End>15</End>
 			</ColorZone>
 			<ColorLine>
-				<Color>red</Color>
-				<Position>30</Position>
+				<Begin>15</Begin>
+				<End>30</End>
 			</ColorLine>
 			<BeginText></BeginText>
 			<EndText></EndText>
 		</Gauge>
 		
 		<Text>
-			<Left>CHT °F</Left>
+			<Left>CHT °C</Left>
 			<Right id="CHT">
 				<ToFixed precision="0">
-					<Simvar name="ENG CYLINDER HEAD TEMPERATURE:1" unit="farenheit"/>
+					<Simvar name="ENG CYLINDER HEAD TEMPERATURE:1" unit="celsius"/>
 				</ToFixed>
 			</Right>
 		</Text>
 		
 		<Text>
-			<Left>EGT °F</Left>
+			<Left>EGT °C</Left>
 			<Right id="EGT">
 				<ToFixed precision="0">
-					<Simvar name="GENERAL ENG EXHAUST GAS TEMPERATURE:1" unit="farenheit"/>
+					<Simvar name="GENERAL ENG EXHAUST GAS TEMPERATURE:1" unit="celsius"/>
 				</ToFixed>
 			</Right>
 		</Text>
