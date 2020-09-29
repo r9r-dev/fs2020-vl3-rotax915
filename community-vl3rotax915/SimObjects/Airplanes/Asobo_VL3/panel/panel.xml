@@ -291,7 +291,7 @@
 			<CursorText>L</CursorText>
 			<CursorText2>R</CursorText2>
 			<Minimum>0</Minimum>
-			<Maximum>11.6</Maximum>
+			<Maximum>18.5</Maximum>
 			<Value>
 				<Simvar name="FUEL LEFT QUANTITY" unit="gallons"/>
 			</Value>
@@ -311,7 +311,7 @@
 			<ColorZone>
 				<Color>green</Color>
 				<Begin>2.6</Begin>
-				<End>11.6</End>
+				<End>18.5</End>
 			</ColorZone>
 			<BeginText></BeginText>
 			<EndText></EndText>
