@@ -4,7 +4,7 @@
 		<Name>AS3X_Touch_1</Name>
 		<SyntheticVision>True</SyntheticVision>
 		<AltimeterIndex>0</AltimeterIndex>
-		<DisplayMode>PFD</DisplayMode>
+		<!-- DisplayMode>PFD</DisplayMode> -->
 		<ReversionaryMode>True</ReversionaryMode>
 		<Electric>
 			<Simvar name="CIRCUIT AVIONICS ON" unit="Boolean"/>
@@ -41,7 +41,7 @@
 	
 	<Logic>
 		<Handler>Systems_AS1000</Handler>
-		<PFD>AS3X_Touch_1</PFD>
+		<!-- PFD>AS3X_Touch_1</PFD>  -->
 		<MFD>AS3X_Touch_2</MFD>
 	</Logic>
   
