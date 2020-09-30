@@ -127,8 +127,8 @@
 		<Gauge>
 			<Type>Horizontal</Type>
 			<ID>OilPsi_Gauge</ID>
-			<Title>Oil</Title>
-			<Unit>Bar</Unit>
+			<Title>Oil Press</Title>
+			<Unit>bar</Unit>
 			<Minimum>0.0</Minimum>
 			<Maximum>7.0</Maximum> <!-- Not Sure -->
 			<Style>
@@ -234,6 +234,7 @@
 		<Value>
 			<Simvar name="ENG CYLINDER HEAD TEMPERATURE:1" unit="celsius"/>
 		</Value>
+										 
 			<ColorZone>
 			<Color>yellow</Color>
 			<Begin>0</Begin>
@@ -291,8 +292,8 @@
 		<Gauge>
 		<Type>Horizontal</Type>
 		<ID>FuelPress_Gauge</ID>
-		<Title>Fuel</Title>
-		<Unit>Bar</Unit>
+		<Title>Fuel Press</Title>
+		<Unit>bar</Unit>
 		<Minimum>0.8</Minimum>
 		<Maximum>5.0</Maximum>
 		<Style>
@@ -326,6 +327,7 @@
 			<Begin>4.2</Begin>
 			<End>5.0</End>
 		</ColorZone>
+
 		<BeginText></BeginText>
 		<EndText></EndText>
 		</Gauge>
@@ -389,3 +391,4 @@
 		
 	</EngineDisplay>
 </PlaneHTMLConfig>
+
