@@ -127,7 +127,7 @@
 		<Gauge>
 			<Type>Horizontal</Type>
 			<ID>OilPsi_Gauge</ID>
-			<Title>Oil Press</Title>
+			<Title>OilPress</Title>
 			<Unit>bar</Unit>
 			<Minimum>0.0</Minimum>
 			<Maximum>7.0</Maximum> <!-- Not Sure -->
@@ -292,7 +292,7 @@
 		<Gauge>
 		<Type>Horizontal</Type>
 		<ID>FuelPress_Gauge</ID>
-		<Title>Fuel Press</Title>
+		<Title>FuelPress</Title>
 		<Unit>bar</Unit>
 		<Minimum>0.8</Minimum>
 		<Maximum>5.0</Maximum>
