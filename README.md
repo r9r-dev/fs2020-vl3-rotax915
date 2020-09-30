@@ -58,6 +58,8 @@ After cloning this repo and making modifications, all you have to do is running 
 * [ryanbatc](https://forums.flightsimulator.com/u/ryanbatc) for this idea and creating the Rotax 914 engine mod.
 * [GotGravel](https://forums.flightsimulator.com/u/GotGravel) for multiples improvements on the mod.
 * [CodenameJack447](https://forums.flightsimulator.com/u/CodenameJack447) for multiples improvements on the mod.
+* TalonHawk for the modifications on the model
+* [CMDR Orividus](https://orvidius.com/msfs2020/) for the Racing Livery base. For more liveries about this plane, please go on his website.
 
 ### Disclaimer
 
