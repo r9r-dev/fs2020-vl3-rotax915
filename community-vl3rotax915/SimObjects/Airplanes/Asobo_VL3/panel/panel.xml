@@ -48,7 +48,7 @@
 		<Gauge> <!-- /!\ Values extrapolated, absolutly not sure /!\ -->
 			<Type>Circular</Type>
 			<ID>MANIN_Gauge</ID>
-			<Unit>Man.inHG</Unit>
+			<Unit>Man.IN</Unit>
 			<Minimum>1.77</Minimum>
 			<Maximum>51</Maximum>
 			<Style>
@@ -119,7 +119,7 @@
 			<RedBlink>
 				<Greater>
 					<Simvar name="GENERAL ENG RPM:1" unit="rpm"/>
-					<Constant>5800</Constant>
+					<Constant>6500</Constant>
 				</Greater>
 			</RedBlink>
 		</Gauge>		
@@ -215,34 +215,74 @@
 			<EndText></EndText>
 			<RedBlink>
 				<Greater>
-					<Simvar name="GENERAL ENG OIL PRESSURE:1" unit="psi"/>
-					<Constant>245</Constant>
+					<Simvar name="GENERAL ENG OIL PRESSURE:1" unit="bar"/>
+					<Constant>16.892</Constant>
 				</Greater>
 			</RedBlink>
 		</Gauge>
 		
-
+	  <Gauge>
+		<Type>Horizontal</Type>
+		<ID>Piston_ChtGauge</ID>
+		<Title>CHT °C</Title>
+		<Unit></Unit>
+		<Minimum>0</Minimum>
+		<Maximum>300</Maximum>
+		<Value>
+			<Simvar name="ENG CYLINDER HEAD TEMPERATURE:1" unit="celsius"/>
+		</Value>
+		<GraduationLength>60</GraduationLength>
+			<ColorZone>
+			<Color>yellow</Color>
+			<Begin>0</Begin>
+			<End>116</End>
+		</ColorZone>
+		<ColorZone>
+			<Color>green</Color>
+			<Begin>116</Begin>
+			<End>238</End>
+		</ColorZone>
+		<ColorZone>
+			<Color>red</Color>
+			<Begin>238</Begin>
+			<End>300</End>
+		</ColorZone>
+		<BeginText></BeginText>
+		<EndText></EndText>
+	  </Gauge>
 		
-		<Text>
-			<Left>CHT °C</Left>
-			<Right id="CHT">
-				<ToFixed precision="0">
-					<Simvar name="ENG CYLINDER HEAD TEMPERATURE:1" unit="celsius"/>
-				</ToFixed>
-			</Right>
-		</Text>
 		
-		<Text>
-			<Left>EGT °C</Left>
-			<Right id="EGT">
-				<ToFixed precision="0">
-					<Simvar name="GENERAL ENG EXHAUST GAS TEMPERATURE:1" unit="celsius"/>
-				</ToFixed>
-			</Right>
-		</Text>
-
-
-				
+		<Gauge>
+		<Type>Horizontal</Type>
+		<ID>Piston_EgtGauge</ID>
+		<Title>EGT °C</Title>
+		<Unit></Unit>
+		<Minimum>0</Minimum>
+		<Maximum>950</Maximum>
+		<Value>
+			<Simvar name="GENERAL ENG EXHAUST GAS TEMPERATURE:1" unit="celsius"/>
+		</Value>
+		<GraduationLength>237.5</GraduationLength>
+		<ColorZone>
+			<Color>yellow</Color>
+			<Begin>0</Begin>
+			<End>500</End>
+		</ColorZone>
+		<ColorZone>
+			<Color>green</Color>
+			<Begin>600</Begin>
+			<End>925</End>
+		</ColorZone>
+		<ColorZone>
+			<Color>red</Color>
+			<Begin>925</Begin>
+			<End>950</End>
+		</ColorZone>
+		<BeginText></BeginText>
+		<EndText></EndText>
+	    </Gauge>
+		
+					
 		<Gauge>
 					<Type>Horizontal</Type>
 					<ID>FuelPress_Gauge</ID>
