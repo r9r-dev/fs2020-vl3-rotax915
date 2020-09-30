@@ -228,10 +228,12 @@
 		<Unit></Unit>
 		<Minimum>0</Minimum>
 		<Maximum>300</Maximum>
+		<Style>
+			<ValuePos>End</ValuePos>
+		</Style>
 		<Value>
 			<Simvar name="ENG CYLINDER HEAD TEMPERATURE:1" unit="celsius"/>
 		</Value>
-		<GraduationLength>60</GraduationLength>
 			<ColorZone>
 			<Color>yellow</Color>
 			<Begin>0</Begin>
@@ -259,6 +261,9 @@
 		<Unit></Unit>
 		<Minimum>0</Minimum>
 		<Maximum>950</Maximum>
+		<Style>
+			<ValuePos>End</ValuePos>
+		</Style>
 		<Value>
 			<Simvar name="GENERAL ENG EXHAUST GAS TEMPERATURE:1" unit="celsius"/>
 		</Value>
@@ -266,7 +271,7 @@
 		<ColorZone>
 			<Color>yellow</Color>
 			<Begin>0</Begin>
-			<End>500</End>
+			<End>600</End>
 		</ColorZone>
 		<ColorZone>
 			<Color>green</Color>
@@ -284,46 +289,45 @@
 		
 					
 		<Gauge>
-					<Type>Horizontal</Type>
-					<ID>FuelPress_Gauge</ID>
-					<Title>Fuel</Title>
-					<Unit>Bar</Unit>
-					<Minimum>0.8</Minimum>
-					<Maximum>5.0</Maximum>
-					<Style>
-						<ValuePos>End</ValuePos>
-					</Style>
-					<Value>
-						<Simvar name="GENERAL ENG FUEL PRESSURE:1" unit="bar"/>
-					</Value>
-					<ColorZone>
-						<Color>red</Color>
-						<Begin>0.8</Begin>
-						<End>2.0</End>
-					</ColorZone>
-					<ColorZone>
-						<Color>yellow</Color>
-						<Begin>2.0</Begin>
-						<End>2.5</End>
-					</ColorZone>
-					<ColorZone>
-						<Color>green</Color>
-						<Begin>2.5</Begin>
-						<End>3.8</End>
-					</ColorZone>
-					<ColorZone>
-						<Color>yellow</Color>
-						<Begin>3.8</Begin>
-						<End>4.2</End>
-					</ColorZone>
-					<ColorZone>
-						<Color>red</Color>
-						<Begin>4.2</Begin>
-						<End>5.0</End>
-					</ColorZone>
-
-					<BeginText></BeginText>
-					<EndText></EndText>
+		<Type>Horizontal</Type>
+		<ID>FuelPress_Gauge</ID>
+		<Title>Fuel</Title>
+		<Unit>Bar</Unit>
+		<Minimum>0.8</Minimum>
+		<Maximum>5.0</Maximum>
+		<Style>
+			<ValuePos>End</ValuePos>
+		</Style>
+		<Value>
+			<Simvar name="GENERAL ENG FUEL PRESSURE:1" unit="bar"/>
+		</Value>
+		<ColorZone>
+			<Color>red</Color>
+			<Begin>0.8</Begin>
+			<End>2.0</End>
+		</ColorZone>
+		<ColorZone>
+			<Color>yellow</Color>
+			<Begin>2.0</Begin>
+			<End>2.5</End>
+		</ColorZone>
+		<ColorZone>
+			<Color>green</Color>
+			<Begin>2.5</Begin>
+			<End>3.8</End>
+		</ColorZone>
+		<ColorZone>
+			<Color>yellow</Color>
+			<Begin>3.8</Begin>
+			<End>4.2</End>
+		</ColorZone>
+		<ColorZone>
+			<Color>red</Color>
+			<Begin>4.2</Begin>
+			<End>5.0</End>
+		</ColorZone>
+		<BeginText></BeginText>
+		<EndText></EndText>
 		</Gauge>
 		
 		<Gauge>
@@ -338,6 +342,9 @@
 			<CursorText2>R</CursorText2>
 			<Minimum>0</Minimum>
 			<Maximum>18.5</Maximum>
+			<Style>
+				<ValuePos>End</ValuePos>
+			</Style>
 			<Value>
 				<Simvar name="FUEL LEFT QUANTITY" unit="gallons"/>
 			</Value>
