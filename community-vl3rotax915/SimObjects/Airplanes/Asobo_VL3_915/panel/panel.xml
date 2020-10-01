@@ -380,6 +380,7 @@
 			<Unit>Gph</Unit>
 			<Minimum>0</Minimum>
 			<Maximum>13.20</Maximum>
+    	            	<ValuePrecision>1</ValuePrecision>
 			<Style>
 				<ValuePos>End</ValuePos>
 			</Style>
