@@ -1,0 +1,10 @@
+{
+  "LocalisationPackage": {
+    "Language": "de-DE",
+    "Strings": {
+      "AIRCRAFT.DESCRIPTION": "Die VL-3 Evolution, auch als Aveko VL-3 Sprint bekannt, ist ein tschechisches Flugzeug, das als schnellstes Ultraleichtflugzeug mit nebeneinander befindlichen Sitzen gilt. Von Vanessa Air 2004 designt und ursprünglich von Aveko (in Brünn) produziert, wird das Modell heute von JMB Aircraft (in Choceň) hergestellt.<br\/><br\/>Dieses in Übereinstimmung mit den Regeln für Ultraleichtflugzeuge der Fédération Aéronautique Internationale designte Flugzeug zeichnet sich durch eine Tiefdecker-Flügelkonstruktion, ein festes oder einziehbares dreirädriges Fahrwerk und einen einzelnen Rotax-Motor mit Zugpropeller aus.<br\/><br\/>Mit einer vollständig aus Kompositmaterialien gefertigten Flugzeugzelle besitzt die VL-3 exzellente Widerstands- und Materialermüdungseigenschaften, während ihr aerodynamisches Flügeldesign für gute Absinkcharakteristika sorgt und ein sanftes und agiles Handling garantiert.<br\/><br\/>Innerhalb der minimalistischen Kabine sitzen zwei Piloten nebeneinander, während die Garmin-Avionik-Systeme und ein luxuriöses Innenleben dafür sorgen, dass jeder Flug ebenso komfortabel wie rasant verläuft. Dies wird durch eine Haube aus Plexiglas abgerundet, die für eine atemberaubende Sicht sorgt. All dies macht die VL-3 Evolution zum idealen Flugzeug für Ihre nächste Reise.",
+      "AIRCRAFT.UI_MANUFACTURER": "JMB Aircraft",
+      "AIRCRAFT.UI_MODEL": "VL-3"
+    }
+  }
+}

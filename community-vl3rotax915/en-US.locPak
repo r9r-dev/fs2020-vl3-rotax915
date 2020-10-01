@@ -1,0 +1,10 @@
+{
+  "LocalisationPackage": {
+    "Language": "en-US",
+    "Strings": {
+      "AIRCRAFT.DESCRIPTION": "The VL-3 Evolution, also known as the Aveko VL-3 Sprint, is a Czech aircraft regarded as the fastest side-by-side ultralight in the world. Designed by Vanessa Air in 2004 and initially produced by Aveko of Brno, the model is now produced by JMB Aircraft of Choceň.<br\/><br\/>The aircraft, designed to comply with the Fédération Aéronautique Internationale microlight rules, features a cantilever low-wing configuration, fixed or retractable tricycle landing gear and a single Rotax engine in tractor configuration. <br\/><br\/>With an airframe constructed of fully composite materials, the VL-3 has excellent specific strength and fatigue properties, while its carefully-crafted aerodynamic wing design provides good fall characteristics and smooth, agile handling.<br\/><br\/>Inside the clean and minimalist cabin, side-by-side seating accommodates two pilots, while Garmin avionics and a luxury interior make flying the plane as comfortable as it is fast. Add to the mix an acrylic glass canopy that allows for spectacular views, and the VL-3 Evolution may just be the perfect plane for your next journey.",
+      "AIRCRAFT.UI_MANUFACTURER": "JMB Aircraft",
+      "AIRCRAFT.UI_MODEL": "VL-3"
+    }
+  }
+}

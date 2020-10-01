@@ -1,0 +1,10 @@
+{
+  "LocalisationPackage": {
+    "Language": "fr-FR",
+    "Strings": {
+      "AIRCRAFT.DESCRIPTION": "Le VL-3 Evolution, également connu sous le nom d'Aveko VL-3 Sprint, est un avion tchèque considéré comme l'avion ultraléger biplace côte à côte le plus rapide au monde. Conçu par Vanessa Air en 2004 et initialement produit par Aveko à Brno, le modèle est aujourd'hui produit par JMB Aircraft à Choceň.<br\/><br\/>L'avion, conçu pour répondre aux règles pour ultralégers fixées par la Fédération Aéronautique Internationale, inclut une configuration à ailes basses cantilever, un train d'atterrissage tricycle fixe ou rétractable ainsi qu'un seul moteur Rotax en configuration tracteur. <br\/><br\/>Grâce à une cellule uniquement en matériaux composites, le VL-3 dispose d'excellentes propriétés de résistance et de fatigue spécifiques, tandis que la conception soignée de son aile offre de bonnes caractéristiques de chute et une manœuvrabilité souple et agile.<br\/><br\/>À l'intérieur de la cabine épurée et minimaliste, les sièges côte à côte accueillent deux pilotes, tandis que l'avionique Garmin et un intérieur luxueux rendent le vol aussi confortable que rapide. Cerise sur le gâteau, une canopée en verre acrylique offrant des vues spectaculaires. Le VL-3 Evolution est le parfait avion pour votre prochain voyage.",
+      "AIRCRAFT.UI_MANUFACTURER": "JMB Aircraft",
+      "AIRCRAFT.UI_MODEL": "VL-3"
+    }
+  }
+}
