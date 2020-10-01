@@ -1,0 +1,10 @@
+{
+  "LocalisationPackage": {
+    "Language": "it-IT",
+    "Strings": {
+      "AIRCRAFT.DESCRIPTION": "Il VL-3 Evolution, noto anche come Aveko VL-3 Sprint, è un aeromobile ceco riconosciuto come il biposto affiancato ultraleggero più veloce al mondo. Progettato da Vanessa Air nel 2004 e prodotto inizialmente da Aveko, di Brno, il modello viene attualmente prodotto da JMB Aircraft di Choceň.<br\/><br\/>L'aeromobile, progettato per rispettare le regolamentazioni sugli ultraleggeri della Fédération Aéronautique Internationale, presenta una configurazione ad ala bassa a sbalzo, un carrello di atterraggio triciclo fisso o retraibile e un motore Rotax unico in configurazione traente. <br\/><br\/>Con una cellula costruita da materiali completamente compositi, il VL-3 presenta una forza specifica e una resistenza allo sforzo eccellenti, mentre il design aerodinamico dell'ala ben studiato garantisce buone caratteristiche di volo e una guida fluida e agile.<br\/><br\/>All'interno della cabina pulita e minimalista, il biposto affiancato offre spazio per due piloti. Inoltre, l'avionica Garmin e gli interni di lusso rendono questo aeromobile tanto comodo quanto veloce. Aggiungete alle dotazioni un tettuccio trasparente in vetro acrilico che permette di godere di viste spettacolari e il VL-3 Evolution potrebbe essere l'aeromobile perfetto per il vostro prossimo viaggio.",
+      "AIRCRAFT.UI_MANUFACTURER": "JMB Aircraft",
+      "AIRCRAFT.UI_MODEL": "VL-3"
+    }
+  }
+}

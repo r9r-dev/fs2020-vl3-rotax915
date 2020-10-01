@@ -1,0 +1,10 @@
+{
+  "LocalisationPackage": {
+    "Language": "es-ES",
+    "Strings": {
+      "AIRCRAFT.DESCRIPTION": "El VL-3 Evolution, también conocido como el Aveko VL-3 Sprint, es una aeronave checa considerada como el ultraligero de mayor envergadura más rápido del mundo. Diseñado por Vanessa Air en 2004 y fabricado inicialmente por la empresa Aveko de Brno, el modelo se encuentra actualmente bajo la producción de JMB Aircraft de Choceň.<br\/><br\/>La aeronave, diseñada según las normas de microluz de la Fédération Aéronautique Internationale, tiene una configuración de ala baja en voladizo, un tren de aterrizaje triciclo fijo o retráctil y un único motor Rotax en configuración de tractor.<br\/><br\/>Con una célula  construida completamente con materiales compuestos, el VL-3 tiene unas excelentes propiedades de resistencia específica y de fatiga, mientras que su diseño aerodinámico de ala cuidadosamente elaborado ofrece buenas características de caída y un pilotaje suave y ágil.<br\/><br\/>Dentro de la cabina sencilla y minimalista, los asientos contiguos acomodan a dos pilotos, mientras que la aviónica de Garmin y un interior de lujo hacen que pilotar el avión sea tan cómodo como rápido. Añade a la combinación una cubierta de cristal acrílico que permite unas vistas espectaculares, y el VL-3 Evolution puede ser el avión perfecto para tu próximo viaje.",
+      "AIRCRAFT.UI_MANUFACTURER": "JMB Aircraft",
+      "AIRCRAFT.UI_MODEL": "VL-3"
+    }
+  }
+}
