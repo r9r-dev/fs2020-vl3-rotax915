@@ -46,38 +46,39 @@
   
 	<EngineDisplay>
 		<Gauge> <!-- /!\ Values extrapolated, absolutly not sure /!\ -->
-			<Type>Circular</Type>
-			<ID>MANIN_Gauge</ID>
-			<Unit>Man.IN</Unit>
-			<Minimum>1.77</Minimum>
-			<Maximum>51</Maximum>
-			<Style>
-				<BeginAngle>-45</BeginAngle>
-				<EndAngle>180</EndAngle>
-				<ValuePos>End</ValuePos>
-				<CursorType>Triangle</CursorType>
-			</Style>
-			<Value>
-				<Simvar name="RECIP ENG MANIFOLD PRESSURE:1" unit="inHG"/>
-			</Value>
-			<ColorZone>
-				<Color>green</Color>
-				<Begin>1.77</Begin>
-				<End>45</End>
-			</ColorZone>
-			<ColorZone>
-				<Color>yellow</Color>
-				<Begin>45</Begin>
-				<End>48</End>
-			</ColorZone>
-			<ColorZone>
-				<Color>red</Color>
-				<Begin>48</Begin>
-				<End>51</End>
-			</ColorZone>
-			<BeginText></BeginText>
-			<EndText></EndText>			  					  
-		</Gauge>
+    	        <Type>Circular</Type>
+    	        <ID>MANIN_Gauge</ID>
+   	         <Unit>Man.IN</Unit>
+    	        <Minimum>1.77</Minimum>
+    	        <Maximum>51</Maximum>
+    	        <Style>
+    	            <BeginAngle>-45</BeginAngle>
+    	            <EndAngle>180</EndAngle>
+    	            <ValuePos>End</ValuePos>
+    	            <CursorType>Triangle</CursorType>
+    	            <ValuePrecision>1</ValuePrecision>
+   	         </Style>
+   	         <Value>
+   	             <Simvar name="RECIP ENG MANIFOLD PRESSURE:1" unit="inHG"/>
+   	         </Value>
+   	         <ColorZone>
+                	<Color>green</Color>
+        	        <Begin>1.77</Begin>
+        	        <End>45</End>
+        	    </ColorZone>
+         	   <ColorZone>
+         	       <Color>yellow</Color>
+         	       <Begin>45</Begin>
+                	<End>48</End>
+        	    </ColorZone>
+         	   <ColorZone>
+              	  <Color>red</Color>
+                	<Begin>48</Begin>
+        	        <End>51</End>
+      	      </ColorZone>
+        	    <BeginText></BeginText>
+ 	           <EndText></EndText>                                    
+ 	       </Gauge>
   
 		<Gauge>
 			<Type>Circular</Type>
