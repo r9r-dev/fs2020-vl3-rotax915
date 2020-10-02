@@ -43,43 +43,11 @@
 		<!-- PFD>AS3X_Touch_1</PFD>  -->
 		<MFD>AS3X_Touch_2</MFD>
 	</Logic>
+	
+	  <!--Engine Display -->
   
 	<EngineDisplay>
-		<Gauge> <!-- /!\ Values extrapolated, absolutly not sure /!\ -->
-    	        <Type>Circular</Type>
-    	        <ID>MANIN_Gauge</ID>
-   	         <Unit>Man.IN</Unit>
-    	        <Minimum>1.77</Minimum>
-    	        <Maximum>51</Maximum>
-    	        <Style>
-    	            <BeginAngle>-45</BeginAngle>
-    	            <EndAngle>180</EndAngle>
-    	            <ValuePos>End</ValuePos>
-    	            <CursorType>Triangle</CursorType>
-    	            <ValuePrecision>1</ValuePrecision>
-   	         </Style>
-   	         <Value>
-   	             <Simvar name="RECIP ENG MANIFOLD PRESSURE:1" unit="inHG"/>
-   	         </Value>
-   	         <ColorZone>
-                	<Color>green</Color>
-        	        <Begin>1.77</Begin>
-        	        <End>45</End>
-        	    </ColorZone>
-         	   <ColorZone>
-         	       <Color>yellow</Color>
-         	       <Begin>45</Begin>
-                	<End>48</End>
-        	    </ColorZone>
-         	   <ColorZone>
-              	  <Color>red</Color>
-                	<Begin>48</Begin>
-        	        <End>51</End>
-      	      </ColorZone>
-        	    <BeginText></BeginText>
- 	           <EndText></EndText>                                    
- 	       </Gauge>
-  
+ 
 		<Gauge>
 			<Type>Circular</Type>
 			<ID>RPM_Gauge</ID>
@@ -89,7 +57,7 @@
 			<Style>
 				<BeginAngle>-45</BeginAngle>
 				<EndAngle>180</EndAngle>
-				<ValuePos>End</ValuePos>
+				<ValuePos>Bottom</ValuePos>
 				<CursorType>Triangle</CursorType>
 			</Style>
 			<Value>
@@ -124,16 +92,51 @@
 				</Greater>
 			</RedBlink>
 		</Gauge>		
-		
+
+		<Gauge> <!-- /!\ Values extrapolated, absolutly not sure /!\ -->
+			<Type>Horizontal</Type>
+			<ID>MANIN_Gauge</ID>
+			<Unit>MAN IN</Unit>
+			<Minimum>1.77</Minimum>
+			<Maximum>51</Maximum>
+			<Style>
+			
+				<ValuePos>End</ValuePos>
+				<ValuePrecision>1</ValuePrecision>
+
+			</Style>
+			<Value>
+				<Simvar name="RECIP ENG MANIFOLD PRESSURE:1" unit="inHG"/>
+			</Value>
+			<ColorZone>
+				<Color>green</Color>
+				<Begin>1.7</Begin>
+				<End>45</End>
+			</ColorZone>
+			<ColorZone>
+				<Color>yellow</Color>
+				<Begin>45</Begin>
+				<End>48</End>
+			</ColorZone>
+			<ColorZone>
+				<Color>red</Color>
+				<Begin>48</Begin>
+				<End>51</End>
+			</ColorZone>
+			<BeginText></BeginText>
+			<EndText></EndText>			  					  
+		</Gauge>		
+
 		<Gauge>
 			<Type>Horizontal</Type>
 			<ID>OilPsi_Gauge</ID>
-			<Title>OilPress</Title>
-			<Unit>bar</Unit>
+			<Title>Oil Press</Title>
+			<Unit></Unit>
 			<Minimum>0.0</Minimum>
 			<Maximum>7.0</Maximum> <!-- Not Sure -->
 			<Style>
 				<ValuePos>End</ValuePos>
+				<ValuePrecision>1</ValuePrecision>
 			</Style>
 			<Value>
 				<Simvar name="GENERAL ENG OIL PRESSURE:1" unit="bar"/>
@@ -177,12 +180,13 @@
 		<Gauge>
 			<Type>Horizontal</Type>
 			<ID>OilTemp_Gauge</ID>
-			<Title>Oil</Title>
-			<Unit>Temp °C</Unit>
+			<Title>Oil Temp</Title>
+			<Unit></Unit>
 			<Minimum>40</Minimum>
 			<Maximum>130</Maximum> <!-- Not Sure -->
 			<Style>
 				<ValuePos>End</ValuePos>
+				<ValuePrecision>1</ValuePrecision>
 			</Style>
 			<Value>
 				<Simvar name="GENERAL ENG OIL TEMPERATURE:1" unit="celsius"/>
@@ -225,17 +229,17 @@
 	  <Gauge>
 		<Type>Horizontal</Type>
 		<ID>Piston_ChtGauge</ID>
-		<Title>CHT °C</Title>
-		<Unit></Unit>
+		<Title>CHT</Title>
+		<Unit>°C</Unit>
 		<Minimum>0</Minimum>
 		<Maximum>300</Maximum>
 		<Style>
 			<ValuePos>End</ValuePos>
+			<ValuePrecision>1</ValuePrecision>
 		</Style>
 		<Value>
 			<Simvar name="ENG CYLINDER HEAD TEMPERATURE:1" unit="celsius"/>
-		</Value>
-										 
+		</Value>										 
 			<ColorZone>
 			<Color>yellow</Color>
 			<Begin>0</Begin>
@@ -254,17 +258,17 @@
 		<BeginText></BeginText>
 		<EndText></EndText>
 	  </Gauge>
-		
-		
+				
 		<Gauge>
 		<Type>Horizontal</Type>
 		<ID>Piston_EgtGauge</ID>
-		<Title>EGT °C</Title>
-		<Unit></Unit>
+		<Title>EGT</Title>
+		<Unit>°C</Unit>
 		<Minimum>0</Minimum>
 		<Maximum>950</Maximum>
 		<Style>
 			<ValuePos>End</ValuePos>
+			<ValuePrecision>1</ValuePrecision>
 		</Style>
 		<Value>
 			<Simvar name="GENERAL ENG EXHAUST GAS TEMPERATURE:1" unit="celsius"/>
@@ -288,17 +292,17 @@
 		<BeginText></BeginText>
 		<EndText></EndText>
 	    </Gauge>
-		
-					
+							
 		<Gauge>
 		<Type>Horizontal</Type>
 		<ID>FuelPress_Gauge</ID>
-		<Title>FuelPress</Title>
-		<Unit>bar</Unit>
+		<Title>Fuel Press</Title>
+		<Unit></Unit>
 		<Minimum>0.8</Minimum>
 		<Maximum>5.0</Maximum>
 		<Style>
 			<ValuePos>End</ValuePos>
+			<ValuePrecision>1</ValuePrecision>
 		</Style>
 		<Value>
 			<Simvar name="GENERAL ENG FUEL PRESSURE:1" unit="bar"/>
@@ -334,26 +338,70 @@
 		</Gauge>
 		
 		<Gauge>
-			<Type>DoubleHorizontal</Type>
+			<Type>Horizontal</Type>
+			<ID>FuelFlow_Gauge</ID>
+			<Title>Fuel</Title>
+			<Unit>Flow</Unit>
+			<Minimum>0</Minimum>
+			<Maximum>13.20</Maximum>
 			<Style>
-				<ValuePos>None</ValuePos>
+				<ValuePos>End</ValuePos>
+				<ValuePrecision>1</ValuePrecision>
 			</Style>
+			<Value>
+				<Simvar name="ENG FUEL FLOW GPH:1" unit="gallons per hour"/>
+			</Value>
+			<BeginText></BeginText>
+			<EndText></EndText>
+		</Gauge>
+		
+		<Gauge>
+			<Type>Horizontal</Type>
 			<ID>Fuel_Qty</ID>
-			<Title>Fuel Qty</Title>
-			<Unit></Unit>
-			<CursorText>L</CursorText>
-			<CursorText2>R</CursorText2>
+			<Title>Fuel</Title>
+			<Unit>L</Unit>
 			<Minimum>0</Minimum>
 			<Maximum>18.5</Maximum>
 			<Style>
 				<ValuePos>End</ValuePos>
+				<ValuePrecision>1</ValuePrecision>
 			</Style>
 			<Value>
 				<Simvar name="FUEL LEFT QUANTITY" unit="gallons"/>
 			</Value>
-			<Value2>
-				<Simvar name="FUEL Right QUANTITY" unit="gallons"/>
-			</Value2>
+			<ColorZone>
+				<Color>red</Color>
+				<Begin>0</Begin>
+				<End>2.1</End>
+			</ColorZone>
+			<ColorZone>
+				<Color>yellow</Color>
+				<Begin>2.1</Begin>
+				<End>2.6</End>
+			</ColorZone>
+			<ColorZone>
+				<Color>green</Color>
+				<Begin>2.6</Begin>
+				<End>18.5</End>
+			</ColorZone>
+			<BeginText></BeginText>
+			<EndText></EndText>
+		</Gauge>
+		
+				<Gauge>
+			<Type>Horizontal</Type>
+			<ID>Fuel_Qty</ID>
+			<Title>Fuel</Title>
+			<Unit>R</Unit>
+			<Minimum>0</Minimum>
+			<Maximum>18.5</Maximum>
+			<Style>
+				<ValuePos>End</ValuePos>
+				<ValuePrecision>1</ValuePrecision>
+			</Style>
+			<Value>
+				<Simvar name="FUEL RIGHT QUANTITY" unit="gallons"/>
+			</Value>
 			<ColorZone>
 				<Color>red</Color>
 				<Begin>0</Begin>
@@ -373,24 +421,9 @@
 			<EndText></EndText>
 		</Gauge>
 
-		<Gauge>
-			<Type>Horizontal</Type>
-			<ID>FuelFlow_Gauge</ID>
-			<Title>Fuel</Title>
-			<Unit>Gph</Unit>
-			<Minimum>0</Minimum>
-			<Maximum>13.20</Maximum>
-    	            	<ValuePrecision>1</ValuePrecision>
-			<Style>
-				<ValuePos>End</ValuePos>
-			</Style>
-			<Value>
-				<Simvar name="ENG FUEL FLOW GPH:1" unit="gallons per hour"/>
-			</Value>
-			<BeginText></BeginText>
-			<EndText></EndText>
-		</Gauge>
-		
+
 	</EngineDisplay>
 </PlaneHTMLConfig>
+
+
 
