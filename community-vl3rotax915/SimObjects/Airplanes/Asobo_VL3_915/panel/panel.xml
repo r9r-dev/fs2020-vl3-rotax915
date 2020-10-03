@@ -51,6 +51,10 @@
 			<Type>Circular</Type>
 			<ID>MANIN_Gauge</ID>
 			<Unit>MAN IN</Unit>
+			<Style>
+			<TextIncrement>0.1</TextIncrement>
+			<ForceTextColor>white</ForceTextColor>
+			</Style>
 			<Minimum>0</Minimum>
 			<Maximum>51</Maximum>
 			<Style>
@@ -86,6 +90,10 @@
 			<Type>Circular</Type>
 			<ID>RPM_Gauge</ID>
 			<Unit>RPM</Unit>
+			<Style>
+			<TextIncrement>10</TextIncrement>
+			<ForceTextColor>white</ForceTextColor>
+			</Style>
 			<Minimum>0</Minimum>
 			<Maximum>6500</Maximum> <!-- Not Sure -->
 			<Style>
@@ -219,8 +227,8 @@
 			<EndText></EndText>
 			<RedBlink>
 				<Greater>
-					<Simvar name="GENERAL ENG OIL PRESSURE:1" unit="bar"/>
-					<Constant>16.892</Constant>
+					<Simvar name="GENERAL ENG OIL TEMPERATURE:1" unit="celsius"/>
+					<Constant>115</Constant>
 				</Greater>
 			</RedBlink>
 		</Gauge>
@@ -442,6 +450,250 @@
 
 
 	</EngineDisplay>
+		  <Annunciations>
+    
+    <Annunciation>
+      <Type>Warning</Type>
+      <Text>OIL PRESSURE</Text>
+      <Condition>
+		<LowerEqual>
+			<Simvar name="GENERAL ENG OIL PRESSURE:1" unit="psi"/>
+			<Constant>20</Constant>
+		</LowerEqual>
+      </Condition>
+    </Annunciation>
+    
+    <Annunciation>
+      <Type>Warning</Type>
+      <Text>LOW VOLTS</Text>
+      <Condition>
+        <LowerEqual>
+          <Simvar name="ELECTRICAL MAIN BUS VOLTAGE:3" unit="volts"/>
+          <Constant>25.5</Constant>
+        </LowerEqual>
+      </Condition>
+    </Annunciation>
+    
+    <Annunciation>
+      <Type>Warning</Type>
+      <Text>HIGH VOLTS</Text>
+      <Condition>
+        <Greater>
+          <Simvar name="ELECTRICAL MAIN BUS VOLTAGE:3" unit="volts"/>
+          <Constant>32</Constant>
+        </Greater>
+      </Condition>
+    </Annunciation>
+    
+	<Annunciation>
+      <Type>Caution</Type>
+      <Text>STBY BATT</Text>
+      <Condition>
+		<Timer time="10">
+			<Greater>
+				<Simvar name="ELECTRICAL BATTERY LOAD:2" unit="amps"/>
+				<Constant>0.5</Constant>
+			</Greater>
+		</Timer>
+      </Condition>
+    </Annunciation>
+	
+    <Annunciation>
+      <Type>Caution</Type>
+      <Text>LOW VACUUM</Text>
+      <Condition>
+		<Lower>
+			<Simvar name="SUCTION PRESSURE" unit="inch of mercury"/>
+			<Constant>3.5</Constant>
+		</Lower>
+      </Condition>
+    </Annunciation>
+
+    <Annunciation>
+      <Type>Caution</Type>
+      <Text>LOW FUEL R</Text>
+      <Condition>
+        <Lower>
+          <Simvar name="FUEL RIGHT QUANTITY" unit="gallon"/>
+          <Constant>5</Constant>
+        </Lower>
+      </Condition>
+    </Annunciation>
+
+    <Annunciation>
+      <Type>Caution</Type>
+      <Text>LOW FUEL L</Text>
+      <Condition>
+        <Lower>
+          <Simvar name="FUEL LEFT QUANTITY" unit="gallon"/>
+          <Constant>5</Constant>
+        </Lower>
+      </Condition>
+    </Annunciation>
+    
+  </Annunciations>
+	
+	<!-- Voices Alerts -->
+  
+  <VoicesAlerts>
+  
+	<Alert>
+		<Type>SoundOnly</Type>
+		<SoundEvent>aural_500ft</SoundEvent>
+		<Condition>
+			<StateMachine>
+				<State id="Under" value="0">
+					<Transition to="Over">
+						<GreaterEqual>
+							<Simvar name="PLANE ALT ABOVE GROUND MINUS CG" unit="feet"/>
+							<Constant>510</Constant>
+						</GreaterEqual>
+					</Transition>
+				</State>
+				<State id="Over" value="0">
+					<Transition to="Alerting">
+						<LowerEqual>
+							<Simvar name="PLANE ALT ABOVE GROUND MINUS CG" unit="feet"/>
+							<Constant>500</Constant>
+						</LowerEqual>
+					</Transition>
+				</State>
+				<State id="Alerting" value="1">
+					<Transition to="Under">
+						<Constant>1</Constant>
+					</Transition>
+				</State>
+			</StateMachine>
+		</Condition>
+	</Alert>
+	
+	<Alert>
+		<Type>SoundOnly</Type>
+		<SoundEvent>aural_stall</SoundEvent>
+		<Condition>
+			<Simvar name="STALL WARNING" unit="Bool"/>
+		</Condition>
+	</Alert>
+	
+	<Alert>
+		<Type>Warning</Type>
+		<ShortText>PULL UP</ShortText>
+		<LongText>PULL UP</LongText>
+		<SoundEvent>aural_pull_up</SoundEvent>
+		<Condition>
+			<And>
+				<LinearMultiPoint>
+					<Table>
+						<ReferencePoints>1160,2320,4930,12000</ReferencePoints>
+						<Maximums>0,1070,2380,4285</Maximums>
+					</Table>
+					<Param>
+						<Multiply>
+							<Simvar name="VERTICAL SPEED" unit="feet per minute"/>
+							<Constant>-1</Constant>
+						</Multiply>
+					</Param>
+					<Param>
+						<Simvar name="PLANE ALT ABOVE GROUND" unit="feet"/>
+					</Param>
+				</LinearMultiPoint>
+				<Not>
+					<Simvar name="SIM ON GROUND" unit="bool"/>
+				</Not>
+			</And>
+		</Condition>
+	</Alert>
+	
+	<Alert>
+		<Type>SoundOnly</Type>
+		<SoundEvent>aural_overspeed</SoundEvent>
+		<Condition>
+			<Simvar name="OVERSPEED WARNING" unit="bool"/>
+		</Condition>
+	</Alert>
+	
+	<Alert>
+		<Type>Caution</Type>
+		<ShortText>TERRAIN</ShortText>
+		<LongText>SINK RATE</LongText>
+		<SoundEvent>aural_sink_rate</SoundEvent>
+		<Condition>
+			<And>
+				<LinearMultiPoint>
+					<Table>
+						<ReferencePoints>1160,2320,4930,12000</ReferencePoints>
+						<Minimums>0,1070,2380,4285</Minimums>
+						<Maximums>0,1460,2980,5360</Maximums>
+					</Table>
+					<Param>
+						<Multiply>
+							<Simvar name="VERTICAL SPEED" unit="feet per minute"/>
+							<Constant>-1</Constant>
+						</Multiply>
+					</Param>
+					<Param>
+						<Simvar name="PLANE ALT ABOVE GROUND" unit="feet"/>
+					</Param>
+				</LinearMultiPoint>
+				<Not>
+					<Simvar name="SIM ON GROUND" unit="bool"/>
+				</Not>
+			</And>
+		</Condition>
+	</Alert>	
+	
+	<Alert>
+		<Type>SoundOnly</Type>
+		<SoundEvent>aural_landing_gear</SoundEvent>
+		<Condition>
+			<And>
+				<Simvar name="IS GEAR RETRACTABLE" unit="Boolean"/>
+				<Not>
+					<Simvar name="GEAR HANDLE POSITION" unit="Boolean"/>
+				</Not>
+				<Or>
+					<Greater>
+						<Simvar name="FLAPS HANDLE INDEX" unit="number"/>
+						<Constant>1</Constant>
+					</Greater>
+					<Equal>
+						<Simvar name="GENERAL ENG THROTTLE LEVER POSITION:1" unit="percent"/>
+						<Constant>0</Constant>
+					</Equal>
+				</Or>
+			</And>
+		</Condition>
+	</Alert>
+	
+	<Alert>
+		<Type>Test</Type>
+		<ShortText>TAWS TEST</ShortText>
+		<Condition>
+			<And>
+				<Lower>
+					<TimeSinceStart/>
+					<Constant>30000</Constant>
+				</Lower>
+				<InstrumentWasOff/>
+			</And>
+		</Condition>
+	</Alert>
+	
+	<Alert>
+		<Type>SoundOnly</Type>
+		<SoundEvent>aural_taws_system_test_ok</SoundEvent>
+		<Condition>
+			<And>
+				<Greater>
+					<TimeSinceStart/>
+					<Constant>30000</Constant>
+				</Greater>
+				<InstrumentWasOff/>
+			</And>
+		</Condition>
+		<Once>True</Once>
+	</Alert>
+
 </PlaneHTMLConfig>
 
 
