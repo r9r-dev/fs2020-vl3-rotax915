@@ -52,7 +52,7 @@
 			<ID>MANIN_Gauge</ID>
 			<Unit>MAN IN</Unit>
 			<Style>
-			<TextIncrement>0.1</TextIncrement>
+			<TextIncrement>1</TextIncrement>
 			<ForceTextColor>white</ForceTextColor>
 			</Style>
 			<Minimum>0</Minimum>
