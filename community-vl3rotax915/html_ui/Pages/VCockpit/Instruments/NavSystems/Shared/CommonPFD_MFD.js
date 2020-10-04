@@ -1065,10 +1065,17 @@ class AS1000_Alerts extends NavSystemElement {
 class PFD_WindData extends NavSystemElement {
     constructor() {
         super(...arguments);
-        this.mode = 1
+        this.mode = 0;
+        this.staticMode = null;
     }
     init(root) {
         this.svg = this.gps.getChildById("WindData");
+        if (this.gps.instrumentXmlConfig) {
+            let staticModeElem = this.gps.instrumentXmlConfig.getElementsByTagName("WindDataMode");
+            if (staticModeElem.length > 0 && ["0", "1", "2", "3", "4"].includes(staticModeElem[0].textContent)) {
+                this.mode = this.staticMode = parseInt(staticModeElem[0].textContent);
+            }
+        }        
         SimVar.SetSimVarValue("L:Glasscockpit_AOA_Mode", "number", this.mode);
     }
     getCurrentMode() {
@@ -1077,18 +1084,33 @@ class PFD_WindData extends NavSystemElement {
     onEnter() {
     }
     onUpdate(_deltaTime) {
-        let windSpeed = SimVar.GetSimVarValue("AMBIENT WIND VELOCITY", "knots");
-        let windDirection = SimVar.GetSimVarValue("AMBIENT WIND DIRECTION", "degree");
-        let planeHeading = SimVar.GetSimVarValue("PLANE HEADING DEGREES MAGNETIC", "degree");
-        this.svg.setAttribute("wind-mode", "1");
-        this.svg.setAttribute("wind-true-direction", (windSpeed >= 1 ? windDirection : 0).toString());
-        this.svg.setAttribute("wind-direction",
-            (windSpeed >= 1 ? ((windDirection + 180) % 360 - planeHeading) : 0).toString());
-        this.svg.setAttribute("wind-strength", windSpeed);
+        if (this.gps.staticWindDataMode && this.mode != this.gps.staticWindDataMode) {
+            this.mode = this.gps.staticWindDataMode;
+        }
+        let onGround = SimVar.GetSimVarValue("SIM ON GROUND", "boolean");
+        if (onGround) {
+            this.svg.setAttribute("wind-mode", (this.mode ? 4 : 0).toString());
+        } else {
+            let windSpd = SimVar.GetSimVarValue("AMBIENT WIND VELOCITY", "knots");
+            let windDir = SimVar.GetSimVarValue("AMBIENT WIND DIRECTION", "degree");
+            let planeHdg = SimVar.GetSimVarValue("PLANE HEADING DEGREES MAGNETIC", "degree");
+            this.svg.setAttribute("wind-mode", this.mode.toString());
+            switch (this.mode) {
+                case 3:
+                    this.svg.setAttribute("wind-true-direction", (windSpd >= 1 ? windDir : 0).toString());
+                case 2:
+                case 1:
+                    this.svg.setAttribute("wind-direction",
+                        (windSpd >= 1 ? ((windDir + 180) % 360 - planeHdg) : 0).toString());
+                    this.svg.setAttribute("wind-strength", windSpd);
+                    break;
+            }
+        }   
     }
     onExit() {
     }
     onEvent(_event) {
+        if (this.staticMode) return;
         switch (_event) {
             case "SoftKeys_Wind_Off":
             case "Wind_Off":
