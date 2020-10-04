@@ -21,7 +21,54 @@
 	<Include Path="Asobo\Transponder\AS21.xml"/>
 	<Include Path="Asobo\NAVCOM\AS92.xml"/>
 	<!-- ###################################### -->
-	
+
+	<!-- AUTOPILOT - Should maybe be a UseTemplate Autopilot_AS305_Template	-->
+	<Component ID="AUTOPILOT">
+		<DefaultTemplateParameters>
+			<POTENTIOMETER>3</POTENTIOMETER>
+			<NO_SIMVAR_LIGHT/>
+		</DefaultTemplateParameters>
+		<UseTemplate Name="ASOBO_AUTOPILOT_Knob_Baro_Template">
+			<BARO_ID>2</BARO_ID>
+			<NODE_ID>AUTOPILOT_Knob_Baro_1</NODE_ID>
+			<ANIM_NAME>AUTOPILOT_Knob_Baro_1</ANIM_NAME>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_AUTOPILOT_Knob_Heading_Template">
+			<PUSH/>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_AUTOPILOT_Knob_Altitude_Template">
+			<PUSH/>
+			<!--<ANIMTIP_2>TT:COCKPIT.TOOLTIPS.INOP TT:COCKPIT.TOOLTIPS.AUTOPILOT_KNOB_ALTITUDE</ANIMTIP_2>
+			<ANIMTIP_2_ON_CURSOR>Hand</ANIMTIP_2_ON_CURSOR> -->
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_AUTOPILOT_Push_Heading_Template"/>
+		<UseTemplate Name="ASOBO_AUTOPILOT_Push_Navigation_Template"/>
+		<UseTemplate Name="ASOBO_AUTOPILOT_Push_Autopilot_Template"/>
+		<UseTemplate Name="ASOBO_AUTOPILOT_Push_Level_Template"/>
+		<UseTemplate Name="ASOBO_AUTOPILOT_Push_Approach_Template"/>
+		<UseTemplate Name="ASOBO_AUTOPILOT_Push_FlightDirector_Template"/>
+		<UseTemplate Name="ASOBO_AUTOPILOT_Push_YawDamper_Template"/>
+		<UseTemplate Name="ASOBO_AUTOPILOT_Push_Altitude_Template"/>
+		<UseTemplate Name="ASOBO_AUTOPILOT_Push_VerticalSpeed_Template"/>
+		<UseTemplate Name="ASOBO_AUTOPILOT_Push_VerticalNavigation_Template"/>
+		<UseTemplate Name="ASOBO_AUTOPILOT_Knob_VerticalSpeed_Template">
+			<UP_DEC_DN_INC>True</UP_DEC_DN_INC>
+			<SET_AIRSPEED_ON_FLC>True</SET_AIRSPEED_ON_FLC>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_AUTOPILOT_Push_FlightLevelChange_Template">
+			<NODE_ID>AUTOPILOT_Push_Speed_1</NODE_ID>
+			<ANIM_NAME>AUTOPILOT_Push_Speed_1</ANIM_NAME>
+			<EMISSIVE_NODE_ID>AUTOPILOT_Push_Speed_Text_1</EMISSIVE_NODE_ID>
+			<ACTIVE_NODE_ID>AUTOPILOT_Push_Speed_Active_1</ACTIVE_NODE_ID>
+		</UseTemplate>
+		<Component ID="AUTOPILOT_Light" Node="AUTOPILOT_Light_1">
+			<UseTemplate Name="ASOBO_GT_Emissive_Gauge">
+				<EMISSIVE_CODE>(A:CIRCUIT AUTOPILOT ON:1, Bool)</EMISSIVE_CODE>
+			</UseTemplate>
+		</Component>
+		<CameraTitle>Instruments_BoardCenter</CameraTitle>
+	</Component>
+
 	<!-- ELECTRICAL ############################# -->
 	<Component ID="ELECTRICAL">
 		<UseTemplate Name="ASOBO_ELECTRICAL_Switch_Battery_Master_Template">
@@ -36,7 +83,7 @@
 				}
 			</ON_TOGGLE_MASTER_BATTERY>
 			<ANIMTIP_0>TT:COCKPIT.TOOLTIPS.MASTER_SWITCH_TURN_ON</ANIMTIP_0>
-			<ANIMTIP_1>TT:COCKPIT.TOOLTIPS.MASTER_SWITCH_TURN_OFF</ANIMTIP_1>			
+			<ANIMTIP_1>TT:COCKPIT.TOOLTIPS.MASTER_SWITCH_TURN_OFF</ANIMTIP_1>
 		</UseTemplate>
 		<UseTemplate Name="ASOBO_GT_Update">
 			<UPDATE_CODE>
@@ -61,7 +108,7 @@
 			<ANIM_NAME>ELECTRICAL_Switch_Battery_STBY</ANIM_NAME>
 			<ANIMTIP_0>TT:COCKPIT.TOOLTIPS.BATTERY_STBY_ARM</ANIMTIP_0>
 			<ANIMTIP_1>TT:COCKPIT.TOOLTIPS.BATTERY_STBY_OFF</ANIMTIP_1>
-		</UseTemplate>	
+		</UseTemplate>
 		<UseTemplate Name="ASOBO_ELECTRICAL_Switch_Magneto_Template">
 			<ANIM_NAME>ELECTRICAL_Switch_Magneto</ANIM_NAME>
 			<NODE_ID>ELECTRICAL_Switch_Magneto</NODE_ID>
@@ -80,10 +127,10 @@
 			<ANIMTIP_1>TT:COCKPIT.TOOLTIPS.MAGNETO_START_SWITCH_R</ANIMTIP_1>
 			<ANIMTIP_2>TT:COCKPIT.TOOLTIPS.MAGNETO_START_SWITCH_L</ANIMTIP_2>
 			<ANIMTIP_3>TT:COCKPIT.TOOLTIPS.MAGNETO_START_SWITCH_BOTH</ANIMTIP_3>
-			<ANIMTIP_4>TT:COCKPIT.TOOLTIPS.MAGNETO_START_SWITCH_START</ANIMTIP_4>			
+			<ANIMTIP_4>TT:COCKPIT.TOOLTIPS.MAGNETO_START_SWITCH_START</ANIMTIP_4>
 		</UseTemplate>
 	</Component>
-	
+
 	<!-- ENGINE ########################### -->
 	<Component ID="ENGINE_CONTROLS">
 		<UseTemplate Name="ASOBO_ENGINE_Lever_Throttle_Template">
@@ -95,9 +142,9 @@
 		<UseTemplate Name="ASOBO_ENGINE_Lever_Propeller_Template">
 			<INTERACTION_TYPE>KNOB</INTERACTION_TYPE>
 			<ANIM_WRAP>False</ANIM_WRAP>
-		</UseTemplate>	
+		</UseTemplate>
 	</Component>
-	
+
 	<!-- FUEL ############################# -->
 	<Component ID="FUEL">
 		<UseTemplate Name="ASOBO_FUEL_Switch_Pump_Template">
@@ -112,7 +159,7 @@
 			<ANIMTIP_2_ON_PERCENT>1</ANIMTIP_2_ON_PERCENT>
 		</UseTemplate>
 	</Component>
-	
+
 	<!-- GLASS_COCKPIT ##############################-->
 	<Component ID="GLASS_COCKPIT">
 		<DefaultTemplateParameters>
@@ -138,7 +185,7 @@
 			</UseTemplate>
 		</Component>
 	</Component>
-	
+
 	<!-- HANDLING ############################# -->
 	<Component ID="HANDLING">
 		<UseTemplate Name="ASOBO_HANDLING_Yoke_Template">
@@ -193,7 +240,7 @@
 			<USE_TRAJECTORY_DRAG_MODE>True</USE_TRAJECTORY_DRAG_MODE>
 		</UseTemplate>
 	</Component>
-	
+
 	<!-- INSTRUMENTS ############################# -->
 	<Component ID="INSTRUMENTS">
 		<UseTemplate Name="ASOBO_INSTRUMENT_Needle_Turn_Template">
@@ -208,7 +255,7 @@
 			<UNITS>kilometers per hour</UNITS>
 		</UseTemplate>
 	</Component>
-	
+
 	<!-- LANDING GEAR ############################# -->
 	<Component ID="LANDING_GEAR">
 		<UseTemplate Name="ASOBO_LANDING_GEAR_Lever_Gear_Template">
@@ -258,7 +305,7 @@
 			<ANIM_DELAY>0.5</ANIM_DELAY>
 		</UseTemplate>
 	</Component>
-	
+
 	<!-- LIGHTS ############################# -->
 	<Component ID="LIGHTS">
 		<UseTemplate Name="ASOBO_LIGHTING_Switch_Light_Landing_Template">
@@ -266,7 +313,7 @@
 		<UseTemplate Name="ASOBO_LIGHTING_Switch_Light_Strobe_Template">
 		</UseTemplate>
 	</Component>
-	
+
 	<!-- PASSENGERS ############################# -->
 	<Component ID="PASSENGERS">
 		<DefaultTemplateParameters>
@@ -281,8 +328,8 @@
 			<NODE_ID>PASSENGER_Switch_Cabin_Ventilation_1</NODE_ID>
 			<ANIM_NAME>PASSENGER_Switch_Cabin_Ventilation_1</ANIM_NAME>
 		</UseTemplate>
-	</Component>	
-	
+	</Component>
+
 	<!-- SAFETY ############################# -->
 	<Component ID="SAFETY">
 		<UseTemplate Name="ASOBO_SAFETY_Switch_ELT_Template">
@@ -315,7 +362,7 @@
 			<EMISSIVE_CODE>(A:ENG ON FIRE:1, Bool)</EMISSIVE_CODE>
 		</UseTemplate>
 	</Component>
-	
+
 	<Component ID="TT_INOP">
 		<UseTemplate Name="ASOBO_GT_Interaction_Tooltip">
 			<NODE_ID>PASSENGER_Switch_Cabin_Ventilation_1</NODE_ID>
@@ -332,7 +379,7 @@
 		<UseTemplate Name="ASOBO_GT_Interaction_Tooltip">
 			<NODE_ID>ENGINE_Switch_Propeller_RPM</NODE_ID>
 		</UseTemplate>
-		
+
 	</Component>
 
 </ModelBehaviors>

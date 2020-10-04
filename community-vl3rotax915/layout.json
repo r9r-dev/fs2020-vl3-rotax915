@@ -87,8 +87,8 @@
     },
     {
       "path": "SimObjects/Airplanes/Asobo_VL3_915/Approach.flt",
-      "size": 2695,
-      "date": 132460516907909960
+      "size": 2697,
+      "date": 132462964300718933
     },
     {
       "path": "SimObjects/Airplanes/Asobo_VL3_915/apron.flt",
@@ -127,8 +127,8 @@
     },
     {
       "path": "SimObjects/Airplanes/Asobo_VL3_915/flight_model.cfg",
-      "size": 16120,
-      "date": 132462017499631262
+      "size": 16116,
+      "date": 132462953255918277
     },
     {
       "path": "SimObjects/Airplanes/Asobo_VL3_915/gameplay.cfg",
@@ -182,8 +182,8 @@
     },
     {
       "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit.xml",
-      "size": 13560,
-      "date": 132460516897079972
+      "size": 15751,
+      "date": 132462975663784651
     },
     {
       "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod0.bin",
@@ -332,8 +332,8 @@
     },
     {
       "path": "SimObjects/Airplanes/Asobo_VL3_915/panel/panel.xml",
-      "size": 9885,
-      "date": 132462028510679540
+      "size": 15861,
+      "date": 132462953255923275
     },
     {
       "path": "SimObjects/Airplanes/Asobo_VL3_915/sound/Asobo_VL3.PC.PCK",
@@ -342,8 +342,8 @@
     },
     {
       "path": "SimObjects/Airplanes/Asobo_VL3_915/sound/sound.xml",
-      "size": 20783,
-      "date": 132460516882904960
+      "size": 21072,
+      "date": 132462981230835608
     },
     {
       "path": "SimObjects/Airplanes/Asobo_VL3_915/soundai/Asobo_VL3_AI.PC.PCK",

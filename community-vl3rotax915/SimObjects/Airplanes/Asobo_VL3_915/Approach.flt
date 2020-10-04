@@ -94,7 +94,7 @@ PedestalLights=False
 
 [AutoPilot.0]
 MasterSwitch=True
-WingLeveler=True
+WingLeveler=False
 Nav1Lock=False
 HeadingLock=False
 HeadingValue=0
@@ -105,7 +105,7 @@ AirspeedHold=False
 AirspeedValue=0
 MachHold=False
 MachValue=0
-VerticalSpeedHold=True
+VerticalSpeedHold=False
 VerticalSpeedValue=0
 RPMHold=False
 RPMValue=0
