@@ -1065,7 +1065,7 @@ class AS1000_Alerts extends NavSystemElement {
 class PFD_WindData extends NavSystemElement {
     constructor() {
         super(...arguments);
-        this.mode = 1
+        this.mode = 3
     }
     init(root) {
         this.svg = this.gps.getChildById("WindData");
@@ -1080,7 +1080,7 @@ class PFD_WindData extends NavSystemElement {
         let windSpeed = SimVar.GetSimVarValue("AMBIENT WIND VELOCITY", "knots");
         let windDirection = SimVar.GetSimVarValue("AMBIENT WIND DIRECTION", "degree");
         let planeHeading = SimVar.GetSimVarValue("PLANE HEADING DEGREES MAGNETIC", "degree");
-        this.svg.setAttribute("wind-mode", "1");
+        this.svg.setAttribute("wind-mode", "3");
         this.svg.setAttribute("wind-true-direction", (windSpeed >= 1 ? windDirection : 0).toString());
         this.svg.setAttribute("wind-direction",
             (windSpeed >= 1 ? ((windDirection + 180) % 360 - planeHeading) : 0).toString());
