@@ -203,9 +203,9 @@
 		</UseTemplate>
 		<UseTemplate Name="ASOBO_INSTRUMENT_Needle_Airspeed_Template">
 			<MIN_VALUE>0</MIN_VALUE>
-			<MAX_VALUE>350</MAX_VALUE>
+			<MAX_VALUE>190</MAX_VALUE>
 			<DONT_APPEND_ID>True</DONT_APPEND_ID>
-			<UNITS>kilometers per hour</UNITS>
+			<UNITS>Knots</UNITS>
 		</UseTemplate>
 	</Component>
 	
