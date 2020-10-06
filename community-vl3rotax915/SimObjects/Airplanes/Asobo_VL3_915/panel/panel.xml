@@ -56,7 +56,7 @@
 			<Style>
 				<BeginAngle>-45</BeginAngle>
 				<EndAngle>180</EndAngle>
-				<ValuePos>End</ValuePos>
+				<ValuePos>Bottom</ValuePos>
 				<CursorType>Triangle</CursorType>
 				<ValuePrecision>1</ValuePrecision>
 				<ForceTextColor>white</ForceTextColor>
@@ -92,9 +92,10 @@
 			<Style>
 				<BeginAngle>-45</BeginAngle>
 				<EndAngle>180</EndAngle>
-				<ValuePos>End</ValuePos>
+				<ValuePos>Bottom</ValuePos>
 				<CursorType>Triangle</CursorType>
 				<ValuePrecision>1</ValuePrecision>
+				<TextIncrement>10</TextIncrement>
 				<ForceTextColor>white</ForceTextColor>
 			</Style>
 			<Value>
