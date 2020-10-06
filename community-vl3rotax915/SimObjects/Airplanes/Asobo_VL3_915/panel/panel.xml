@@ -3,6 +3,7 @@
 		<Name>AS3X_Touch_1</Name>
 		<SyntheticVision>True</SyntheticVision>
 		<AltimeterIndex>0</AltimeterIndex>
+		<WindDataMode>1</WindDataMode>
 		<!-- DisplayMode>PFD</DisplayMode> -->
 		<ReversionaryMode>True</ReversionaryMode>
 		<Electric>
