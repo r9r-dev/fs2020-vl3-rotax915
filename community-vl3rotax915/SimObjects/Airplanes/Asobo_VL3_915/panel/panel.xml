@@ -51,18 +51,15 @@
 			<Type>Circular</Type>
 			<ID>MANIN_Gauge</ID>
 			<Unit>MAN IN</Unit>
-			<Style>
-			<TextIncrement>1</TextIncrement>
-			<ForceTextColor>white</ForceTextColor>
-			</Style>
 			<Minimum>0</Minimum>
 			<Maximum>51</Maximum>
 			<Style>
-				<ValuePrecision>1</ValuePrecision>
 				<BeginAngle>-45</BeginAngle>
 				<EndAngle>180</EndAngle>
-				<ValuePos>END</ValuePos>
+				<ValuePos>End</ValuePos>
 				<CursorType>Triangle</CursorType>
+				<ValuePrecision>1</ValuePrecision>
+				<ForceTextColor>white</ForceTextColor>
 			</Style>
 			<Value>
 					<Simvar name="RECIP ENG MANIFOLD PRESSURE:1" unit="inHG"/>
@@ -90,17 +87,15 @@
 			<Type>Circular</Type>
 			<ID>RPM_Gauge</ID>
 			<Unit>RPM</Unit>
-			<Style>
-			<TextIncrement>10</TextIncrement>
-			<ForceTextColor>white</ForceTextColor>
-			</Style>
 			<Minimum>0</Minimum>
 			<Maximum>6500</Maximum> <!-- Not Sure -->
 			<Style>
 				<BeginAngle>-45</BeginAngle>
 				<EndAngle>180</EndAngle>
-				<ValuePos>Bottom</ValuePos>
+				<ValuePos>End</ValuePos>
 				<CursorType>Triangle</CursorType>
+				<ValuePrecision>1</ValuePrecision>
+				<ForceTextColor>white</ForceTextColor>
 			</Style>
 			<Value>
 				<Simvar name="GENERAL ENG RPM:1" unit="rpm"/>
