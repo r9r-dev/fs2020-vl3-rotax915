@@ -466,7 +466,7 @@
       <Condition>
         <LowerEqual>
           <Simvar name="ELECTRICAL MAIN BUS VOLTAGE:3" unit="volts"/>
-          <Constant>25.5</Constant>
+          <Constant>9.0</Constant>
         </LowerEqual>
       </Condition>
     </Annunciation>
@@ -512,7 +512,7 @@
       <Condition>
         <Lower>
           <Simvar name="FUEL RIGHT QUANTITY" unit="gallon"/>
-          <Constant>5</Constant>
+          <Constant>3</Constant>
         </Lower>
       </Condition>
     </Annunciation>
@@ -523,7 +523,7 @@
       <Condition>
         <Lower>
           <Simvar name="FUEL LEFT QUANTITY" unit="gallon"/>
-          <Constant>5</Constant>
+          <Constant>3</Constant>
         </Lower>
       </Condition>
     </Annunciation>
