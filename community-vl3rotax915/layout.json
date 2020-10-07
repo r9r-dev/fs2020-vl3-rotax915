@@ -1,894 +1,904 @@
 {
-  "content": [
-	{
-	  "path": "de-DE.locPak",
-	  "size": 1524,
-	  "date": 1601878963715
-	},
-	{
-	  "path": "en-US.locPak",
-	  "size": 1323,
-	  "date": 1601878963715
-	},
-	{
-	  "path": "es-ES.locPak",
-	  "size": 1503,
-	  "date": 1601878963716
-	},
-	{
-	  "path": "fr-FR.locPak",
-	  "size": 1480,
-	  "date": 1601878963716
-	},
-	{
-	  "path": "it-IT.locPak",
-	  "size": 1493,
-	  "date": 1601878963720
-	},
-	{
-	  "path": "pl-PL.locPak",
-	  "size": 1371,
-	  "date": 1601878963721
-	},
-	{
-	  "path": "pt-BR.locPak",
-	  "size": 1403,
-	  "date": 1601878963721
-	},
-	{
-	  "path": "ru-RU.locPak",
-	  "size": 2141,
-	  "date": 1601878963721
-	},
-	{
-	  "path": "RTC/Asobo_VL3_915/RTC_Hangar.spb",
-	  "size": 1676,
-	  "date": 1601878962218
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/ai.cfg",
-	  "size": 747,
-	  "date": 1601878963143
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/aircraft.cfg",
-	  "size": 6729,
-	  "date": 1601969662418
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/aircraft.loc",
-	  "size": 14134,
-	  "date": 1601878963144
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/Approach.flt",
-	  "size": 2695,
-	  "date": 1601878962218
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/apron.flt",
-	  "size": 2757,
-	  "date": 1601878963144
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/cameras.cfg",
-	  "size": 16338,
-	  "date": 1601878963144
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/Climb.flt",
-	  "size": 2699,
-	  "date": 1601878962219
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/cockpit.cfg",
-	  "size": 5178,
-	  "date": 1601878963146
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/Cruise.flt",
-	  "size": 2695,
-	  "date": 1601878962219
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/engines.cfg",
-	  "size": 11190,
-	  "date": 1601878963146
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/Final.flt",
-	  "size": 2696,
-	  "date": 1601878962219
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/flight_model.cfg",
-	  "size": 16118,
-	  "date": 1601966185181
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/gameplay.cfg",
-	  "size": 1275,
-	  "date": 1601878963147
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/hangar.flt",
-	  "size": 2630,
-	  "date": 1601878963147
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/runway.FLT",
-	  "size": 2708,
-	  "date": 1601878963315
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/systems.cfg",
-	  "size": 7834,
-	  "date": 1601928934793
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/target_performance.cfg",
-	  "size": 1639,
-	  "date": 1601878963711
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/taxi.flt",
-	  "size": 2683,
-	  "date": 1601878963711
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/checklist/Library.xml",
-	  "size": 1782,
-	  "date": 1601878963145
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/checklist/VL3_Checklist.xml",
-	  "size": 3959,
-	  "date": 1601878963145
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/model.CFG",
-	  "size": 664,
-	  "date": 1601878963314
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3.xml",
-	  "size": 3631,
-	  "date": 1601878963148
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit.xml",
-	  "size": 13546,
-	  "date": 1601928406103
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod0.bin",
-	  "size": 5012480,
-	  "date": 1601878963271
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod0.gltf",
-	  "size": 288229,
-	  "date": 1601878963272
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod1.bin",
-	  "size": 3201536,
-	  "date": 1601878963290
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod1.gltf",
-	  "size": 269726,
-	  "date": 1601878963291
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod2.bin",
-	  "size": 1825408,
-	  "date": 1601878963302
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod2.gltf",
-	  "size": 213319,
-	  "date": 1601878963302
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod3.bin",
-	  "size": 1019264,
-	  "date": 1601878963308
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod3.gltf",
-	  "size": 185297,
-	  "date": 1601878963309
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod4.bin",
-	  "size": 409088,
-	  "date": 1601878963311
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod4.gltf",
-	  "size": 141039,
-	  "date": 1601878963312
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod5.bin",
-	  "size": 32640,
-	  "date": 1601878963312
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod5.gltf",
-	  "size": 53771,
-	  "date": 1601878963313
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod6.bin",
-	  "size": 11392,
-	  "date": 1601878963313
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod6.gltf",
-	  "size": 38305,
-	  "date": 1601878963314
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD00.bin",
-	  "size": 6237312,
-	  "date": 1601878963184
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD00.gltf",
-	  "size": 116329,
-	  "date": 1601827462989
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD01.bin",
-	  "size": 4409984,
-	  "date": 1601878963212
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD01.gltf",
-	  "size": 121201,
-	  "date": 1601878963213
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD02.bin",
-	  "size": 2791552,
-	  "date": 1601878963229
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD02.gltf",
-	  "size": 121051,
-	  "date": 1601878963230
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD03.bin",
-	  "size": 978944,
-	  "date": 1601878963235
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD03.gltf",
-	  "size": 118050,
-	  "date": 1601878963236
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD04.bin",
-	  "size": 650240,
-	  "date": 1601878963240
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD04.gltf",
-	  "size": 116768,
-	  "date": 1601878963240
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD05.bin",
-	  "size": 422016,
-	  "date": 1601878963242
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD05.gltf",
-	  "size": 104105,
-	  "date": 1601878963242
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD06.bin",
-	  "size": 178560,
-	  "date": 1601878963243
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD06.gltf",
-	  "size": 23853,
-	  "date": 1601878963244
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/panel/PANEL.CFG",
-	  "size": 1069,
-	  "date": 1601878963314
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/panel/panel.xml",
-	  "size": 15859,
-	  "date": 1601878963315
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/sound/Asobo_VL3.PC.PCK",
-	  "size": 88499434,
-	  "date": 1601878963660
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/sound/sound.xml",
-	  "size": 20783,
-	  "date": 1601878963664
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/soundai/Asobo_VL3_AI.PC.PCK",
-	  "size": 10160750,
-	  "date": 1601878963709
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/soundai/soundai.xml",
-	  "size": 2695,
-	  "date": 1601878963711
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_DECALS_ALBD.PNG.DDS",
-	  "size": 1398276,
-	  "date": 1601878962635
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_DECALS_ALBD.PNG.DDS.json",
-	  "size": 119,
-	  "date": 1601878962635
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_DETAILS_ALBD.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1601878962665
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_DETAILS_ALBD.PNG.DDS.json",
-	  "size": 102,
-	  "date": 1601878962666
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_DETAILS_COMP.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1601878962701
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_DETAILS_COMP.PNG.DDS.json",
-	  "size": 191,
-	  "date": 1601878962702
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_FUSELAGE_ALBD.PNG.DDS",
-	  "size": 22369796,
-	  "date": 1601878962778
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_FUSELAGE_ALBD.PNG.DDS.json",
-	  "size": 102,
-	  "date": 1601878962779
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_FUSELAGE_COMP.PNG.DDS",
-	  "size": 22369796,
-	  "date": 1601878962885
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_FUSELAGE_COMP.PNG.DDS.json",
-	  "size": 191,
-	  "date": 1601878962886
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_LIVERY_ALBD.PNG.DDS",
-	  "size": 1540,
-	  "date": 1601878962887
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_LIVERY_ALBD.PNG.DDS.json",
-	  "size": 102,
-	  "date": 1601878962887
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_LIVERY_DECALS_ALBD.PNG.DDS",
-	  "size": 349700,
-	  "date": 1601878962889
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_LIVERY_DECALS_ALBD.PNG.DDS.json",
-	  "size": 119,
-	  "date": 1601878962889
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_PROP_BLURRED_ALBD.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1601878962912
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_PROP_BLURRED_ALBD.PNG.DDS.json",
-	  "size": 119,
-	  "date": 1601878962913
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_PROP_BLURRED_SIDE.PNG.DDS",
-	  "size": 43940,
-	  "date": 1601878962913
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_PROP_BLURRED_SIDE.PNG.DDS.json",
-	  "size": 119,
-	  "date": 1601878962914
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_PROP_SLOW_ALBD.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1601878962941
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_PROP_SLOW_ALBD.PNG.DDS.json",
-	  "size": 119,
-	  "date": 1601878962942
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_PROP_STILL_ALBD.PNG.DDS",
-	  "size": 1398276,
-	  "date": 1601878962947
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_PROP_STILL_ALBD.PNG.DDS.json",
-	  "size": 102,
-	  "date": 1601878962948
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_PROP_STILL_COMP.PNG.DDS",
-	  "size": 1398276,
-	  "date": 1601878962956
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_PROP_STILL_COMP.PNG.DDS.json",
-	  "size": 191,
-	  "date": 1601878962956
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_WINGS_ALBD.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1601878962978
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_WINGS_ALBD.PNG.DDS.json",
-	  "size": 102,
-	  "date": 1601878962978
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_WINGS_COMP.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1601878963020
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_WINGS_COMP.PNG.DDS.json",
-	  "size": 191,
-	  "date": 1601878963021
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_COCKPIT_DECALS_ALBD.TIF.DDS",
-	  "size": 1398276,
-	  "date": 1601878963027
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_COCKPIT_DECALS_ALBD.TIF.DDS.json",
-	  "size": 119,
-	  "date": 1601878963028
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_COCKPIT_FLOOR_ALBD.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1601878963054
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_COCKPIT_FLOOR_ALBD.PNG.DDS.json",
-	  "size": 102,
-	  "date": 1601878963054
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_COCKPIT_MAIN_INTERIOR_ALBD.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1601878963087
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_COCKPIT_MAIN_INTERIOR_ALBD.PNG.DDS.json",
-	  "size": 102,
-	  "date": 1601878963087
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_COCKPIT_SEATS_ALBD.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1601878963116
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_COCKPIT_SEATS_ALBD.PNG.DDS.json",
-	  "size": 102,
-	  "date": 1601878963117
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_COCKPIT_SECONDARY_INTERIOR_ALBD.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1601878963140
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_COCKPIT_SECONDARY_INTERIOR_ALBD.PNG.DDS.json",
-	  "size": 102,
-	  "date": 1601878963141
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/texture.CFG",
-	  "size": 378,
-	  "date": 1601878963142
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/thumbnail.JPG",
-	  "size": 72014,
-	  "date": 1601878963142
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/thumbnail_small.JPG",
-	  "size": 27523,
-	  "date": 1601878963143
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_DECALS_ALBD.PNG.DDS",
-	  "size": 1398276,
-	  "date": 1601928405631
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_DECALS_ALBD.PNG.DDS.json",
-	  "size": 119,
-	  "date": 1601928405637
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_DETAILS_ALBD.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1601928405673
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_DETAILS_ALBD.PNG.DDS.json",
-	  "size": 102,
-	  "date": 1601928405673
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_DETAILS_COMP.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1601928405714
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_DETAILS_COMP.PNG.DDS.json",
-	  "size": 191,
-	  "date": 1601928405715
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_FUSELAGE_ALBD.PNG.DDS",
-	  "size": 1398276,
-	  "date": 1601928405734
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_FUSELAGE_ALBD.PNG.DDS.json",
-	  "size": 102,
-	  "date": 1601928405734
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_FUSELAGE_COMP.PNG.DDS",
-	  "size": 22369796,
-	  "date": 1601928405860
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_FUSELAGE_COMP.PNG.DDS.json",
-	  "size": 191,
-	  "date": 1601928405862
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_LIVERY_ALBD.PNG.DDS",
-	  "size": 1398276,
-	  "date": 1601928405869
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_LIVERY_ALBD.PNG.DDS.json",
-	  "size": 102,
-	  "date": 1601928405870
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_LIVERY_DECALS_ALBD.PNG.DDS",
-	  "size": 349700,
-	  "date": 1601928405875
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_LIVERY_DECALS_ALBD.PNG.DDS.json",
-	  "size": 119,
-	  "date": 1601928405875
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_PROP_BLURRED_ALBD.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1601928405914
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_PROP_BLURRED_ALBD.PNG.DDS.json",
-	  "size": 119,
-	  "date": 1601928405915
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_PROP_SLOW_ALBD.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1601928405931
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_PROP_SLOW_ALBD.PNG.DDS.json",
-	  "size": 119,
-	  "date": 1601928405932
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_PROP_STILL_ALBD.PNG.DDS",
-	  "size": 1398276,
-	  "date": 1601928405939
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_PROP_STILL_ALBD.PNG.DDS.json",
-	  "size": 102,
-	  "date": 1601928405940
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_PROP_STILL_COMP.PNG.DDS",
-	  "size": 1398276,
-	  "date": 1601928405949
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_WINGS_ALBD.PNG.DDS",
-	  "size": 1398276,
-	  "date": 1601928405957
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_WINGS_ALBD.PNG.DDS.json",
-	  "size": 102,
-	  "date": 1601928405958
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_WINGS_COMP.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1601928405993
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_WINGS_COMP.PNG.DDS.json",
-	  "size": 191,
-	  "date": 1601928405994
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_COCKPIT_DECALS_ALBD.TIF.DDS",
-	  "size": 1398276,
-	  "date": 1601928406000
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_COCKPIT_DECALS_ALBD.TIF.DDS.json",
-	  "size": 119,
-	  "date": 1601928406001
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_COCKPIT_FLOOR_ALBD.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1601928406014
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_COCKPIT_FLOOR_ALBD.PNG.DDS.json",
-	  "size": 102,
-	  "date": 1601928406015
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_COCKPIT_MAIN_INTERIOR_ALBD.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1601928406044
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_COCKPIT_MAIN_INTERIOR_ALBD.PNG.DDS.json",
-	  "size": 102,
-	  "date": 1601928406044
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_COCKPIT_SEATS_ALBD.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1601928406066
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_COCKPIT_SEATS_ALBD.PNG.DDS.json",
-	  "size": 102,
-	  "date": 1601928406067
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_COCKPIT_SECONDARY_INTERIOR_ALBD.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1601928406080
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_COCKPIT_SECONDARY_INTERIOR_ALBD.PNG.DDS.json",
-	  "size": 102,
-	  "date": 1601928406080
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/texture.CFG",
-	  "size": 378,
-	  "date": 1601928406081
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/thumbnail.JPG",
-	  "size": 196151,
-	  "date": 1601928406087
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/thumbnail_small.JPG",
-	  "size": 60120,
-	  "date": 1601928406092
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_FUSELAGE_ALBD.PNG.DDS",
-	  "size": 22369796,
-	  "date": 1601878962281
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_FUSELAGE_ALBD.PNG.DDS.json",
-	  "size": 102,
-	  "date": 1601878962283
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_FUSELAGE_COMP.PNG.DDS",
-	  "size": 22369796,
-	  "date": 1601878962402
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_FUSELAGE_COMP.PNG.DDS.json",
-	  "size": 191,
-	  "date": 1601878962404
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_LIVERY_ALBD.PNG.DDS",
-	  "size": 5592560,
-	  "date": 1601878962413
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_LIVERY_ALBD.PNG.DDS.json",
-	  "size": 102,
-	  "date": 1601878962414
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_LIVERY_DECALS_ALBD.PNG.DDS",
-	  "size": 349680,
-	  "date": 1601878962415
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_LIVERY_DECALS_ALBD.PNG.DDS.json",
-	  "size": 119,
-	  "date": 1601878962416
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_PROP_BLURRED_ALBD.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1601878962451
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_PROP_BLURRED_ALBD.PNG.DDS.json",
-	  "size": 119,
-	  "date": 1601878962452
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_PROP_SLOW_ALBD.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1601878962468
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_PROP_SLOW_ALBD.PNG.DDS.json",
-	  "size": 119,
-	  "date": 1601878962469
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_PROP_STILL_ALBD.PNG.DDS",
-	  "size": 1398256,
-	  "date": 1601878962473
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_PROP_STILL_ALBD.PNG.DDS.json",
-	  "size": 102,
-	  "date": 1601878962473
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_WINGS_ALBD.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1601878962490
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_WINGS_ALBD.PNG.DDS.json",
-	  "size": 102,
-	  "date": 1601878962490
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_WINGS_COMP.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1601878962522
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_WINGS_COMP.PNG.DDS.json",
-	  "size": 191,
-	  "date": 1601878962522
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_COCKPIT_DECALS_ALBD.TIF.DDS",
-	  "size": 1398276,
-	  "date": 1601878962528
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_COCKPIT_DECALS_ALBD.TIF.DDS.json",
-	  "size": 119,
-	  "date": 1601878962529
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_COCKPIT_FLOOR_ALBD.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1601878962551
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_COCKPIT_FLOOR_ALBD.PNG.DDS.json",
-	  "size": 102,
-	  "date": 1601878962552
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_COCKPIT_MAIN_INTERIOR_ALBD.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1601878962579
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_COCKPIT_MAIN_INTERIOR_ALBD.PNG.DDS.json",
-	  "size": 102,
-	  "date": 1601878962579
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_COCKPIT_SEATS_ALBD.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1601878962603
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_COCKPIT_SEATS_ALBD.PNG.DDS.json",
-	  "size": 102,
-	  "date": 1601878962604
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_COCKPIT_SECONDARY_INTERIOR_ALBD.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1601878962627
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_COCKPIT_SECONDARY_INTERIOR_ALBD.PNG.DDS.json",
-	  "size": 102,
-	  "date": 1601878962628
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/texture.CFG",
-	  "size": 378,
-	  "date": 1601878962628
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/thumbnail.JPG",
-	  "size": 431601,
-	  "date": 1601878962631
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/thumbnail_small.JPG",
-	  "size": 78679,
-	  "date": 1601878962631
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/texture.shared/JMB_VL3_COCKPIT_AIRSPEED_ALBD.PNG.DDS",
-	  "size": 263296,
-	  "date": 1601878963713
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/texture.shared/JMB_VL3_COCKPIT_AIRSPEED_ALBD.PNG.DDS.json",
-	  "size": 102,
-	  "date": 1601878963715
-	}
-  ]
+    "content": [
+        {
+            "path": "de-DE.locPak",
+            "size": 1514,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "en-US.locPak",
+            "size": 1313,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "es-ES.locPak",
+            "size": 1493,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "fr-FR.locPak",
+            "size": 1470,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "it-IT.locPak",
+            "size": 1483,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "layout.json",
+            "size": 24399,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "manifest.json",
+            "size": 414,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "pl-PL.locPak",
+            "size": 1361,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "pt-BR.locPak",
+            "size": 1393,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "ru-RU.locPak",
+            "size": 2131,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "RTC/Asobo_VL3_915/RTC_Hangar.spb",
+            "size": 1676,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/ai.cfg",
+            "size": 721,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/aircraft.cfg",
+            "size": 6588,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/aircraft.loc",
+            "size": 14004,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/Approach.flt",
+            "size": 2551,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/apron.flt",
+            "size": 2607,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/cameras.cfg",
+            "size": 15550,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/Climb.flt",
+            "size": 2554,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/cockpit.cfg",
+            "size": 4825,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/Cruise.flt",
+            "size": 2551,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/engines.cfg",
+            "size": 11051,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/Final.flt",
+            "size": 2552,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/flight_model.cfg",
+            "size": 15838,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/gameplay.cfg",
+            "size": 1238,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/hangar.flt",
+            "size": 2488,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/runway.FLT",
+            "size": 2560,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/systems.cfg",
+            "size": 7707,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/target_performance.cfg",
+            "size": 1583,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/taxi.flt",
+            "size": 2536,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/checklist/Library.xml",
+            "size": 1739,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/checklist/VL3_Checklist.xml",
+            "size": 3849,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/model.CFG",
+            "size": 650,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3.xml",
+            "size": 3547,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit.xml",
+            "size": 13208,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod0.bin",
+            "size": 5012480,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod0.gltf",
+            "size": 288228,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod1.bin",
+            "size": 3201536,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod1.gltf",
+            "size": 269725,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod2.bin",
+            "size": 1825408,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod2.gltf",
+            "size": 213318,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod3.bin",
+            "size": 1019264,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod3.gltf",
+            "size": 185296,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod4.bin",
+            "size": 409088,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod4.gltf",
+            "size": 141038,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod5.bin",
+            "size": 32640,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod5.gltf",
+            "size": 53770,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod6.bin",
+            "size": 11392,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_cockpit_lod6.gltf",
+            "size": 38304,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD00.bin",
+            "size": 6237312,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD00.gltf",
+            "size": 116328,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD01.bin",
+            "size": 4409984,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD01.gltf",
+            "size": 121200,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD02.bin",
+            "size": 2791552,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD02.gltf",
+            "size": 121050,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD03.bin",
+            "size": 978944,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD03.gltf",
+            "size": 118049,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD04.bin",
+            "size": 650240,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD04.gltf",
+            "size": 116767,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD05.bin",
+            "size": 422016,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD05.gltf",
+            "size": 104104,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD06.bin",
+            "size": 178560,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/model/VL3_LOD06.gltf",
+            "size": 23852,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/panel/PANEL.CFG",
+            "size": 1027,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/panel/panel.xml",
+            "size": 15155,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/sound/Asobo_VL3.PC.PCK",
+            "size": 88499434,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/sound/sound.xml",
+            "size": 20476,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/soundai/Asobo_VL3_AI.PC.PCK",
+            "size": 10160750,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/soundai/soundai.xml",
+            "size": 2657,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_DECALS_ALBD.PNG.DDS",
+            "size": 1398276,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_DECALS_ALBD.PNG.DDS.json",
+            "size": 119,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_DETAILS_ALBD.PNG.DDS",
+            "size": 5592580,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_DETAILS_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_DETAILS_COMP.PNG.DDS",
+            "size": 5592580,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_DETAILS_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_FUSELAGE_ALBD.PNG.DDS",
+            "size": 22369796,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_FUSELAGE_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_FUSELAGE_COMP.PNG.DDS",
+            "size": 22369796,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_FUSELAGE_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_LIVERY_ALBD.PNG.DDS",
+            "size": 1540,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_LIVERY_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_LIVERY_DECALS_ALBD.PNG.DDS",
+            "size": 349700,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_LIVERY_DECALS_ALBD.PNG.DDS.json",
+            "size": 119,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_PROP_BLURRED_ALBD.PNG.DDS",
+            "size": 5592580,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_PROP_BLURRED_ALBD.PNG.DDS.json",
+            "size": 119,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_PROP_BLURRED_SIDE.PNG.DDS",
+            "size": 43940,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_PROP_BLURRED_SIDE.PNG.DDS.json",
+            "size": 119,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_PROP_SLOW_ALBD.PNG.DDS",
+            "size": 5592580,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_PROP_SLOW_ALBD.PNG.DDS.json",
+            "size": 119,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_PROP_STILL_ALBD.PNG.DDS",
+            "size": 1398276,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_PROP_STILL_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_PROP_STILL_COMP.PNG.DDS",
+            "size": 1398276,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_PROP_STILL_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_WINGS_ALBD.PNG.DDS",
+            "size": 5592580,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_WINGS_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_WINGS_COMP.PNG.DDS",
+            "size": 5592580,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_AIRFRAME_WINGS_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_COCKPIT_DECALS_ALBD.TIF.DDS",
+            "size": 1398276,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_COCKPIT_DECALS_ALBD.TIF.DDS.json",
+            "size": 119,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_COCKPIT_FLOOR_ALBD.PNG.DDS",
+            "size": 5592580,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_COCKPIT_FLOOR_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_COCKPIT_MAIN_INTERIOR_ALBD.PNG.DDS",
+            "size": 5592580,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_COCKPIT_MAIN_INTERIOR_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_COCKPIT_SEATS_ALBD.PNG.DDS",
+            "size": 5592580,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_COCKPIT_SEATS_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_COCKPIT_SECONDARY_INTERIOR_ALBD.PNG.DDS",
+            "size": 5592580,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/JMB_VL3_COCKPIT_SECONDARY_INTERIOR_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/texture.CFG",
+            "size": 367,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/thumbnail.JPG",
+            "size": 72014,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE/thumbnail_small.JPG",
+            "size": 27523,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_DECALS_ALBD.PNG.DDS",
+            "size": 1398276,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_DECALS_ALBD.PNG.DDS.json",
+            "size": 119,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_DETAILS_ALBD.PNG.DDS",
+            "size": 5592580,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_DETAILS_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_DETAILS_COMP.PNG.DDS",
+            "size": 5592580,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_DETAILS_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_FUSELAGE_ALBD.PNG.DDS",
+            "size": 1398276,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_FUSELAGE_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_FUSELAGE_COMP.PNG.DDS",
+            "size": 22369796,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_FUSELAGE_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_LIVERY_ALBD.PNG.DDS",
+            "size": 1398276,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_LIVERY_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_LIVERY_DECALS_ALBD.PNG.DDS",
+            "size": 349700,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_LIVERY_DECALS_ALBD.PNG.DDS.json",
+            "size": 119,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_PROP_BLURRED_ALBD.PNG.DDS",
+            "size": 5592580,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_PROP_BLURRED_ALBD.PNG.DDS.json",
+            "size": 119,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_PROP_SLOW_ALBD.PNG.DDS",
+            "size": 5592580,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_PROP_SLOW_ALBD.PNG.DDS.json",
+            "size": 119,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_PROP_STILL_ALBD.PNG.DDS",
+            "size": 1398276,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_PROP_STILL_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_PROP_STILL_COMP.PNG.DDS",
+            "size": 1398276,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_WINGS_ALBD.PNG.DDS",
+            "size": 1398276,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_WINGS_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_WINGS_COMP.PNG.DDS",
+            "size": 5592580,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_WINGS_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_COCKPIT_DECALS_ALBD.TIF.DDS",
+            "size": 1398276,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_COCKPIT_DECALS_ALBD.TIF.DDS.json",
+            "size": 119,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_COCKPIT_FLOOR_ALBD.PNG.DDS",
+            "size": 5592580,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_COCKPIT_FLOOR_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_COCKPIT_MAIN_INTERIOR_ALBD.PNG.DDS",
+            "size": 5592580,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_COCKPIT_MAIN_INTERIOR_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_COCKPIT_SEATS_ALBD.PNG.DDS",
+            "size": 5592580,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_COCKPIT_SEATS_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_COCKPIT_SECONDARY_INTERIOR_ALBD.PNG.DDS",
+            "size": 5592580,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_COCKPIT_SECONDARY_INTERIOR_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/texture.CFG",
+            "size": 367,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/thumbnail.JPG",
+            "size": 196151,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/thumbnail_small.JPG",
+            "size": 60120,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_FUSELAGE_ALBD.PNG.DDS",
+            "size": 22369796,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_FUSELAGE_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_FUSELAGE_COMP.PNG.DDS",
+            "size": 22369796,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_FUSELAGE_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_LIVERY_ALBD.PNG.DDS",
+            "size": 5592560,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_LIVERY_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_LIVERY_DECALS_ALBD.PNG.DDS",
+            "size": 349680,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_LIVERY_DECALS_ALBD.PNG.DDS.json",
+            "size": 119,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_PROP_BLURRED_ALBD.PNG.DDS",
+            "size": 5592580,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_PROP_BLURRED_ALBD.PNG.DDS.json",
+            "size": 119,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_PROP_SLOW_ALBD.PNG.DDS",
+            "size": 5592580,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_PROP_SLOW_ALBD.PNG.DDS.json",
+            "size": 119,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_PROP_STILL_ALBD.PNG.DDS",
+            "size": 1398256,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_PROP_STILL_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_WINGS_ALBD.PNG.DDS",
+            "size": 5592580,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_WINGS_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_WINGS_COMP.PNG.DDS",
+            "size": 5592580,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_AIRFRAME_WINGS_COMP.PNG.DDS.json",
+            "size": 191,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_COCKPIT_DECALS_ALBD.TIF.DDS",
+            "size": 1398276,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_COCKPIT_DECALS_ALBD.TIF.DDS.json",
+            "size": 119,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_COCKPIT_FLOOR_ALBD.PNG.DDS",
+            "size": 5592580,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_COCKPIT_FLOOR_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_COCKPIT_MAIN_INTERIOR_ALBD.PNG.DDS",
+            "size": 5592580,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_COCKPIT_MAIN_INTERIOR_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_COCKPIT_SEATS_ALBD.PNG.DDS",
+            "size": 5592580,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_COCKPIT_SEATS_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_COCKPIT_SECONDARY_INTERIOR_ALBD.PNG.DDS",
+            "size": 5592580,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/JMB_VL3_COCKPIT_SECONDARY_INTERIOR_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/texture.CFG",
+            "size": 367,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/thumbnail.JPG",
+            "size": 431601,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.REDHAWKE/thumbnail_small.JPG",
+            "size": 78679,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/texture.shared/JMB_VL3_COCKPIT_AIRSPEED_ALBD.PNG.DDS",
+            "size": 263296,
+            "date": "132402817714110148"
+        },
+        {
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/texture.shared/JMB_VL3_COCKPIT_AIRSPEED_ALBD.PNG.DDS.json",
+            "size": 102,
+            "date": "132402817714110148"
+        }
+    ]
 }
