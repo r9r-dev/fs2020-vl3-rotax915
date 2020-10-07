@@ -95,7 +95,7 @@
 				<EndAngle>180</EndAngle>
 				<ValuePos>Bottom</ValuePos>
 				<CursorType>Triangle</CursorType>
-				<ValuePrecision>1</ValuePrecision>
+				
 				<TextIncrement>10</TextIncrement>
 				<ForceTextColor>white</ForceTextColor>
 			</Style>
