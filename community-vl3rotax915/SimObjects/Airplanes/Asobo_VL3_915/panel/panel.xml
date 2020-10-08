@@ -446,17 +446,56 @@
 		</Gauge>
 
 
-	</EngineDisplay>
-		  <Annunciations>
+     </EngineDisplay>
+     <Annunciations>
     
+     <Annunciation>
+      <Type>Caution</Type>
+      <Text>AUX BOOST PMP ON</Text>
+      <Condition>
+        <Simvar name="GENERAL ENG FUEL PUMP ON:1" unit="Bool"/>
+      </Condition>
+    </Annunciation>
+	
     <Annunciation>
       <Type>Warning</Type>
       <Text>OIL PRESSURE</Text>
       <Condition>
 		<LowerEqual>
-			<Simvar name="GENERAL ENG OIL PRESSURE:1" unit="psi"/>
-			<Constant>20</Constant>
+			<Simvar name="GENERAL ENG OIL PRESSURE:1" unit="bar"/>
+			<Constant>2</Constant>
 		</LowerEqual>
+      </Condition>
+    </Annunciation>
+	
+	<Annunciation>
+      <Type>Warning</Type>
+      <Text>FUEL PRESS</Text>
+      <Condition>
+        <LowerEqual>
+          <Simvar name="GENERAL ENG FUEL PRESSURE:1" unit="bar"/>
+          <Constant>2</Constant>
+        </LowerEqual>
+      </Condition>
+    </Annunciation>
+	
+	
+	<Annunciation>
+      <Type>Caution</Type>
+      <Text>FUEL IMBALANCE</Text>
+      <Condition>
+        <Inequal tolerance="1.5">
+			<Simvar name="FUEL TANK LEFT MAIN QUANTITY" unit="gallon"/>
+			<Simvar name="FUEL TANK RIGHT MAIN QUANTITY" unit="gallon"/>
+		</Inequal>
+      </Condition>
+    </Annunciation>
+	
+    <Annunciation>
+      <Type>Warning</Type>
+      <Text>PARK BRAKE</Text>
+      <Condition>
+        <Simvar name="BRAKE PARKING INDICATOR" unit="Bool"/>
       </Condition>
     </Annunciation>
     
@@ -465,8 +504,8 @@
       <Text>LOW VOLTS</Text>
       <Condition>
         <LowerEqual>
-          <Simvar name="ELECTRICAL MAIN BUS VOLTAGE:3" unit="volts"/>
-          <Constant>9.0</Constant>
+          <Simvar name="ELECTRICAL MAIN BUS VOLTAGE" unit="volts"/>
+          <Constant>12</Constant>
         </LowerEqual>
       </Condition>
     </Annunciation>
@@ -476,7 +515,7 @@
       <Text>HIGH VOLTS</Text>
       <Condition>
         <Greater>
-          <Simvar name="ELECTRICAL MAIN BUS VOLTAGE:3" unit="volts"/>
+          <Simvar name="ELECTRICAL MAIN BUS VOLTAGE" unit="volts"/>
           <Constant>32</Constant>
         </Greater>
       </Condition>
@@ -488,7 +527,7 @@
       <Condition>
 		<Timer time="10">
 			<Greater>
-				<Simvar name="ELECTRICAL BATTERY LOAD:2" unit="amps"/>
+				<Simvar name="ELECTRICAL BATTERY LOAD" unit="amps"/>
 				<Constant>0.5</Constant>
 			</Greater>
 		</Timer>
@@ -512,7 +551,7 @@
       <Condition>
         <Lower>
           <Simvar name="FUEL RIGHT QUANTITY" unit="gallon"/>
-          <Constant>3</Constant>
+          <Constant>2.5</Constant>
         </Lower>
       </Condition>
     </Annunciation>
@@ -523,7 +562,7 @@
       <Condition>
         <Lower>
           <Simvar name="FUEL LEFT QUANTITY" unit="gallon"/>
-          <Constant>3</Constant>
+          <Constant>2.5</Constant>
         </Lower>
       </Condition>
     </Annunciation>
