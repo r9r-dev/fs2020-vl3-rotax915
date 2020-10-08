@@ -68,22 +68,43 @@
 			<ColorZone>
 				<Color>green</Color>
 				<Begin>0</Begin>
-				<End>45</End>
+				<End>43</End>
 			</ColorZone>
 			<ColorZone>
 				<Color>yellow</Color>
-				<Begin>45</Begin>
-				<End>48</End>
+				<Begin>43</Begin>
+				<End>45</End>
 			</ColorZone>
 			<ColorZone>
 				<Color>red</Color>
-				<Begin>48</Begin>
+				<Begin>45</Begin>
 				<End>51</End>
 			</ColorZone>
 			<BeginText></BeginText>
 			<EndText>
-			</EndText>	
-		</Gauge>		
+			</EndText>
+				<YellowBlink>
+				<Greater>
+					<Simvar name="RECIP ENG MANIFOLD PRESSURE:1" unit="inHG"/>
+					<Constant>43</Constant>
+				</Greater>
+				<LowerEqual>
+					<Simvar name="RECIP ENG MANIFOLD PRESSURE:1" unit="inHG"/>
+					<Constant>44.9</Constant>
+				</LowerEqual>
+			</YellowBlink>
+			<RedBlink>
+				<Greater>
+					<Simvar name="RECIP ENG MANIFOLD PRESSURE:1" unit="inHG"/>
+					<Constant>45</Constant>
+				</Greater>
+				<LowerEqual>
+					<Simvar name="RECIP ENG MANIFOLD PRESSURE:1" unit="inHG"/>
+					<Constant>51</Constant>
+				</LowerEqual>
+			</RedBlink>
+		</Gauge>
+		
 		<Gauge>
 			<Type>Circular</Type>
 			<ID>RPM_Gauge</ID>
@@ -95,7 +116,7 @@
 				<EndAngle>180</EndAngle>
 				<ValuePos>Bottom</ValuePos>
 				<CursorType>Triangle</CursorType>
-				
+
 				<TextIncrement>10</TextIncrement>
 				<ForceTextColor>white</ForceTextColor>
 			</Style>
@@ -127,10 +148,11 @@
 			<RedBlink>
 				<Greater>
 					<Simvar name="GENERAL ENG RPM:1" unit="rpm"/>
-					<Constant>6500</Constant>
+					<Constant>5700</Constant>
 				</Greater>
 			</RedBlink>
-		</Gauge>		
+		</Gauge>
+		
 		<Gauge>
 			<Type>Horizontal</Type>
 			<ID>OilPsi_Gauge</ID>
