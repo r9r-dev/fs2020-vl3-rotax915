@@ -4,6 +4,7 @@
 		<SyntheticVision>True</SyntheticVision>
 		<AltimeterIndex>0</AltimeterIndex>
 		<WindDataMode>1</WindDataMode>
+		<AutoPitotHeat>True</AutoPitotHeat>
 		<!-- DisplayMode>PFD</DisplayMode> -->
 		<ReversionaryMode>True</ReversionaryMode>
 		<Electric>
@@ -394,60 +395,35 @@
 			</ColorZone>
 			<ColorZone>
 				<Color>red</Color>
-				<Begin>14/5</Begin>
+				<Begin>14.5</Begin>
 				<End>15</End>
 			</ColorZone>
 			<BeginText></BeginText>
 			<EndText></EndText>
 		</Gauge>
 		
-		<Gauge>
-			<Type>Horizontal</Type>
-			<ID>Fuel_Qty</ID>
-			<Title>FUEL QTY</Title>
-			<Unit>L</Unit>
-			<Minimum>0</Minimum>
-			<Maximum>18.5</Maximum>
-			<Style>
-				<ValuePos>End</ValuePos>
-				<ValuePrecision>1</ValuePrecision>
-			</Style>
-			<Value>
-				<Simvar name="FUEL LEFT QUANTITY" unit="gallons"/>
-			</Value>
-			<ColorZone>
-				<Color>red</Color>
-				<Begin>0</Begin>
-				<End>2.1</End>
-			</ColorZone>
-			<ColorZone>
-				<Color>yellow</Color>
-				<Begin>2.1</Begin>
-				<End>2.6</End>
-			</ColorZone>
-			<ColorZone>
-				<Color>green</Color>
-				<Begin>2.6</Begin>
-				<End>18.5</End>
-			</ColorZone>
-			<BeginText></BeginText>
-			<EndText></EndText>
-		</Gauge>
+
 		
-				<Gauge>
-			<Type>Horizontal</Type>
-			<ID>Fuel_Qty</ID>
+		<Gauge>
+			<Type>DoubleHorizontal</Type>
+			<ID>Piston_FuelGauge</ID>
 			<Title>FUEL QTY</Title>
-			<Unit>R</Unit>
+			<Unit>GAL</Unit>
+			<CursorText>R</CursorText>
+			<CursorText2>L</CursorText2>
 			<Minimum>0</Minimum>
 			<Maximum>18.5</Maximum>
-			<Style>
-				<ValuePos>End</ValuePos>
+		   	<Style>				
 				<ValuePrecision>1</ValuePrecision>
 			</Style>
+							
+									 		   
 			<Value>
 				<Simvar name="FUEL RIGHT QUANTITY" unit="gallons"/>
 			</Value>
+			<Value2>
+				<Simvar name="FUEL LEFT QUANTITY" unit="gallons"/>
+			</Value2>
 			<ColorZone>
 				<Color>red</Color>
 				<Begin>0</Begin>
@@ -463,15 +439,53 @@
 				<Begin>2.6</Begin>
 				<End>18.5</End>
 			</ColorZone>
-			<BeginText></BeginText>
-			<EndText></EndText>
-		</Gauge>
+			<GraduationLength text="True">9.25</GraduationLength>
+		<EndText>18.5</EndText>
+	 </Gauge>
 
 
-     </EngineDisplay>
-     <Annunciations>
-    
-     <Annunciation>
+	</EngineDisplay>
+  <Annunciations> 
+    <Annunciation>
+      <Type>Caution</Type>
+      <Text>PROP DEICE FAIL</Text>
+      <Condition>
+        <!-- TODO -->
+      </Condition>
+    </Annunciation>
+	
+	    <Annunciation>
+      <Type>Caution</Type>
+      <Text>PROP DEICE ON</Text>
+      <Condition>
+        <And>
+			<Lower>
+				<Simvar name="PROP RPM:1" unit="rpm"/>
+				<Constant>1</Constant>
+			</Lower>
+			<Simvar name="PROP DEICE SWITCH:1" unit="Bool"/>
+		</And>
+      </Condition>
+    </Annunciation>
+
+        <Annunciation>
+        <Type>Caution</Type>
+        <Text>PITOT TEMP</Text>
+        <Condition>
+            <And>
+                <LowerEqual>
+                      <Simvar name="AMBIENT TEMPERATURE" unit="celsius"/>
+                      <Constant>7</Constant>
+                </LowerEqual>
+                <GreaterEqual>
+                    <Simvar name="L:G3X_Pitot_Heating" unit="Boolean"/>
+                    <Constant>1</Constant>
+                </GreaterEqual>
+            </And>
+        </Condition>
+    </Annunciation>
+		
+	    <Annunciation>
       <Type>Caution</Type>
       <Text>AUX BOOST PMP ON</Text>
       <Condition>
@@ -502,7 +516,7 @@
     </Annunciation>
 	
 	
-	<Annunciation>
+	    <Annunciation>
       <Type>Caution</Type>
       <Text>FUEL IMBALANCE</Text>
       <Condition>
@@ -513,11 +527,24 @@
       </Condition>
     </Annunciation>
 	
-    <Annunciation>
+	    <Annunciation>
       <Type>Warning</Type>
       <Text>PARK BRAKE</Text>
       <Condition>
         <Simvar name="BRAKE PARKING INDICATOR" unit="Bool"/>
+      </Condition>
+    </Annunciation>
+	
+	    <Annunciation>
+      <Type>Warning</Type>
+      <Text>GEAR UNSAFE</Text>
+      <Condition>
+		<And>
+			<Not>
+				<Simvar name="GEAR HANDLE POSITION" unit="Bool"/>
+			</Not>
+			<Simvar name="SIM ON GROUND" unit="Bool"/>
+		</And>		
       </Condition>
     </Annunciation>
     
@@ -753,3 +780,6 @@
 	</Alert>
 </VoicesAlerts>
 </PlaneHTMLConfig>
+
+
+
