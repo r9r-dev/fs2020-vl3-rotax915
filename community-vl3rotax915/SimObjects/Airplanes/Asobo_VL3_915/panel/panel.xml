@@ -442,24 +442,24 @@
 	 	<ColumnsGroup>
 			<Column>
 	 				<Text>	
-					<Left fontsize="13">IAS</Left>
-					<Center fontsize="13">
+					<Left fontsize="12.5">IAS</Left>
+					<Center fontsize="12.5">
 						<ToFixed precision="0">
 							<Simvar name="AIRSPEED TRUE" unit="kilometers per hour"/>
 						</ToFixed>
 					</Center>
-					<Right fontsize="13">kmh</Right>
+					<Right fontsize="12.5">kmh</Right>
 				</Text>
 			</Column>
 			<Column>			
 				<Text>	
-					<Left fontsize="13">OAT</Left>				
-					<Center fontsize="13">
+					<Left fontsize="12.5">OAT</Left>				
+					<Center fontsize="12.5">
 						<ToFixed precision="1">
 							<Simvar name="AMBIENT TEMPERATURE" unit="celsius"/>
 						</ToFixed>
 					</Center>
-					<Right fontsize="13">°C</Right>
+					<Right fontsize="12.5">°C</Right>
 				</Text>
 			</Column>
 		</ColumnsGroup>
