@@ -449,7 +449,7 @@
 							<Simvar name="AMBIENT TEMPERATURE" unit="celsius"/>
 						</ToFixed>
 					</Center>
-					<Right fontsize="13">ºC</Right>
+					<Right fontsize="13">°C</Right>
 				</Text>
 			</Column>
 		</ColumnsGroup>
