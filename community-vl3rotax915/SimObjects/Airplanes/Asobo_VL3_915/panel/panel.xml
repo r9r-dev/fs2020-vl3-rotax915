@@ -84,6 +84,16 @@
 			<BeginText></BeginText>
 			<EndText>
 			</EndText>
+			<YellowBlink>
+				<Greater>
+					<Simvar name="RECIP ENG MANIFOLD PRESSURE:1" unit="inHG"/>
+					<Constant>48</Constant>
+				</Greater>
+				<Lower>
+					<Simvar name="RECIP ENG MANIFOLD PRESSURE:1" unit="inHG"/>
+					<Constant>48</Constant>
+				</Lower>
+			</YellowBlink>
 			<RedBlink>
 				<Greater>
 					<Simvar name="RECIP ENG MANIFOLD PRESSURE:1" unit="inHG"/>
@@ -432,7 +442,7 @@
 	 	<ColumnsGroup>
 			<Column>
 	 				<Text>	
-					<Left fontsize="13">Spd: </Left>
+					<Left fontsize="13">AS</Left>
 					<Center fontsize="13">
 						<ToFixed precision="0">
 							<Simvar name="AIRSPEED TRUE" unit="kilometers per hour"/>
@@ -443,7 +453,7 @@
 			</Column>
 			<Column>			
 				<Text>	
-					<Left fontsize="13">T: </Left>				
+					<Left fontsize="13">AT</Left>				
 					<Center fontsize="13">
 						<ToFixed precision="1">
 							<Simvar name="AMBIENT TEMPERATURE" unit="celsius"/>
@@ -790,6 +800,10 @@
 	</Alert>
 </VoicesAlerts>
 </PlaneHTMLConfig>
+
+
+
+
 
 
 
