@@ -58,7 +58,7 @@
 			<Style>
 				<BeginAngle>-45</BeginAngle>
 				<EndAngle>180</EndAngle>
-				<ValuePos>Bottom</ValuePos>
+				<ValuePos>Bottom Right</ValuePos>
 				<CursorType>Triangle</CursorType>
 				<ValuePrecision>1</ValuePrecision>
 				<ForceTextColor>white</ForceTextColor>
@@ -115,9 +115,8 @@
 			<Style>
 				<BeginAngle>-45</BeginAngle>
 				<EndAngle>180</EndAngle>
-				<ValuePos>Bottom</ValuePos>
+				<ValuePos>Bottom Right</ValuePos>
 				<CursorType>Triangle</CursorType>
-
 				<TextIncrement>10</TextIncrement>
 				<ForceTextColor>white</ForceTextColor>
 			</Style>
@@ -209,8 +208,8 @@
 			<ID>OilTemp_Gauge</ID>
 			<Title>OIL</Title>
 			<Unit> °C</Unit>
-			<Minimum>60</Minimum>
-			<Maximum>130</Maximum> <!-- Not Sure -->
+			<Minimum>50</Minimum>
+			<Maximum>150</Maximum> <!-- Not Sure -->
 			<Style>
 				<ValuePos>End</ValuePos>
 				<ValuePrecision>1</ValuePrecision>
@@ -219,76 +218,77 @@
 				<Simvar name="GENERAL ENG OIL TEMPERATURE:1" unit="celsius"/>
 			</Value>
 			<ColorZone>
-				<Color>red</Color>
-				<Begin>60</Begin>
-				<End>65</End>
-			</ColorZone>
-			<ColorZone>
 				<Color>yellow</Color>
-				<Begin>65</Begin>
-				<End>80</End>
+				<Begin>50</Begin>
+				<End>90</End>
 			</ColorZone>
 			<ColorZone>
 				<Color>green</Color>
-				<Begin>80</Begin>
+				<Begin>90</Begin>
 				<End>110</End>
 			</ColorZone>
 			<ColorZone>
 				<Color>yellow</Color>
 				<Begin>110</Begin>
-				<End>120</End>
+				<End>130</End>
 			</ColorZone>
 			<ColorZone>
 				<Color>red</Color>
-				<Begin>120</Begin>
-				<End>130</End>
+				<Begin>130</Begin>
+				<End>150</End>
 			</ColorZone>
 			<BeginText></BeginText>
 			<EndText></EndText>
 			<RedBlink>
 				<Greater>
 					<Simvar name="GENERAL ENG OIL TEMPERATURE:1" unit="celsius"/>
-					<Constant>115</Constant>
+					<Constant>130</Constant>
 				</Greater>
 			</RedBlink>
 		</Gauge>
 		
 	  <Gauge>
 		<Type>Horizontal</Type>
-		<ID>Piston_ChtGauge</ID>
+		<ID>Coolant_ChtGauge</ID>
 		<Title>CLNT</Title>
 		<Unit>°C</Unit>
 		<Minimum>0</Minimum>
-		<Maximum>300</Maximum>
+		<Maximum>150</Maximum>
 		<Style>
 			<ValuePos>End</ValuePos>
 			<ValuePrecision>1</ValuePrecision>
 		</Style>
 		<Value>
-			<Simvar name="ENG CYLINDER HEAD TEMPERATURE:1" unit="celsius"/>
-		</Value>										 
-			<ColorZone>
-			<Color>yellow</Color>
+			<Simvar name="RECIP ENG RADIATOR TEMPERATURE:1" unit="celsius"/>
+		</Value>
+		<ColorZone>
+			<Color>white</Color>
 			<Begin>0</Begin>
-			<End>116</End>
-		</ColorZone>
+			<End>40</End>
+		</ColorZone>		
 		<ColorZone>
 			<Color>green</Color>
-			<Begin>116</Begin>
-			<End>238</End>
+			<Begin>40</Begin>
+			<End>120</End>
 		</ColorZone>
 		<ColorZone>
 			<Color>yellow</Color>
-			<Begin>238</Begin>
-			<End>270</End>
+			<Begin>120</Begin>
+			<End>130</End>
 		</ColorZone>
 		<ColorZone>
 			<Color>red</Color>
-			<Begin>270</Begin>
-			<End>300</End>
+			<Begin>130</Begin>
+			<End>150</End>
 		</ColorZone>
 		<BeginText></BeginText>
 		<EndText></EndText>
+		<RedBlink>
+				<Greater>
+					<Simvar name="RECIP ENG RADIATOR TEMPERATURE:1" unit="celsius"/>
+					<Constant>130</Constant>
+				</Greater>
+		</RedBlink>
 	  </Gauge>
 				
 		<Gauge>
@@ -296,8 +296,8 @@
 		<ID>Piston_EgtGauge</ID>
 		<Title>EGT</Title>
 		<Unit> °C</Unit>
-		<Minimum>100</Minimum>
-		<Maximum>950</Maximum>
+		<Minimum>300</Minimum>
+		<Maximum>900</Maximum>
 		<Style>
 			<ValuePos>End</ValuePos>
 			<ValuePrecision>1</ValuePrecision>
@@ -305,21 +305,21 @@
 		<Value>
 			<Simvar name="GENERAL ENG EXHAUST GAS TEMPERATURE:1" unit="celsius"/>
 		</Value>
-		<GraduationLength>237.5</GraduationLength>
+		<GraduationLength>150</GraduationLength>
 		<ColorZone>
 			<Color>yellow</Color>
-			<Begin>100</Begin>
-			<End>600</End>
+			<Begin>300</Begin>
+			<End>400</End>
 		</ColorZone>
 		<ColorZone>
 			<Color>green</Color>
-			<Begin>600</Begin>
-			<End>925</End>
+			<Begin>400</Begin>
+			<End>893</End>
 		</ColorZone>
 		<ColorZone>
 			<Color>red</Color>
-			<Begin>925</Begin>
-			<End>950</End>
+			<Begin>893</Begin>
+			<End>900</End>
 		</ColorZone>
 		<BeginText></BeginText>
 		<EndText></EndText>
@@ -440,9 +440,33 @@
 				<End>18.5</End>
 			</ColorZone>
 			<GraduationLength text="True">9.25</GraduationLength>
-		<EndText>18.5</EndText>
-	 </Gauge>
-
+		    <EndText>18.5</EndText>
+	    </Gauge>
+		
+	 	<ColumnsGroup>
+			<Column>
+	 				<Text>	
+					<Left fontsize="15">Sp:</Left>
+					<Center fontsize="15">
+						<ToFixed precision="0">
+							<Simvar name="AIRSPEED TRUE" unit="kilometers per hour"/>
+						</ToFixed>
+					</Center>
+					<Right fontsize="15">kmh</Right>
+				</Text>
+			</Column>
+			<Column>			
+				<Text>	
+					<Left fontsize="15">T:</Left>				
+					<Center fontsize="15">
+						<ToFixed precision="1">
+							<Simvar name="AMBIENT TEMPERATURE" unit="celsius"/>
+						</ToFixed>
+					</Center>
+					<Right fontsize="15">ºC</Right>
+				</Text>
+			</Column>
+		</ColumnsGroup>
 
 	</EngineDisplay>
   <Annunciations> 
@@ -780,6 +804,3 @@
 	</Alert>
 </VoicesAlerts>
 </PlaneHTMLConfig>
-
-
-
