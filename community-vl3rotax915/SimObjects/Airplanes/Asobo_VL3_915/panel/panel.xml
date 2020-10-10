@@ -54,7 +54,7 @@
 			<ID>MANIN_Gauge</ID>
 			<Unit>MAN IN</Unit>
 			<Minimum>0</Minimum>
-			<Maximum>51</Maximum>
+			<Maximum>53</Maximum>
 			<Style>
 				<BeginAngle>-45</BeginAngle>
 				<EndAngle>180</EndAngle>
@@ -69,40 +69,26 @@
 			<ColorZone>
 				<Color>green</Color>
 				<Begin>0</Begin>
-				<End>43</End>
+				<End>48</End>
 			</ColorZone>
 			<ColorZone>
 				<Color>yellow</Color>
-				<Begin>43</Begin>
-				<End>45</End>
+				<Begin>48</Begin>
+				<End>51</End>
 			</ColorZone>
 			<ColorZone>
 				<Color>red</Color>
-				<Begin>45</Begin>
-				<End>51</End>
+				<Begin>51</Begin>
+				<End>53</End>
 			</ColorZone>
 			<BeginText></BeginText>
 			<EndText>
 			</EndText>
-				<YellowBlink>
-				<Greater>
-					<Simvar name="RECIP ENG MANIFOLD PRESSURE:1" unit="inHG"/>
-					<Constant>43</Constant>
-				</Greater>
-				<LowerEqual>
-					<Simvar name="RECIP ENG MANIFOLD PRESSURE:1" unit="inHG"/>
-					<Constant>44.9</Constant>
-				</LowerEqual>
-			</YellowBlink>
 			<RedBlink>
 				<Greater>
 					<Simvar name="RECIP ENG MANIFOLD PRESSURE:1" unit="inHG"/>
-					<Constant>45</Constant>
-				</Greater>
-				<LowerEqual>
-					<Simvar name="RECIP ENG MANIFOLD PRESSURE:1" unit="inHG"/>
 					<Constant>51</Constant>
-				</LowerEqual>
+				</Greater>
 			</RedBlink>
 		</Gauge>
 		
@@ -446,24 +432,24 @@
 	 	<ColumnsGroup>
 			<Column>
 	 				<Text>	
-					<Left fontsize="15">Sp:</Left>
-					<Center fontsize="15">
+					<Left fontsize="13">Spd: </Left>
+					<Center fontsize="13">
 						<ToFixed precision="0">
 							<Simvar name="AIRSPEED TRUE" unit="kilometers per hour"/>
 						</ToFixed>
 					</Center>
-					<Right fontsize="15">kmh</Right>
+					<Right fontsize="13">km/h</Right>
 				</Text>
 			</Column>
 			<Column>			
 				<Text>	
-					<Left fontsize="15">T:</Left>				
-					<Center fontsize="15">
+					<Left fontsize="13">T: </Left>				
+					<Center fontsize="13">
 						<ToFixed precision="1">
 							<Simvar name="AMBIENT TEMPERATURE" unit="celsius"/>
 						</ToFixed>
 					</Center>
-					<Right fontsize="15">ºC</Right>
+					<Right fontsize="13">ºC</Right>
 				</Text>
 			</Column>
 		</ColumnsGroup>
@@ -804,3 +790,7 @@
 	</Alert>
 </VoicesAlerts>
 </PlaneHTMLConfig>
+
+
+
+
