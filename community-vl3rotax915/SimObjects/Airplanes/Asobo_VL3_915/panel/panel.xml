@@ -442,18 +442,18 @@
 	 	<ColumnsGroup>
 			<Column>
 	 				<Text>	
-					<Left fontsize="13">AS</Left>
+					<Left fontsize="13">IAS</Left>
 					<Center fontsize="13">
 						<ToFixed precision="0">
 							<Simvar name="AIRSPEED TRUE" unit="kilometers per hour"/>
 						</ToFixed>
 					</Center>
-					<Right fontsize="13">km/h</Right>
+					<Right fontsize="13">kmh</Right>
 				</Text>
 			</Column>
 			<Column>			
 				<Text>	
-					<Left fontsize="13">AT</Left>				
+					<Left fontsize="13">OAT</Left>				
 					<Center fontsize="13">
 						<ToFixed precision="1">
 							<Simvar name="AMBIENT TEMPERATURE" unit="celsius"/>
