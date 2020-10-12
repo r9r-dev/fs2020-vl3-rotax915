@@ -26,5 +26,7 @@ jobs:
           cp build.py ./community-vl3rotax915/build.py
           cd community-vl3rotax915
           python3 build.py
-          echo enough (for now)
-
+          cd ..
+          zip -r nightly.zip community-vl3rotax915
+          cp nightly.zip /data/915/nightly.zip
+          rm nightly.zip
