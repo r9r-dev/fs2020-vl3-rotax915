@@ -4,7 +4,7 @@ import json
 
 root_dir = "."
 root_ctrl_excl = ["build.py", "layout.json", "manifest.json"]
-project_directories = [root_dir, "effects", "html_ui", "SimObjects", "ModelBehaviorDefs"]
+project_directories = [root_dir, "RTC", "SimObjects"]
 
 manifest_entries = None
 content_entries = list()
