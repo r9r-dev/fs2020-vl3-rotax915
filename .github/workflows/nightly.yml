@@ -5,8 +5,8 @@ name: Nightly-Build
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
-  push:
-    branches: [ master ]
+  schedule:
+    - cron: '0 2 * * *' # run at 2 AM UTC
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
