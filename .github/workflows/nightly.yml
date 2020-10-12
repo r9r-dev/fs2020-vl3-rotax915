@@ -25,6 +25,6 @@ jobs:
         run: |
           cp build.py ./community-vl3rotax915/build.py
           cd community-vl3rotax915
-          ./build.py
+          python3 build.py
           echo enough (for now)
 
