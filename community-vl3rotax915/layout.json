@@ -27,7 +27,7 @@
         },
         {
             "path": "layout.json",
-            "size": 36623,
+            "size": 46815,
             "date": "132402817714110148"
         },
         {
@@ -1188,31 +1188,6 @@
         {
             "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.VOLT/thumbnail_small.JPG",
             "size": 60120,
-            "date": "132402817714110148"
-        },
-        {
-            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.VOLT/Sources/ROTAX_LOGO.png",
-            "size": 38427,
-            "date": "132402817714110148"
-        },
-        {
-            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.VOLT/Sources/ROTAX_LOGO.psd",
-            "size": 608782,
-            "date": "132402817714110148"
-        },
-        {
-            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.VOLT/Sources/woodcomp-logo-transparent.png",
-            "size": 38892,
-            "date": "132402817714110148"
-        },
-        {
-            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.VOLT/Sources/woodcomp-logo.png",
-            "size": 46605,
-            "date": "132402817714110148"
-        },
-        {
-            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.VOLT/Sources/woodcomp-logo.psd",
-            "size": 486930,
             "date": "132402817714110148"
         }
     ]
