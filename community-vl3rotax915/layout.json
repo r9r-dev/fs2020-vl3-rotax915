@@ -27,7 +27,7 @@
         },
         {
             "path": "layout.json",
-            "size": 46815,
+            "size": 45852,
             "date": "132402817714110148"
         },
         {
@@ -1176,18 +1176,13 @@
             "date": "132402817714110148"
         },
         {
-            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.VOLT/thumbnail-small.jpg",
-            "size": 37614,
-            "date": "132402817714110148"
-        },
-        {
             "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.VOLT/thumbnail.jpg",
             "size": 109445,
             "date": "132402817714110148"
         },
         {
-            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.VOLT/thumbnail_small.JPG",
-            "size": 60120,
+            "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.VOLT/thumbnail_small.jpg",
+            "size": 37614,
             "date": "132402817714110148"
         }
     ]
