@@ -786,16 +786,6 @@
 	  "date": 1602781697393
 	},
 	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.BLACKHAWKE/JMB_VL3_AIRFRAME_WHEEL_STILL_NORM.PNG.DDS",
-	  "size": 1398256,
-	  "date": 1602781697432
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.BLACKHAWKE/JMB_VL3_AIRFRAME_WHEEL_STILL_NORM.PNG.DDS.json",
-	  "size": 160,
-	  "date": 1602781697432
-	},
-	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.BLACKHAWKE/JMB_VL3_AIRFRAME_WINGS_ALBD.PNG.DDS",
 	  "size": 5592580,
 	  "date": 1602781697457
@@ -836,26 +826,6 @@
 	  "date": 1602781697580
 	},
 	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.BLACKHAWKE/JMB_VL3_COCKPIT_DECALS_COMP.PNG.DDS",
-	  "size": 349700,
-	  "date": 1602781697582
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.BLACKHAWKE/JMB_VL3_COCKPIT_DECALS_COMP.PNG.DDS.json",
-	  "size": 191,
-	  "date": 1602781697582
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.BLACKHAWKE/JMB_VL3_COCKPIT_DECALS_NORM.PNG.DDS",
-	  "size": 1398256,
-	  "date": 1602781697589
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.BLACKHAWKE/JMB_VL3_COCKPIT_DECALS_NORM.PNG.DDS.json",
-	  "size": 160,
-	  "date": 1602781697589
-	},
-	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.BLACKHAWKE/JMB_VL3_COCKPIT_FLOOR_ALBD.PNG.DDS",
 	  "size": 5592580,
 	  "date": 1602781697612
@@ -864,46 +834,6 @@
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.BLACKHAWKE/JMB_VL3_COCKPIT_FLOOR_ALBD.PNG.DDS.json",
 	  "size": 102,
 	  "date": 1602781697613
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.BLACKHAWKE/JMB_VL3_COCKPIT_FLOOR_COMP.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1602781697649
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.BLACKHAWKE/JMB_VL3_COCKPIT_FLOOR_COMP.PNG.DDS.json",
-	  "size": 191,
-	  "date": 1602781697649
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.BLACKHAWKE/JMB_VL3_COCKPIT_FLOOR_NORM.PNG.DDS",
-	  "size": 5592560,
-	  "date": 1602781697684
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.BLACKHAWKE/JMB_VL3_COCKPIT_FLOOR_NORM.PNG.DDS.json",
-	  "size": 160,
-	  "date": 1602781697684
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.BLACKHAWKE/JMB_VL3_COCKPIT_INPUTS_COMP.PNG.DDS",
-	  "size": 5592580,
-	  "date": 1602781697729
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.BLACKHAWKE/JMB_VL3_COCKPIT_INPUTS_COMP.PNG.DDS.json",
-	  "size": 191,
-	  "date": 1602781697730
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.BLACKHAWKE/JMB_VL3_COCKPIT_INPUTS_NORM.PNG.DDS",
-	  "size": 5592560,
-	  "date": 1602781697766
-	},
-	{
-	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.BLACKHAWKE/JMB_VL3_COCKPIT_INPUTS_NORM.PNG.DDS.json",
-	  "size": 160,
-	  "date": 1602781697767
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.BLACKHAWKE/JMB_VL3_COCKPIT_MAIN_INTERIOR_ALBD.PNG.DDS",
