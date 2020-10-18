@@ -34,6 +34,16 @@ Many hours have gone into creating the refined flight model as you experience it
 You can be assured that cruise speeds and climb rates (at all altitudes), taxiing, takeoff and landing behavior, clean and landing config stall speeds, roll rates, fuel consumption and so much more is closely or exactly matching POH (Pilot Operating Handbook) specifications.
 
 
+### The Cockpit
+
+The G3X has seen a major overhaul. The engine panel has practically been recoded and now accurately covers the gamut of white, green, yellow and red ranges for all engine information.
+
+Since updating the main display itself would affect all other planes with a G3X as well, we made this a seperate project so you can choose to install it.
+It comes with a fully functional autopilot, weather data, and various helpful alerts (parking brakes, fuel inbalance, overspeed, pitot heat, low voltage, the list goes on).  
+
+The speed steam gauge has been converted to knots in order to align with data presented in the G3X.
+
+
 ### The Liveries
 
 Our project includes an ever-growing and diverse collection of liveries, contributed by various team members. Surely there is something to suit your taste!  
