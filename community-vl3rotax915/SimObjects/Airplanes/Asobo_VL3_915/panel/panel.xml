@@ -464,8 +464,8 @@
       </Condition>
     </Annunciation>
 	
-	    <Annunciation>
-      <Type>Caution</Type>
+<Annunciation>
+      <Type>Advisory</Type>
       <Text>PROP DEICE ON</Text>
       <Condition>
         <And>
