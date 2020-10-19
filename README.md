@@ -38,8 +38,12 @@ You can be assured that cruise speeds and climb rates (at all altitudes), taxiin
 
 The G3X has seen a major overhaul. The engine panel has practically been recoded and now accurately covers the gamut of white, green, yellow and red ranges for all engine information.
 
-Since updating the main display itself would affect all other planes with a G3X as well, we made this a seperate project so you can choose to install it.
-It comes with a fully functional autopilot, wind data, and various helpful alerts (parking brakes, fuel inbalance, overspeed, pitot heat, low voltage, the list goes on).  
+Since updating the main display itself would affect all other planes with a G3X as well, we made this a seperate (Working Title) project so you can choose to install it. It comes with a fully functional autopilot, wind data, and various helpful alerts (parking brakes, fuel inbalance, overspeed, pitot heat, low voltage, the list goes on).
+
+It is still in alpha status right now, and any bugs are likely already known (no need to report anything at the moment):  
+* Download the [Working Title GX Mod](https://github.com/Working-Title-MSFS-Mods/fspackages/releases/tag/gx-v0.1.0-dev1)
+
+For instructions on how to use it, you may watch a demo on a [real G3X AP](https://www.youtube.com/watch?v=ygx-xzpkpe4&feature=youtu.be&t=55).
 
 The speed steam gauge has been converted to knots in order to align with data presented in the G3X.
 
@@ -57,9 +61,9 @@ All our liveries are updated with authentic VL-3 915 performance placards inside
 Choose from one of these two:
 
 * Download the [Latest Release](https://github.com/r9r-dev/fs2020-vl3-rotax915/releases) (fully tested and verified before publication)
-* Download the [Live Build](https://915.r9r.dev/latest.zip) (our live ongoing project - newer than the Latest Release - but there could be some bugs)
+* Download the [Live Build](https://915.r9r.dev/latest.zip) (our live ongoing project - newer than the Latest Release - but there could be some bugs)  
 
-* We also HIGHLY SUGGEST downloading [GX Mod](https://github.com/Working-Title-MSFS-Mods/fspackages/releases/tag/gx-v0.1.0-dev1) for improvements to the G3X Touch, including Autopilot integration!
+In addition, we also HIGHLY SUGGEST downloading the [Working Title GX Mod](https://github.com/Working-Title-MSFS-Mods/fspackages/releases/tag/gx-v0.1.0-dev1) for improvements to the G3X Touch, including Autopilot integration!
 
 ### 2. Locate the Community Folder
 
@@ -90,7 +94,7 @@ If you are not sure how to Extract / Unzip a ZIP file, download and install [7-Z
 * [CodenameJack447](https://forums.flightsimulator.com/u/CodenameJack447) for multiple improvements to the mod
 * [TalonHawk](https://forums.flightsimulator.com/u/talonhawke) several liveries and various modifications on the model & G3X
 * [Garfield](https://forums.flightsimulator.com/u/garfield9910) for multiple improvements on the mod
-* **kaosfere** for extensive G3X modifications
+* [kaosfere](https://forums.flightsimulator.com/u/kaosfere4829) for extensive G3X modifications
 * [PongRaider](https://forums.flightsimulator.com/u/pongraider) for multiple improvements on the mod
 
 ### Special Thanks
