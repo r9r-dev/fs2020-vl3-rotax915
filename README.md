@@ -55,7 +55,7 @@ All our liveries are updated with authentic VL-3 915 performance placards inside
 
 * Our current liveries
 
-![Liveries](readme-img/liveries.png)
+![Liveries](readme-img/liveries.jpg)
 
 &nbsp;  
 ## Download and Installation
