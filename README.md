@@ -40,8 +40,8 @@ The G3X has seen a major overhaul. The engine panel has practically been recoded
 
 Since updating the main display itself would affect all other planes with a G3X as well, we made this a seperate (Working Title) project so you can choose to install it. It comes with a fully functional autopilot, wind data, and various helpful alerts (parking brakes, fuel inbalance, overspeed, pitot heat, low voltage, the list goes on).
 
-It is still in alpha status right now, and any bugs are likely already known (no need to report anything at the moment):
-Downlaod the [G3X Mod](https://github.com/Working-Title-MSFS-Mods/fspackages/releases/tag/gx-v0.1.0-dev1)
+It is still in alpha status right now, and any bugs are likely already known (no need to report anything at the moment):  
+* Download the [G3X Mod](https://github.com/Working-Title-MSFS-Mods/fspackages/releases/tag/gx-v0.1.0-dev1)
 
 For instructions on how to use it, you may watch a demo on a [real G3X AP](https://www.youtube.com/watch?v=ygx-xzpkpe4&feature=youtu.be&t=55).
 
