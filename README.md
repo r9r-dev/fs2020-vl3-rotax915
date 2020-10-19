@@ -41,7 +41,7 @@ The G3X has seen a major overhaul. The engine panel has practically been recoded
 Since updating the main display itself would affect all other planes with a G3X as well, we made this a seperate (Working Title) project so you can choose to install it. It comes with a fully functional autopilot, wind data, and various helpful alerts (parking brakes, fuel inbalance, overspeed, pitot heat, low voltage, the list goes on).
 
 It is still in alpha status right now, and any bugs are likely already known (no need to report anything at the moment):  
-* Download the [G3X Mod](https://github.com/Working-Title-MSFS-Mods/fspackages/releases/tag/gx-v0.1.0-dev1)
+* Download the [Working Title GX Mod](https://github.com/Working-Title-MSFS-Mods/fspackages/releases/tag/gx-v0.1.0-dev1)
 
 For instructions on how to use it, you may watch a demo on a [real G3X AP](https://www.youtube.com/watch?v=ygx-xzpkpe4&feature=youtu.be&t=55).
 
@@ -63,7 +63,7 @@ Choose from one of these two:
 * Download the [Latest Release](https://github.com/r9r-dev/fs2020-vl3-rotax915/releases) (fully tested and verified before publication)
 * Download the [Live Build](https://915.r9r.dev/latest.zip) (our live ongoing project - newer than the Latest Release - but there could be some bugs)  
 
-In addition, we also HIGHLY SUGGEST downloading the [GX Mod](https://github.com/Working-Title-MSFS-Mods/fspackages/releases/tag/gx-v0.1.0-dev1) for improvements to the G3X Touch, including Autopilot integration!
+In addition, we also HIGHLY SUGGEST downloading the [Working Title GX Mod](https://github.com/Working-Title-MSFS-Mods/fspackages/releases/tag/gx-v0.1.0-dev1) for improvements to the G3X Touch, including Autopilot integration!
 
 ### 2. Locate the Community Folder
 
