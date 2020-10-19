@@ -94,7 +94,7 @@ If you are not sure how to Extract / Unzip a ZIP file, download and install [7-Z
 * [CodenameJack447](https://forums.flightsimulator.com/u/CodenameJack447) for multiple improvements to the mod
 * [TalonHawk](https://forums.flightsimulator.com/u/talonhawke) several liveries and various modifications on the model & G3X
 * [Garfield](https://forums.flightsimulator.com/u/garfield9910) for multiple improvements on the mod
-* **kaosfere** for extensive G3X modifications
+* [kaosfere](https://forums.flightsimulator.com/u/kaosfere4829) for extensive G3X modifications
 * [PongRaider](https://forums.flightsimulator.com/u/pongraider) for multiple improvements on the mod
 
 ### Special Thanks
