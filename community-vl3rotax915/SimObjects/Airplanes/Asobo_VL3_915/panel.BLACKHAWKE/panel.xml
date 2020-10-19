@@ -58,7 +58,7 @@
 			<Style>
 				<BeginAngle>-45</BeginAngle>
 				<EndAngle>180</EndAngle>
-				<ValuePos>Bottom Right</ValuePos>
+				<ValuePos>Bottom</ValuePos>
 				<CursorType>Triangle</CursorType>
 				<ValuePrecision>1</ValuePrecision>
 				<ForceTextColor>white</ForceTextColor>
@@ -111,7 +111,7 @@
 			<Style>
 				<BeginAngle>-45</BeginAngle>
 				<EndAngle>180</EndAngle>
-				<ValuePos>Bottom Right</ValuePos>
+				<ValuePos>Bottom</ValuePos>
 				<CursorType>Triangle</CursorType>
 				<TextIncrement>10</TextIncrement>
 				<ForceTextColor>white</ForceTextColor>
@@ -203,7 +203,7 @@
 			<Type>Horizontal</Type>
 			<ID>OilTemp_Gauge</ID>
 			<Title>OIL</Title>
-			<Unit> °C</Unit>
+			<Unit> °C</Unit>
 			<Minimum>50</Minimum>
 			<Maximum>150</Maximum> <!-- Not Sure -->
 			<Style>
@@ -291,7 +291,7 @@
 		<Type>Horizontal</Type>
 		<ID>Piston_EgtGauge</ID>
 		<Title>EGT</Title>
-		<Unit> °C</Unit>
+		<Unit> °C</Unit>
 		<Minimum>300</Minimum>
 		<Maximum>900</Maximum>
 		<Style>
@@ -464,35 +464,13 @@
 			</Column>
 		</ColumnsGroup>
 
-	</EngineDisplay>
-  <Annunciations> 
+  </EngineDisplay>
+  <Annunciations>     
     <Annunciation>
-      <Type>Caution</Type>
-      <Text>PROP DEICE FAIL</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-	
-	    <Annunciation>
-      <Type>Caution</Type>
-      <Text>PROP DEICE ON</Text>
-      <Condition>
-        <And>
-			<Lower>
-				<Simvar name="PROP RPM:1" unit="rpm"/>
-				<Constant>1</Constant>
-			</Lower>
-			<Simvar name="PROP DEICE SWITCH:1" unit="Bool"/>
-		</And>
-      </Condition>
-    </Annunciation>
-
-        <Annunciation>
-        <Type>Caution</Type>
-        <Text>PITOT TEMP</Text>
-        <Condition>
-            <And>
+       <Type>Caution</Type>
+       <Text>PITOT TEMP</Text>
+       <Condition>
+           <And>
                 <LowerEqual>
                       <Simvar name="AMBIENT TEMPERATURE" unit="celsius"/>
                       <Constant>7</Constant>
@@ -505,7 +483,7 @@
         </Condition>
     </Annunciation>
 		
-	    <Annunciation>
+   <Annunciation>
       <Type>Caution</Type>
       <Text>AUX BOOST PMP ON</Text>
       <Condition>
@@ -536,7 +514,7 @@
     </Annunciation>
 	
 	
-	    <Annunciation>
+     <Annunciation>
       <Type>Caution</Type>
       <Text>FUEL IMBALANCE</Text>
       <Condition>
@@ -547,8 +525,8 @@
       </Condition>
     </Annunciation>
 	
-	    <Annunciation>
-      <Type>Warning</Type>
+    <Annunciation>
+      <Type>Advisory</Type>
       <Text>PARK BRAKE</Text>
       <Condition>
         <Simvar name="BRAKE PARKING INDICATOR" unit="Bool"/>
