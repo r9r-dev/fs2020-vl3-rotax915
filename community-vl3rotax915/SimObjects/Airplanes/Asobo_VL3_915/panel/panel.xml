@@ -84,16 +84,6 @@
 			<BeginText></BeginText>
 			<EndText>
 			</EndText>
-			<YellowBlink>
-				<Greater>
-					<Simvar name="RECIP ENG MANIFOLD PRESSURE:1" unit="inHG"/>
-					<Constant>48</Constant>
-				</Greater>
-				<Lower>
-					<Simvar name="RECIP ENG MANIFOLD PRESSURE:1" unit="inHG"/>
-					<Constant>48</Constant>
-				</Lower>
-			</YellowBlink>
 			<RedBlink>
 				<Greater>
 					<Simvar name="RECIP ENG MANIFOLD PRESSURE:1" unit="inHG"/>
@@ -488,8 +478,8 @@
       </Condition>
     </Annunciation>
 
-        <Annunciation>
-        <Type>Caution</Type>
+		<Annunciation>
+        <Type>Advisory</Type>
         <Text>PITOT TEMP</Text>
         <Condition>
             <And>
@@ -503,6 +493,29 @@
                 </GreaterEqual>
             </And>
         </Condition>
+    </Annunciation>		 
+    <Annunciation>
+      <Type>Advisory</Type>
+      <Text>PITOT HT ON </Text>
+			<Condition>							
+					<Simvar name="PITOT HEAT" unit="Boolean"/>							 							  																	   										  											  
+			</Condition>
+    </Annunciation>
+	
+	 <Annunciation>
+      <Type>Advisory</Type>
+      <Text>ST DEICE ON </Text>
+			<Condition>							
+					<Simvar name="STRUCTURAL DEICE SWITCH" unit="Boolean"/>							 							  																	   										  											  
+			</Condition>
+    </Annunciation>
+	
+    <Annunciation>
+      <Type>Advisory</Type>
+      <Text>WS DEICE ON </Text>
+			<Condition>							
+					<Simvar name="PANEL ANTI ICE SWITCH" unit="Boolean"/>							 							  																	   										  											  
+			</Condition>
     </Annunciation>
 		
 	    <Annunciation>
@@ -548,7 +561,7 @@
     </Annunciation>
 	
 	    <Annunciation>
-      <Type>Warning</Type>
+      <Type>Advisory</Type>
       <Text>PARK BRAKE</Text>
       <Condition>
         <Simvar name="BRAKE PARKING INDICATOR" unit="Bool"/>
