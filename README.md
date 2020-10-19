@@ -53,7 +53,7 @@ The speed steam gauge has been converted to knots in order to align with data pr
 Our project includes an ever-growing and diverse collection of liveries, contributed by various team members. Surely there is something to suit your taste!  
 All our liveries are updated with authentic VL-3 915 performance placards inside the cockpit.
 
-Our current liveries:
+* Our current liveries
 ![Liveries](readme-img/liveries.png)
 
 &nbsp;  
