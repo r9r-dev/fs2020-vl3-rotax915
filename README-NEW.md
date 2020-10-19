@@ -59,6 +59,7 @@ Choose from one of these two:
 * Download the [Latest Release](https://github.com/r9r-dev/fs2020-vl3-rotax915/releases) (fully tested and verified before publication)
 * Download the [Live Build](https://915.r9r.dev/latest.zip) (our live ongoing project - newer than the Latest Release - but there could be some bugs)
 
+* We also HIGHLY SUGGEST downloading [GX Mod](https://github.com/Working-Title-MSFS-Mods/fspackages/releases/tag/gx-v0.1.0-dev1) for improvements to the G3X Touch, including Autopilot integration!
 
 ### 2. Locate the Community Folder
 
@@ -87,7 +88,7 @@ If you are not sure how to Extract / Unzip a ZIP file, download and install [7-Z
 * [ryanbatc](https://forums.flightsimulator.com/u/ryanbatc) for starting it all and the first Rotax 914 engine mod
 * [GotGravel](https://forums.flightsimulator.com/u/GotGravel) flight model and several liveries 
 * [CodenameJack447](https://forums.flightsimulator.com/u/CodenameJack447) for multiple improvements to the mod
-* [TalonHawk](https://forums.flightsimulator.com/u/talonhawke) several liveries and various modifications on the model
+* [TalonHawk](https://forums.flightsimulator.com/u/talonhawke) several liveries and various modifications on the model & G3X
 * [Garfield](https://forums.flightsimulator.com/u/garfield9910) for multiple improvements on the mod
 * **kaosfere** for extensive G3X modifications
 * [PongRaider](https://forums.flightsimulator.com/u/pongraider) for multiple improvements on the mod
