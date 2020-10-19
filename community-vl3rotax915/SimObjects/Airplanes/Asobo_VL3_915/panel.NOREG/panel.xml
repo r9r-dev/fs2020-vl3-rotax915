@@ -3,7 +3,8 @@
 		<Name>AS3X_Touch_1</Name>
 		<SyntheticVision>True</SyntheticVision>
 		<AltimeterIndex>0</AltimeterIndex>
-		<WindDataMode>3</WindDataMode>
+		<WindDataMode>1</WindDataMode>
+		<AutoPitotHeat>True</AutoPitotHeat>
 		<!-- DisplayMode>PFD</DisplayMode> -->
 		<ReversionaryMode>True</ReversionaryMode>
 		<Electric>
@@ -53,7 +54,7 @@
 			<ID>MANIN_Gauge</ID>
 			<Unit>MAN IN</Unit>
 			<Minimum>0</Minimum>
-			<Maximum>47</Maximum>
+			<Maximum>53</Maximum>
 			<Style>
 				<BeginAngle>-45</BeginAngle>
 				<EndAngle>180</EndAngle>
@@ -68,40 +69,36 @@
 			<ColorZone>
 				<Color>green</Color>
 				<Begin>0</Begin>
-				<End>43</End>
+				<End>48</End>
 			</ColorZone>
 			<ColorZone>
 				<Color>yellow</Color>
-				<Begin>43</Begin>
-				<End>45</End>
+				<Begin>48</Begin>
+				<End>51</End>
 			</ColorZone>
 			<ColorZone>
 				<Color>red</Color>
-				<Begin>45</Begin>
-				<End>47</End>
+				<Begin>51</Begin>
+				<End>53</End>
 			</ColorZone>
 			<BeginText></BeginText>
 			<EndText>
 			</EndText>
-				<YellowBlink>
+			<YellowBlink>
 				<Greater>
 					<Simvar name="RECIP ENG MANIFOLD PRESSURE:1" unit="inHG"/>
-					<Constant>43</Constant>
+					<Constant>48</Constant>
 				</Greater>
-				<LowerEqual>
+				<Lower>
 					<Simvar name="RECIP ENG MANIFOLD PRESSURE:1" unit="inHG"/>
-					<Constant>44.9</Constant>
-				</LowerEqual>
+					<Constant>48</Constant>
+				</Lower>
 			</YellowBlink>
 			<RedBlink>
 				<Greater>
 					<Simvar name="RECIP ENG MANIFOLD PRESSURE:1" unit="inHG"/>
-					<Constant>45</Constant>
-				</Greater>
-				<LowerEqual>
-					<Simvar name="RECIP ENG MANIFOLD PRESSURE:1" unit="inHG"/>
 					<Constant>51</Constant>
-				</LowerEqual>
+				</Greater>
 			</RedBlink>
 		</Gauge>
 		
@@ -116,7 +113,6 @@
 				<EndAngle>180</EndAngle>
 				<ValuePos>Bottom</ValuePos>
 				<CursorType>Triangle</CursorType>
-
 				<TextIncrement>10</TextIncrement>
 				<ForceTextColor>white</ForceTextColor>
 			</Style>
@@ -151,7 +147,8 @@
 					<Constant>5700</Constant>
 				</Greater>
 			</RedBlink>
-		</Gauge>		
+		</Gauge>
+		
 		<Gauge>
 			<Type>Horizontal</Type>
 			<ID>OilPsi_Gauge</ID>
@@ -206,9 +203,9 @@
 			<Type>Horizontal</Type>
 			<ID>OilTemp_Gauge</ID>
 			<Title>OIL</Title>
-			<Unit> °C</Unit>
-			<Minimum>60</Minimum>
-			<Maximum>130</Maximum> <!-- Not Sure -->
+			<Unit> °C</Unit>
+			<Minimum>50</Minimum>
+			<Maximum>150</Maximum> <!-- Not Sure -->
 			<Style>
 				<ValuePos>End</ValuePos>
 				<ValuePrecision>1</ValuePrecision>
@@ -217,85 +214,86 @@
 				<Simvar name="GENERAL ENG OIL TEMPERATURE:1" unit="celsius"/>
 			</Value>
 			<ColorZone>
-				<Color>red</Color>
-				<Begin>60</Begin>
-				<End>65</End>
-			</ColorZone>
-			<ColorZone>
 				<Color>yellow</Color>
-				<Begin>65</Begin>
-				<End>80</End>
+				<Begin>50</Begin>
+				<End>90</End>
 			</ColorZone>
 			<ColorZone>
 				<Color>green</Color>
-				<Begin>80</Begin>
+				<Begin>90</Begin>
 				<End>110</End>
 			</ColorZone>
 			<ColorZone>
 				<Color>yellow</Color>
 				<Begin>110</Begin>
-				<End>120</End>
+				<End>130</End>
 			</ColorZone>
 			<ColorZone>
 				<Color>red</Color>
-				<Begin>120</Begin>
-				<End>130</End>
+				<Begin>130</Begin>
+				<End>150</End>
 			</ColorZone>
 			<BeginText></BeginText>
 			<EndText></EndText>
 			<RedBlink>
 				<Greater>
 					<Simvar name="GENERAL ENG OIL TEMPERATURE:1" unit="celsius"/>
-					<Constant>115</Constant>
+					<Constant>130</Constant>
 				</Greater>
 			</RedBlink>
 		</Gauge>
 		
 	  <Gauge>
 		<Type>Horizontal</Type>
-		<ID>Piston_ChtGauge</ID>
+		<ID>Coolant_ChtGauge</ID>
 		<Title>CLNT</Title>
 		<Unit>°C</Unit>
 		<Minimum>0</Minimum>
-		<Maximum>300</Maximum>
+		<Maximum>150</Maximum>
 		<Style>
 			<ValuePos>End</ValuePos>
 			<ValuePrecision>1</ValuePrecision>
 		</Style>
 		<Value>
-			<Simvar name="ENG CYLINDER HEAD TEMPERATURE:1" unit="celsius"/>
-		</Value>										 
-			<ColorZone>
-			<Color>yellow</Color>
+			<Simvar name="RECIP ENG RADIATOR TEMPERATURE:1" unit="celsius"/>
+		</Value>
+		<ColorZone>
+			<Color>white</Color>
 			<Begin>0</Begin>
-			<End>116</End>
-		</ColorZone>
+			<End>40</End>
+		</ColorZone>		
 		<ColorZone>
 			<Color>green</Color>
-			<Begin>116</Begin>
-			<End>238</End>
+			<Begin>40</Begin>
+			<End>120</End>
 		</ColorZone>
 		<ColorZone>
 			<Color>yellow</Color>
-			<Begin>238</Begin>
-			<End>270</End>
+			<Begin>120</Begin>
+			<End>130</End>
 		</ColorZone>
 		<ColorZone>
 			<Color>red</Color>
-			<Begin>270</Begin>
-			<End>300</End>
+			<Begin>130</Begin>
+			<End>150</End>
 		</ColorZone>
 		<BeginText></BeginText>
 		<EndText></EndText>
+		<RedBlink>
+				<Greater>
+					<Simvar name="RECIP ENG RADIATOR TEMPERATURE:1" unit="celsius"/>
+					<Constant>130</Constant>
+				</Greater>
+		</RedBlink>
 	  </Gauge>
 				
 		<Gauge>
 		<Type>Horizontal</Type>
 		<ID>Piston_EgtGauge</ID>
 		<Title>EGT</Title>
-		<Unit> °C</Unit>
-		<Minimum>100</Minimum>
-		<Maximum>950</Maximum>
+		<Unit> °C</Unit>
+		<Minimum>300</Minimum>
+		<Maximum>900</Maximum>
 		<Style>
 			<ValuePos>End</ValuePos>
 			<ValuePrecision>1</ValuePrecision>
@@ -303,21 +301,21 @@
 		<Value>
 			<Simvar name="GENERAL ENG EXHAUST GAS TEMPERATURE:1" unit="celsius"/>
 		</Value>
-		<GraduationLength>237.5</GraduationLength>
+		<GraduationLength>150</GraduationLength>
 		<ColorZone>
 			<Color>yellow</Color>
-			<Begin>100</Begin>
-			<End>600</End>
+			<Begin>300</Begin>
+			<End>400</End>
 		</ColorZone>
 		<ColorZone>
 			<Color>green</Color>
-			<Begin>600</Begin>
-			<End>925</End>
+			<Begin>400</Begin>
+			<End>893</End>
 		</ColorZone>
 		<ColorZone>
 			<Color>red</Color>
-			<Begin>925</Begin>
-			<End>950</End>
+			<Begin>893</Begin>
+			<End>900</End>
 		</ColorZone>
 		<BeginText></BeginText>
 		<EndText></EndText>
@@ -393,7 +391,7 @@
 			</ColorZone>
 			<ColorZone>
 				<Color>red</Color>
-				<Begin>14/5</Begin>
+				<Begin>14.5</Begin>
 				<End>15</End>
 			</ColorZone>
 			<BeginText></BeginText>
@@ -438,14 +436,54 @@
 				<End>18.5</End>
 			</ColorZone>
 			<GraduationLength text="True">9.25</GraduationLength>
-		<EndText>18.5</EndText>
-	 </Gauge>
+		    <EndText>18.5</EndText>
+	    </Gauge>
+		
+	 	<ColumnsGroup>
+			<Column>
+	 				<Text>	
+					<Left fontsize="12.5">IAS</Left>
+					<Center fontsize="12.5">
+						<ToFixed precision="0">
+							<Simvar name="AIRSPEED TRUE" unit="kilometers per hour"/>
+						</ToFixed>
+					</Center>
+					<Right fontsize="12.5">kmh</Right>
+				</Text>
+			</Column>
+			<Column>			
+				<Text>	
+					<Left fontsize="12.5">OAT</Left>				
+					<Center fontsize="12.5">
+						<ToFixed precision="1">
+							<Simvar name="AMBIENT TEMPERATURE" unit="celsius"/>
+						</ToFixed>
+					</Center>
+					<Right fontsize="12.5">°C</Right>
+				</Text>
+			</Column>
+		</ColumnsGroup>
 
-
-	</EngineDisplay>
-		  <Annunciations>
-    
-	    <Annunciation>
+  </EngineDisplay>
+  <Annunciations>     
+    <Annunciation>
+       <Type>Caution</Type>
+       <Text>PITOT TEMP</Text>
+       <Condition>
+           <And>
+                <LowerEqual>
+                      <Simvar name="AMBIENT TEMPERATURE" unit="celsius"/>
+                      <Constant>7</Constant>
+                </LowerEqual>
+                <GreaterEqual>
+                    <Simvar name="L:G3X_Pitot_Heating" unit="Boolean"/>
+                    <Constant>1</Constant>
+                </GreaterEqual>
+            </And>
+        </Condition>
+    </Annunciation>
+		
+   <Annunciation>
       <Type>Caution</Type>
       <Text>AUX BOOST PMP ON</Text>
       <Condition>
@@ -476,7 +514,7 @@
     </Annunciation>
 	
 	
-	    <Annunciation>
+     <Annunciation>
       <Type>Caution</Type>
       <Text>FUEL IMBALANCE</Text>
       <Condition>
@@ -487,11 +525,24 @@
       </Condition>
     </Annunciation>
 	
-	    <Annunciation>
-      <Type>Warning</Type>
+    <Annunciation>
+      <Type>Advisory</Type>
       <Text>PARK BRAKE</Text>
       <Condition>
         <Simvar name="BRAKE PARKING INDICATOR" unit="Bool"/>
+      </Condition>
+    </Annunciation>
+	
+	    <Annunciation>
+      <Type>Warning</Type>
+      <Text>GEAR UNSAFE</Text>
+      <Condition>
+		<And>
+			<Not>
+				<Simvar name="GEAR HANDLE POSITION" unit="Bool"/>
+			</Not>
+			<Simvar name="SIM ON GROUND" unit="Bool"/>
+		</And>		
       </Condition>
     </Annunciation>
     
@@ -727,6 +778,3 @@
 	</Alert>
 </VoicesAlerts>
 </PlaneHTMLConfig>
-
-
-
