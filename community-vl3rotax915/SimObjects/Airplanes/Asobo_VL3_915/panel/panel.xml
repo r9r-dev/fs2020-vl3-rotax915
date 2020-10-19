@@ -465,29 +465,7 @@
 		</ColumnsGroup>
 
   </EngineDisplay>
-  <Annunciations> 
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>PROP DEICE FAIL</Text>
-      <Condition>
-        <!-- TODO -->
-      </Condition>
-    </Annunciation>
-	
-    <Annunciation>
-      <Type>Caution</Type>
-      <Text>PROP DEICE ON</Text>
-      <Condition>
-        <And>
-	    <Lower>
-		Simvar name="PROP RPM" unit="rpm"/>
-		<Constant>1</Constant>
-	    </Lower>
-		<Simvar name="PROP DEICE SWITCH" unit="Bool"/>
-	</And>
-      </Condition>
-    </Annunciation>
-
+  <Annunciations>     
     <Annunciation>
        <Type>Caution</Type>
        <Text>PITOT TEMP</Text>
