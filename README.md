@@ -54,6 +54,7 @@ Our project includes an ever-growing and diverse collection of liveries, contrib
 All our liveries are updated with authentic VL-3 915 performance placards inside the cockpit.
 
 * Our current liveries
+
 ![Liveries](readme-img/liveries.png)
 
 &nbsp;  
