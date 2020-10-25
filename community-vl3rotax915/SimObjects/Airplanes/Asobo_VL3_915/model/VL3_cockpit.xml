@@ -263,7 +263,15 @@
 	<Component ID="LIGHTS">
 		<UseTemplate Name="ASOBO_LIGHTING_Switch_Light_Landing_Template">
 		</UseTemplate>
+			<UPDATE_CODE>
+				(A:ELECTRICAL MASTER BATTERY:1, Bool) if{
+					(A:GENERAL ENG MASTER ALTERNATOR:1, Bool) 1 != if{ 1 (&gt;K:ALTERNATOR_ON) }
+					(A:LIGHT NAV ON:1, bool) 1 != if{ 1 (&gt;K:TOGGLE_NAV_LIGHTS) }
+				}
+			</UPDATE_CODE>
 		<UseTemplate Name="ASOBO_LIGHTING_Switch_Light_Strobe_Template">
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_LIGHTING_Switch_Light_Glareshield_Template">
 		</UseTemplate>
 	</Component>
 	
