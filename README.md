@@ -47,6 +47,8 @@ For instructions on how to use it, you may watch a demo on a [real G3X AP](https
 
 The speed steam gauge has been converted to knots in order to align with data presented in the G3X.
 
+Due to popular demand, we have added a glareshield that can be activated for nighttime flying.  It can be used by mapping your controls for "glareshield" in the game options.
+
 
 ### The Liveries
 
@@ -100,6 +102,8 @@ If you are not sure how to Extract / Unzip a ZIP file, download and install [7-Z
 * [Garfield](https://forums.flightsimulator.com/u/garfield9910) for multiple improvements on the mod
 * [kaosfere](https://forums.flightsimulator.com/u/kaosfere4829) for extensive G3X modifications
 * [PongRaider](https://forums.flightsimulator.com/u/pongraider) for multiple improvements on the mod
+* [Uwa's Light Mod Pack](https://github.com/Uwajimaya) for better lighting
+* itreachesout#3207 from Discord for all his help on glareshield lighting
 
 ### Special Thanks
 
