@@ -271,8 +271,6 @@
 			</UPDATE_CODE>
 		<UseTemplate Name="ASOBO_LIGHTING_Switch_Light_Strobe_Template">
 		</UseTemplate>
-		<UseTemplate Name="ASOBO_LIGHTING_Switch_Light_Glareshield_Template">
-		</UseTemplate>
 	</Component>
 	
 	<!-- PASSENGERS ############################# -->
