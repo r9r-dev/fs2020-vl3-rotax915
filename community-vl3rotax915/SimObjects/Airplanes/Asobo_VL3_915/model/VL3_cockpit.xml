@@ -4,22 +4,21 @@
 		<!-- Highest LOD -->
 		<!-- minimum display size in % (should be bounding sphere vertical screen size, sphere will often be slightly larger than you expect) -->
 		<!-- default minSize is 0 -->
-		<LOD minSize="100" ModelFile="VL3_cockpit_lod0.gltf"/>
-		<LOD minSize="30" ModelFile="VL3_cockpit_lod1.gltf"/>
-		<LOD minSize="15" ModelFile="VL3_cockpit_lod2.gltf"/>
-		<LOD minSize="10" ModelFile="VL3_cockpit_lod3.gltf"/>
-		<LOD minSize="4" ModelFile="VL3_cockpit_lod4.gltf"/>
-		<LOD minSize="2" ModelFile="VL3_cockpit_lod5.gltf"/>
-		<LOD minSize="1" ModelFile="VL3_cockpit_lod6.gltf"/>
+		<LOD minSize="150" ModelFile="VL3_cockpit_lod0.gltf"/>
+		<LOD minSize="110" ModelFile="VL3_cockpit_lod1.gltf"/>
+		<LOD minSize="75" ModelFile="VL3_cockpit_lod2.gltf"/>
+		<LOD minSize="35" ModelFile="VL3_cockpit_lod3.gltf"/>
+		<LOD minSize="15" ModelFile="VL3_cockpit_lod4.gltf"/>
+		<LOD minSize="1" ModelFile="VL3_cockpit_lod5.gltf"/>
 	</LODS>
-</ModelInfo>
-<ModelBehaviors>
+	<Behaviors>
 
 	<!-- Includes ############################# -->
-	<Include Path="Asobo\Common.xml"/>
-	<Include Path="Asobo\GlassCockpit\AS3X_Touch.xml"/>
-	<Include Path="Asobo\Transponder\AS21.xml"/>
-	<Include Path="Asobo\NAVCOM\AS92.xml"/>
+		<Include ModelBehaviorFile="Asobo\Common.xml"/>
+		<Include ModelBehaviorFile="Asobo\GlassCockpit\AS3X_Touch.xml"/>
+		<Include ModelBehaviorFile="Asobo\Transponder\AS21.xml"/>
+		<Include ModelBehaviorFile="Asobo\NAVCOM\AS92.xml"/>
+		<Include ModelBehaviorFile="Asobo\Misc\ASPropeller.xml"/>
 	<!-- ###################################### -->
 	
 	<!-- ELECTRICAL ############################# -->
@@ -91,11 +90,17 @@
 		<UseTemplate Name="ASOBO_ENGINE_Lever_Choke_Template">
 			<USE_DRAGGING_INTERACTION>True</USE_DRAGGING_INTERACTION>
 			<INVERT_INTERACTION>True</INVERT_INTERACTION><!-- MouseWheel inverted -->
+			<INVERT_IM_DRAG_INPUT_SCALAR>True</INVERT_IM_DRAG_INPUT_SCALAR>
 		</UseTemplate>
-		<UseTemplate Name="ASOBO_ENGINE_Lever_Propeller_Template">
-			<INTERACTION_TYPE>KNOB</INTERACTION_TYPE>
-			<ANIM_WRAP>False</ANIM_WRAP>
-		</UseTemplate>	
+		<UseTemplate Name="ASOBO_ASPropeller_Template">
+			<SWITCH_AUTO_MANUAL_NODE_ID>HANDLING_Switch_Flaps_AutoManual</SWITCH_AUTO_MANUAL_NODE_ID>
+			<SWITCH_AUTO_MANUAL_ANIM_NAME>HANDLING_Switch_Flaps_AutoManual</SWITCH_AUTO_MANUAL_ANIM_NAME>
+			<KNOB_INC_DEC_NODE_ID>ENGINE_Lever_Propeller_1</KNOB_INC_DEC_NODE_ID>
+			<KNOB_INC_DEC_ANIM_NAME>ENGINE_Lever_Propeller_1</KNOB_INC_DEC_ANIM_NAME>
+			<SWITCH_INC_DEC_NODE_ID>ENGINE_Switch_Propeller_RPM</SWITCH_INC_DEC_NODE_ID>
+			<SWITCH_INC_DEC_ANIM_NAME>ENGINE_Switch_Propeller_RPM</SWITCH_INC_DEC_ANIM_NAME>
+			<SCREEN_NODE_ID>prop_screen</SCREEN_NODE_ID>
+		</UseTemplate>
 	</Component>
 	
 	<!-- FUEL ############################# -->
@@ -191,6 +196,8 @@
 		</Component>
 		<UseTemplate Name="ASOBO_HANDLING_Wheel_ElevatorTrim_Template">
 			<USE_TRAJECTORY_DRAG_MODE>True</USE_TRAJECTORY_DRAG_MODE>
+			<INVERT_IM_DRAG_INPUT_SCALAR>True</INVERT_IM_DRAG_INPUT_SCALAR>
+			<DRAG_SCALAR>0.01</DRAG_SCALAR>
 		</UseTemplate>
 	</Component>
 	
@@ -203,9 +210,9 @@
 		</UseTemplate>
 		<UseTemplate Name="ASOBO_INSTRUMENT_Needle_Airspeed_Template">
 			<MIN_VALUE>0</MIN_VALUE>
-			<MAX_VALUE>190</MAX_VALUE>
+			<MAX_VALUE>350</MAX_VALUE>
 			<DONT_APPEND_ID>True</DONT_APPEND_ID>
-			<UNITS>Knots</UNITS>
+			<UNITS>kilometers per hour</UNITS>
 		</UseTemplate>
 	</Component>
 	
@@ -256,6 +263,7 @@
 		</Component>
 		<UseTemplate Name="ASOBO_LANDING_GEAR_Switch_ParkingBrake_Template">
 			<ANIM_DELAY>0.5</ANIM_DELAY>
+			<INVERT_SWITCH_ON_CONDITION>True</INVERT_SWITCH_ON_CONDITION>
 		</UseTemplate>
 	</Component>
 	
@@ -263,12 +271,6 @@
 	<Component ID="LIGHTS">
 		<UseTemplate Name="ASOBO_LIGHTING_Switch_Light_Landing_Template">
 		</UseTemplate>
-			<UPDATE_CODE>
-				(A:ELECTRICAL MASTER BATTERY:1, Bool) if{
-					(A:GENERAL ENG MASTER ALTERNATOR:1, Bool) 1 != if{ 1 (&gt;K:ALTERNATOR_ON) }
-					(A:LIGHT NAV ON:1, bool) 1 != if{ 1 (&gt;K:TOGGLE_NAV_LIGHTS) }
-				}
-			</UPDATE_CODE>
 		<UseTemplate Name="ASOBO_LIGHTING_Switch_Light_Strobe_Template">
 		</UseTemplate>
 	</Component>
@@ -282,6 +284,7 @@
 		<UseTemplate Name="ASOBO_PASSENGER_Switch_Cabin_Heat_Template">
 			<ANIMTIP_0>TT:COCKPIT.TOOLTIPS.CABIN_HEAT_2STATES_PUSHED</ANIMTIP_0>
 			<ANIMTIP_1>TT:COCKPIT.TOOLTIPS.CABIN_HEAT_2STATES_PULLED</ANIMTIP_1>
+			<INVERT_IM_DRAG_INPUT_SCALAR>True</INVERT_IM_DRAG_INPUT_SCALAR>
 		</UseTemplate>
 		<UseTemplate Name="ASOBO_PASSENGER_Switch_Cabin_Air_Template">
 			<NODE_ID>PASSENGER_Switch_Cabin_Ventilation_1</NODE_ID>
@@ -327,18 +330,9 @@
 			<NODE_ID>PASSENGER_Switch_Cabin_Ventilation_1</NODE_ID>
 		</UseTemplate>
 		<UseTemplate Name="ASOBO_GT_Interaction_Tooltip">
-			<NODE_ID>HANDLING_Switch_Flaps_AutoManual</NODE_ID>
-		</UseTemplate>
-		<UseTemplate Name="ASOBO_GT_Interaction_Tooltip">
 			<NODE_ID>ENGINE_Lever_Choke</NODE_ID>
 		</UseTemplate>
-		<UseTemplate Name="ASOBO_GT_Interaction_Tooltip">
-			<NODE_ID>ENGINE_Switch_Propeller_AutoManual</NODE_ID>
-		</UseTemplate>
-		<UseTemplate Name="ASOBO_GT_Interaction_Tooltip">
-			<NODE_ID>ENGINE_Switch_Propeller_RPM</NODE_ID>
-		</UseTemplate>
-		
 	</Component>
 
-</ModelBehaviors>
+	</Behaviors>
+</ModelInfo>
