@@ -92,15 +92,10 @@
 			<INVERT_INTERACTION>True</INVERT_INTERACTION><!-- MouseWheel inverted -->
 			<INVERT_IM_DRAG_INPUT_SCALAR>True</INVERT_IM_DRAG_INPUT_SCALAR>
 		</UseTemplate>
-		<UseTemplate Name="ASOBO_ASPropeller_Template">
-			<SWITCH_AUTO_MANUAL_NODE_ID>HANDLING_Switch_Flaps_AutoManual</SWITCH_AUTO_MANUAL_NODE_ID>
-			<SWITCH_AUTO_MANUAL_ANIM_NAME>HANDLING_Switch_Flaps_AutoManual</SWITCH_AUTO_MANUAL_ANIM_NAME>
-			<KNOB_INC_DEC_NODE_ID>ENGINE_Lever_Propeller_1</KNOB_INC_DEC_NODE_ID>
-			<KNOB_INC_DEC_ANIM_NAME>ENGINE_Lever_Propeller_1</KNOB_INC_DEC_ANIM_NAME>
-			<SWITCH_INC_DEC_NODE_ID>ENGINE_Switch_Propeller_RPM</SWITCH_INC_DEC_NODE_ID>
-			<SWITCH_INC_DEC_ANIM_NAME>ENGINE_Switch_Propeller_RPM</SWITCH_INC_DEC_ANIM_NAME>
-			<SCREEN_NODE_ID>prop_screen</SCREEN_NODE_ID>
-		</UseTemplate>
+		<UseTemplate Name="ASOBO_ENGINE_Lever_Propeller_Template">
+			<INTERACTION_TYPE>KNOB</INTERACTION_TYPE>
+			<ANIM_WRAP>False</ANIM_WRAP>
+		</UseTemplate>	
 	</Component>
 	
 	<!-- FUEL ############################# -->
