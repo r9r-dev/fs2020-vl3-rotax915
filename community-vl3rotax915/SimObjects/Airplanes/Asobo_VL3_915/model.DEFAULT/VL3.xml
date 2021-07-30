@@ -7,17 +7,18 @@ until then some are disable to avoid any possible conflicts between the old and 
 		<!-- minimum display size in % (should be bounding sphere vertical screen size, sphere will often be slightly larger than you expect) -->
 		<!-- default minSize is 0 -->
 		<LOD minSize="150" ModelFile="VL3_LOD00.gltf"/>
-		<LOD minSize="110" ModelFile="VL3_LOD01.gltf"/>
-		<LOD minSize="75" ModelFile="VL3_LOD02.gltf"/>
-		<LOD minSize="30" ModelFile="VL3_LOD03.gltf"/>
-		<LOD minSize="15" ModelFile="VL3_LOD04.gltf"/>
-		<LOD minSize="3" ModelFile="VL3_LOD05.gltf"/>
+		<LOD minSize="90" ModelFile="VL3_LOD01.gltf"/>
+		<LOD minSize="60" ModelFile="VL3_LOD02.gltf"/>
+		<LOD minSize="35" ModelFile="VL3_LOD03.gltf"/>
+		<LOD minSize="12" ModelFile="VL3_LOD04.gltf"/>
+		<LOD minSize="6" ModelFile="VL3_LOD05.gltf"/>
 		<LOD minSize="1" ModelFile="VL3_LOD06.gltf"/>
 	</LODS>
 	<Behaviors>
 		<!-- Includes ###################################### -->
 		<Include ModelBehaviorFile="Asobo\Common.xml"/>
 		<Include ModelBehaviorFile="Asobo\Exterior.xml"/>
+		<Include ModelBehaviorFile="Asobo\Generic\FX.xml"/>
 		<!-- ###################################### -->
 		<Component ID="HANDLING">
 			<UseTemplate Name="ASOBO_HANDLING_Elevator_Template">
@@ -80,6 +81,9 @@ until then some are disable to avoid any possible conflicts between the old and 
 				<NODE_ID_STILL>RIGHT_WHEEL</NODE_ID_STILL>
 				<NODE_ID_BLURRED>RIGHT_WHEEL_BLURRED</NODE_ID_BLURRED>
 			</UseTemplate>
+		</Component>
+		<Component ID="LANDING_FX">
+			<UseTemplate Name="ASOBO_LANDING_FX"/>
 		</Component>
 	</Behaviors>
 </ModelInfo>

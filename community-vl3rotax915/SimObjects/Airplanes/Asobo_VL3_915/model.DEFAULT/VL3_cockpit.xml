@@ -7,9 +7,9 @@
 		<LOD minSize="150" ModelFile="VL3_cockpit_lod0.gltf"/>
 		<LOD minSize="110" ModelFile="VL3_cockpit_lod1.gltf"/>
 		<LOD minSize="75" ModelFile="VL3_cockpit_lod2.gltf"/>
-		<LOD minSize="35" ModelFile="VL3_cockpit_lod3.gltf"/>
-		<LOD minSize="15" ModelFile="VL3_cockpit_lod4.gltf"/>
-		<LOD minSize="1" ModelFile="VL3_cockpit_lod5.gltf"/>
+		<LOD minSize="30" ModelFile="VL3_cockpit_lod3.gltf"/>
+		<LOD minSize="3.14" ModelFile="VL3_cockpit_lod4.gltf"/>
+		<LOD minSize="1" ModelFile="VL3_cockpit_lod6.gltf"/>
 	</LODS>
 	<Behaviors>
 
@@ -34,8 +34,8 @@
 					(A:LIGHT NAV ON:1, bool) 0 != if{ 1 (&gt;K:TOGGLE_NAV_LIGHTS) }
 				}
 			</ON_TOGGLE_MASTER_BATTERY>
-			<ANIMTIP_0>TT:COCKPIT.TOOLTIPS.MASTER_SWITCH_TURN_ON</ANIMTIP_0>
-			<ANIMTIP_1>TT:COCKPIT.TOOLTIPS.MASTER_SWITCH_TURN_OFF</ANIMTIP_1>			
+			<TT_ICON>MOVE_Y</TT_ICON>
+																	   
 		</UseTemplate>
 		<UseTemplate Name="ASOBO_GT_Update">
 			<UPDATE_CODE>
@@ -51,8 +51,8 @@
 			<AVIONICS_CIRCUIT_ID>14</AVIONICS_CIRCUIT_ID>
 			<NODE_ID>ELECTRICAL_Switch_Avionics_Master</NODE_ID>
 			<ANIM_NAME>ELECTRICAL_Switch_Avionics_Master</ANIM_NAME>
-			<ANIMTIP_0>TT:COCKPIT.TOOLTIPS.AVIONICS_MASTER_SWITCH_OFF</ANIMTIP_0>
-			<ANIMTIP_1>TT:COCKPIT.TOOLTIPS.AVIONICS_MASTER_SWITCH_ON</ANIMTIP_1>
+																		
+																	   
 		</UseTemplate>
 		<UseTemplate Name="ASOBO_ELECTRICAL_Switch_Battery_Master_Template">
 			<ID>2</ID>
@@ -60,6 +60,7 @@
 			<ANIM_NAME>ELECTRICAL_Switch_Battery_STBY</ANIM_NAME>
 			<ANIMTIP_0>TT:COCKPIT.TOOLTIPS.BATTERY_STBY_ARM</ANIMTIP_0>
 			<ANIMTIP_1>TT:COCKPIT.TOOLTIPS.BATTERY_STBY_OFF</ANIMTIP_1>
+			<TT_ICON>PUSH</TT_ICON>
 		</UseTemplate>	
 		<UseTemplate Name="ASOBO_ELECTRICAL_Switch_Magneto_Template">
 			<ANIM_NAME>ELECTRICAL_Switch_Magneto</ANIM_NAME>
@@ -95,21 +96,31 @@
 		<UseTemplate Name="ASOBO_ENGINE_Lever_Propeller_Template">
 			<INTERACTION_TYPE>KNOB</INTERACTION_TYPE>
 			<ANIM_WRAP>False</ANIM_WRAP>
-		</UseTemplate>	
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_ASPropeller_Template">
+			<KNOB_INC_DEC_NODE_ID>ENGINE_Lever_Propeller_1</KNOB_INC_DEC_NODE_ID>
+			<KNOB_INC_DEC_ANIM_NAME>ENGINE_Lever_Propeller_1</KNOB_INC_DEC_ANIM_NAME>
+			<SWITCH_INC_DEC_NODE_ID>ENGINE_Switch_Propeller_RPM</SWITCH_INC_DEC_NODE_ID>
+			<SWITCH_INC_DEC_ANIM_NAME>ENGINE_Switch_Propeller_RPM</SWITCH_INC_DEC_ANIM_NAME>
+			<MIN_EMISSIVE_NODE_ID>ASProppeller_Emissive_Pitch_Min</MIN_EMISSIVE_NODE_ID>
+			<MAX_EMISSIVE_NODE_ID>ASProppeller_Emissive_Pitch_Max</MAX_EMISSIVE_NODE_ID>
+			<SCREEN_NODE_ID>prop_screen</SCREEN_NODE_ID>
+		</UseTemplate>
 	</Component>
 	
 	<!-- FUEL ############################# -->
 	<Component ID="FUEL">
 		<UseTemplate Name="ASOBO_FUEL_Switch_Pump_Template">
+			<TT_ICON>PUSH</TT_ICON>
 		</UseTemplate>
-		<UseTemplate Name="ASOBO_FUEL_Switch_Selector_Template">
-			<ARROW_TYPE>Curved</ARROW_TYPE>
-			<ANIMTIP_0>TT:COCKPIT.TOOLTIPS.FUEL_SELECTOR_L_TANK</ANIMTIP_0>
-			<ANIMTIP_1>TT:COCKPIT.TOOLTIPS.FUEL_SELECTOR_R_TANK</ANIMTIP_1>
-			<ANIMTIP_2>TT:COCKPIT.TOOLTIPS.FUEL_SHUTOFF_VALVE_ON</ANIMTIP_2>
-			<ANIMTIP_0_ON_PERCENT>0</ANIMTIP_0_ON_PERCENT>
-			<ANIMTIP_1_ON_PERCENT>.5</ANIMTIP_1_ON_PERCENT>
-			<ANIMTIP_2_ON_PERCENT>1</ANIMTIP_2_ON_PERCENT>
+		<UseTemplate Name="ASOBO_FUEL_Knob_Selector_Template">
+			<ANIM_NAME>FUEL_Switch_Selector</ANIM_NAME>
+			<NODE_ID>FUEL_Switch_Selector</NODE_ID>
+			<!-- selector positions -->
+			<SELECTOR_STATE_0>LEFT</SELECTOR_STATE_0>
+			<SELECTOR_STATE_1>RIGHT</SELECTOR_STATE_1>
+			<SELECTOR_STATE_2>OFF</SELECTOR_STATE_2>
+												 
 		</UseTemplate>
 	</Component>
 	
@@ -119,18 +130,22 @@
 			<ANIM_NEVER_FAILS>True</ANIM_NEVER_FAILS>
 		</DefaultTemplateParameters>
 		<Component ID="AS3X_Touch">
-			<UseTemplate Name="ASOBO_AS3X_Touch">
+			<UseTemplate Name="ASOBO_AS3X_Touch_Template">
 				<ID>1</ID>
 			</UseTemplate>
-			<UseTemplate Name="ASOBO_AS3X_Touch">
+			<UseTemplate Name="ASOBO_AS3X_Touch_Template">
 				<ID>2</ID>
 			</UseTemplate>
 		</Component>
-		<UseTemplate Name="ASOBO_AS92_Template">
-			<FAILURE>(A:CIRCUIT AVIONICS ON, Bool) (A:COM VOLUME:1, Percent) 0 &gt; and</FAILURE>
-		</UseTemplate>
+		<UseTemplate Name="ASOBO_AS92_Template"/>
+																																	
+				
 		<UseTemplate Name="ASOBO_AS21_Template">
-			<FAILURE>(A:CIRCUIT AVIONICS ON, Bool)</FAILURE>
+			<TRANSPONDER_INDEX>2</TRANSPONDER_INDEX>
+		</UseTemplate>
+		<UseTemplate Name="ASOBO_GT_Update">
+			<UPDATE_ONCE>True</UPDATE_ONCE>
+			<UPDATE_CODE>(A:TRANSPONDER STATE:1, Enum) (&gt;A:TRANSPONDER STATE:2, Enum)</UPDATE_CODE>
 		</UseTemplate>
 		<Component ID="Prop_Screen" Node="Prop_Screen">
 			<UseTemplate Name="ASOBO_GT_Emissive_Gauge">
@@ -162,6 +177,7 @@
 		<ANIMTIP_1>TT:COCKPIT.TOOLTIPS.FLAPS_LEVER_15</ANIMTIP_1>
 		<ANIMTIP_2>TT:COCKPIT.TOOLTIPS.FLAPS_LEVER_38</ANIMTIP_2>
 		<ANIMTIP_3>TT:COCKPIT.TOOLTIPS.FLAPS_LEVER_55</ANIMTIP_3>
+		<TT_ICON>MOVE_Y</TT_ICON>
 		</UseTemplate>
 		<Component ID="HANDLING_Light_Flaps">
 			<DefaultTemplateParameters>
@@ -192,7 +208,7 @@
 		<UseTemplate Name="ASOBO_HANDLING_Wheel_ElevatorTrim_Template">
 			<USE_TRAJECTORY_DRAG_MODE>True</USE_TRAJECTORY_DRAG_MODE>
 			<INVERT_IM_DRAG_INPUT_SCALAR>True</INVERT_IM_DRAG_INPUT_SCALAR>
-			<DRAG_SCALAR>0.01</DRAG_SCALAR>
+			<TT_ICON>MOVE_AXIS_Y</TT_ICON>
 		</UseTemplate>
 	</Component>
 	
@@ -265,23 +281,32 @@
 	<!-- LIGHTS ############################# -->
 	<Component ID="LIGHTS">
 		<UseTemplate Name="ASOBO_LIGHTING_Switch_Light_Landing_Template">
+			<TT_DESCRIPTION_ID>@TT_Package.LIGHTING_SWITCH_LIGHT_LANDING_ACTION_SET</TT_DESCRIPTION_ID>
+			<TT_ICON>PUSH</TT_ICON>
 		</UseTemplate>
 		<UseTemplate Name="ASOBO_LIGHTING_Switch_Light_Strobe_Template">
+			<TT_DESCRIPTION_ID>@TT_Package.LIGHTING_SWITCH_LIGHT_STROBE_ACTION</TT_DESCRIPTION_ID>
+			<TOOLTIP_TITLE>@TT_Package.LIGHTING_SWITCH_LIGHT_STROBE_TITLE</TOOLTIP_TITLE> 
+			<TT_ICON>PUSH</TT_ICON>
 		</UseTemplate>
 	</Component>
 	
 	<!-- PASSENGERS ############################# -->
 	<Component ID="PASSENGERS">
-		<DefaultTemplateParameters>
-			<USE_DRAGGING_INTERACTION>True</USE_DRAGGING_INTERACTION>
-			<INVERT_INTERACTION>True</INVERT_INTERACTION><!-- MouseWheel inverted -->
-		</DefaultTemplateParameters>
-		<UseTemplate Name="ASOBO_PASSENGER_Switch_Cabin_Heat_Template">
-			<ANIMTIP_0>TT:COCKPIT.TOOLTIPS.CABIN_HEAT_2STATES_PUSHED</ANIMTIP_0>
-			<ANIMTIP_1>TT:COCKPIT.TOOLTIPS.CABIN_HEAT_2STATES_PULLED</ANIMTIP_1>
+		<Parameters Type="Override">
+															
+			<INVERT_INTERACTION>True</INVERT_INTERACTION>
+							  
+																 
+																	   
+																	   
 			<INVERT_IM_DRAG_INPUT_SCALAR>True</INVERT_IM_DRAG_INPUT_SCALAR>
+		</Parameters>
+		<UseTemplate Name="ASOBO_PASSENGER_Lever_Cabin_Heat_Template">
+			<NODE_ID>PASSENGER_Switch_Cabin_Heat_1</NODE_ID>
+			<ANIM_NAME>PASSENGER_Switch_Cabin_Heat_1</ANIM_NAME>
 		</UseTemplate>
-		<UseTemplate Name="ASOBO_PASSENGER_Switch_Cabin_Air_Template">
+		<UseTemplate Name="ASOBO_PASSENGER_Lever_Cabin_Air_Template">
 			<NODE_ID>PASSENGER_Switch_Cabin_Ventilation_1</NODE_ID>
 			<ANIM_NAME>PASSENGER_Switch_Cabin_Ventilation_1</ANIM_NAME>
 		</UseTemplate>
@@ -290,6 +315,9 @@
 	<!-- SAFETY ############################# -->
 	<Component ID="SAFETY">
 		<UseTemplate Name="ASOBO_SAFETY_Switch_ELT_Template">
+			<NODE_ID>SAFETY_Switch_ELT</NODE_ID>
+			<ANIM_NAME>SAFETY_Switch_ELT</ANIM_NAME>
+			<EMISSIVE_NODE_ID>SAFETY_Switch_ELT_Text</EMISSIVE_NODE_ID>
 		</UseTemplate>
 		<Component ID="SAFETY_Fuel">
 			<UseTemplate Name="ASOBO_SAFETY_Indicator_LowFuel_Template">
@@ -319,15 +347,15 @@
 			<EMISSIVE_CODE>(A:ENG ON FIRE:1, Bool)</EMISSIVE_CODE>
 		</UseTemplate>
 	</Component>
-	
-	<Component ID="TT_INOP">
-		<UseTemplate Name="ASOBO_GT_Interaction_Tooltip">
-			<NODE_ID>PASSENGER_Switch_Cabin_Ventilation_1</NODE_ID>
-		</UseTemplate>
-		<UseTemplate Name="ASOBO_GT_Interaction_Tooltip">
-			<NODE_ID>ENGINE_Lever_Choke</NODE_ID>
-		</UseTemplate>
-	</Component>
+ 
+						 
+												   
+														  
+				
+												   
+										
+				
+			 
 
 	</Behaviors>
 </ModelInfo>

@@ -3,9 +3,8 @@
 		<Name>AS3X_Touch_1</Name>
 		<SyntheticVision>True</SyntheticVision>
 		<AltimeterIndex>0</AltimeterIndex>
-		<WindDataMode>1</WindDataMode>
 		<AutoPitotHeat>True</AutoPitotHeat>
-		<!-- DisplayMode>PFD</DisplayMode> -->
+		<DisplayMode>PFD</DisplayMode>
 		<ReversionaryMode>True</ReversionaryMode>
 		<Electric>
 			<Simvar name="CIRCUIT AVIONICS ON" unit="Boolean"/>
@@ -35,6 +34,7 @@
 	
 	<Instrument>
 		<Name>AS21</Name>
+		<TransponderIndex>2</TransponderIndex>
 		<Electric>
 			<Simvar name="CIRCUIT AVIONICS ON" unit="Boolean"/>
 		</Electric>
@@ -42,7 +42,7 @@
 	
 	<Logic>
 		<Handler>Systems_AS1000</Handler>
-		<!-- PFD>AS3X_Touch_1</PFD>  -->
+		<PFD>AS3X_Touch_1</PFD>
 		<MFD>AS3X_Touch_2</MFD>
 	</Logic>
 	
