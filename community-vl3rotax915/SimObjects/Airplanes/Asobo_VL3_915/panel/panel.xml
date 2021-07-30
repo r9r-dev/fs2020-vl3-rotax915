@@ -4,7 +4,7 @@
 		<SyntheticVision>True</SyntheticVision>
 		<AltimeterIndex>0</AltimeterIndex>
 		<AutoPitotHeat>True</AutoPitotHeat>
-		<DisplayMode>PFD</DisplayMode>
+		<!--<DisplayMode>PFD</DisplayMode>-->
 		<ReversionaryMode>True</ReversionaryMode>
 		<Electric>
 			<Simvar name="CIRCUIT AVIONICS ON" unit="Boolean"/>
