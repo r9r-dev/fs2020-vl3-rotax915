@@ -33,7 +33,6 @@
 		<Checkpoint ReferenceId="VL3_Master_Switch_On"/> <!--Master switch - ON -->
  
 		<Checkpoint ReferenceId="Avionics_Bus_Switch_On"> <!-- Added / Avionics master switch - ON -->
-			<SetTemplateAction Id="Toggle Avionics Bus" Copilot="True" Condition="TestValueFalse" Once="true" Code="14 (&gt;K:ELECTRICAL_CIRCUIT_TOGGLE) 2 1 (&gt;K:2:ELECTRICAL_BUS_TO_BUS_CONNECTION_TOGGLE)"/>
 			<ForceCamera name="Instrument 01"/>
 		</Checkpoint>
 		
@@ -60,9 +59,7 @@
 			<ForceCamera name="Instrument 02"/>
 		</Checkpoint>
 
-		<Checkpoint ReferenceId="CHOKE_OFF"> <!--Choke - OFF -->
-			<ForceCamera name="Instrument 03"/>
-		</Checkpoint>
+		<Checkpoint ReferenceId="CHOKE_OFF_FULLY_PUSHED_VL3"/>
 		
 		<Checkpoint ReferenceId="Brakes_Released">
 			<ForceCamera name="Instrument 03"/>

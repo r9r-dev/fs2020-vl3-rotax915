@@ -21,7 +21,7 @@ Nav2Active=110.50
 Nav2Standby=113.90
 OBS2=360
 
-TransponderState=4
+TransponderState=3
 ADFActive=890
 ADF2Active=890
 DMESelected=1

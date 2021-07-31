@@ -93,7 +93,7 @@ GlareshieldLights=False
 PedestalLights=False
 
 [AutoPilot.0]
-MasterSwitch=True
+MasterSwitch=False
 WingLeveler=True
 Nav1Lock=False
 HeadingLock=False

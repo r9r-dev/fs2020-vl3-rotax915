@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <SimBase.Document Type="CheckpointLibrary" version="1,0">
 	<Checklist.CheckpointLibrary>
-		
 		<Checkpoint Id="VL3_Master_Switch_On">
 			<Clue name="TT:CLUE.MASTER_SWITCH_ON"/>
 			<CheckpointDesc SubjectTT="TT:GAME.CHECKLIST_MASTER_SWITCH" ExpectationTT="TT:GAME.CHECKLIST_ON"/>
@@ -23,22 +22,35 @@
 			</Sequence>
 			<ForceCamera name="Instrument 01"/>
 		</Checkpoint>
-
-    <Checkpoint Id="CHOKE_ON_FULLY_PULLED_VL3">
-      <CheckpointDesc SubjectTT="TT:GAME.CHECKLIST_CHOKE" ExpectationTT="TT:GAME.CHECKLIST_ON_FULLY_PULLED"/>
-	  <Clue name="TT:CLUE.CHOKE_ON_FULLY_PULLED"/>
-	  <Test>
-		<TestValue>
-			<Operator OpType="EQUAL">
-				<Val Code="(L:XMLVAR_ENGINE_Lever_Choke_Pulled)"/>	<!-- using XML var until a SIMVAR is assigned -->
-				<Val value="100"/>
-			</Operator>
-		</TestValue>
-		<Instrument Id="ENGINE_LEVER_CHOKE"/>
-		<Action Copilot="True" Condition="TestValueFalse" Once="true"	Code="100 (&gt;L:XMLVAR_ENGINE_Lever_Choke_Pulled, Percent)"/>
-	  </Test>
-	  <ForceCamera name="Instrument 03"/>
-    </Checkpoint>
-
+		<Checkpoint Id="CHOKE_ON_FULLY_PULLED_VL3">
+			<CheckpointDesc SubjectTT="TT:GAME.CHECKLIST_CHOKE" ExpectationTT="TT:GAME.CHECKLIST_ON_FULLY_PULLED"/>
+			<Clue name="TT:CLUE.CHOKE_ON_FULLY_PULLED"/>
+			<Test>
+				<TestValue>
+					<Operator OpType="EQUAL">
+						<Val Code="(B:ENGINE_Choke_1, percent)"/>
+						<Val value="100"/>
+					</Operator>
+				</TestValue>
+				<Instrument Id="ENGINE_LEVER_CHOKE"/>
+				<Action Copilot="True" Condition="TestValueFalse" Once="true" Code="100 (&gt;B:ENGINE_Choke_1_Set)"/>
+			</Test>
+			<ForceCamera name="Instrument 03"/>
+		</Checkpoint>
+		<Checkpoint Id="CHOKE_OFF_FULLY_PUSHED_VL3">
+			<CheckpointDesc SubjectTT="TT:GAME.CHECKLIST_CHOKE" ExpectationTT="TT:GAME.CHECKLIST_OFF"/>
+			<Clue name="TT:CLUE.CHOKE_OFF_FULLY_PUSHED"/>
+			<Test>
+				<TestValue>
+					<Operator OpType="EQUAL">
+						<Val Code="(B:ENGINE_Choke_1, percent)"/>
+						<Val value="0"/>
+					</Operator>
+				</TestValue>
+				<Instrument Id="ENGINE_LEVER_CHOKE"/>
+				<Action Copilot="True" Condition="TestValueFalse" Once="true" Code="0 (&gt;B:ENGINE_Choke_1_Set)"/>
+			</Test>
+			<ForceCamera name="Instrument 03"/>
+		</Checkpoint>
 	</Checklist.CheckpointLibrary>
 </SimBase.Document>

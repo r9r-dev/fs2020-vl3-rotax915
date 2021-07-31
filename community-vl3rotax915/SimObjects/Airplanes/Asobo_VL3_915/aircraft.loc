@@ -10,13 +10,18 @@
       "it-IT",
       "pl-PL",
       "pt-BR",
-      "ru-RU"
+      "ru-RU",
+      "ja-JP",
+      "nl-NL",
+      "nb-NO",
+      "sv-SE",
+      "fi-FI"
     ],
     "Strings": {
       "AIRCRAFT.DESCRIPTION": {
         "UUID": "6703dbd6-a8b7-4b4a-892b-c21134e68084",
-        "LastModifiedBy": "dmedina",
-        "LastModifiedDate": "2020-07-01 11:55:28",
+        "LastModifiedBy": "jreynaud",
+        "LastModifiedDate": "2021-04-30 16:44:57",
         "LocalizationStatus": "TranslationNeeded",
         "Languages": {
           "en-US": {
@@ -43,13 +48,28 @@
           },
           "ru-RU": {
             "Text": "VL-3 Evolution, также известный как Aveko VL-3 Sprint, — это чешский самолёт, который считается самым быстрым сверхлёгким летательным аппаратом с пилотскими креслами, расположенными рядом. В 2004 году его разработала компания Vanessa Air. Изначально он производился силами компании Aveko в Брно, а теперь его выпускает JMB Aircraft в городе Хоцень.<br/><br/>Этот свободнонесущий низкоплан разрабатывался в соответствии с требованиями Международной авиационной федерации для сверхлёгких ЛА. Он оснащён убирающимися шасси и одним двигателем Rotax с тянущим винтом.<br/><br/>Планер самолёта полностью изготовлен из композитных материалов. Благодаря этому удалось добиться невероятной прочности и надёжности конструкции, которую дополняет тщательное проработанное крыло с отличной устойчивостью к сваливанию и прекрасной управляемостью.<br/><br/>В аскетичной, но невероятно удобной кабине, рассчитанной на двух пилотов, установлена авионика от Garmin, а фонарь кабины из прозрачного акрила нисколько не мешает любоваться пейзажами. Всё это делает VL-3 Evolution отличным самолётом для путешествий."
+          },
+          "ja-JP": {
+            "Text": "アヴェコ VL-3 スプリントとも呼ばれる VL-3 エボリューションは、世界最速のサイド バイ サイド超軽量航空機とされるチェコの機体だ。2004年にヴァネッサ・エア社が設計し、最初はブルノのアヴェコ社が生産していたが、現在はチョジェンの JMB エアクラフト社が生産している。<br/><br/>国際航空連盟の超軽量規則マイクロライト規則に則って設計されたこの航空機は、カンチレバーの低翼構成、固定式または格納式の三輪着陸装置、および牽引式の単発ロタックス エンジンをその特徴としている。<br/><br/>VL-3 は、機体が完全に複合素材で構成されており、優れた比強度と耐疲労性を備えている。入念に作られた空気力学的な設計の翼が、高い降下性能と円滑で機敏な操縦性を実現している。<br/><br/>きれいに整理されて最小限のものだけが搭載されたキャビン内では、2 人のパイロットが隣り合わせに座り、ガーミンのアビオニクスと豪華なインテリアが素早く快適な飛行を可能にしている。さらにアクリル ガラスのキャノピーにより、壮大な眺めを楽しむことのできる VL-3 エボリューションは、次の旅にうってつけの飛行機と言えるだろう。"
+          },
+          "nl-NL": {
+            "Text": "De Tsjechische VL-3 Evolution, die ook bekendstaat als de Aveko VL-3 Sprint, wordt beschouwd als de snelste side-by-side ultralight ter wereld. Het model werd in 2004 ontworpen door Vanessa Air en kwam oorspronkelijk uit de Aveko-fabriek in Brno, maar wordt nu geproduceerd door JMB Aircraft in Choceň.<br/><br/>Het vliegtuig is geheel ontworpen om te voldoen aan de regels van de Fédération Aéronautique Internationale voor ultralichte vliegtuigen. Het is een laagdekkercantilever met vast of intrekbaar driewielig onderstel en één Rotax-motor in de lengterichting. <br/><br/>Het airframe dat volledig uit composietmaterialen bestaat, zorgt ervoor dat de VL-3 zeer robuust is en uitstekende vermoeiingseigenschappen heeft, terwijl het zorgvuldig vervaardigde aerodynamische vleugelontwerp goede valeigenschappen en een soepele, wendbare besturing biedt.<br/><br/>De strakke, minimalistische cabine biedt plaats aan twee piloten (naast elkaar) en de Garmin-avionica en het luxe interieur maken het vliegtuig zowel comfortabel als snel. Daarnaast zorgt een koepel van acrylglas voor een spectaculair uitzicht, zodat de VL-3 Evolution eenvoudig het perfecte vliegtuig is voor je volgende reis."
+          },
+          "nb-NO": {
+            "Text": "VL-3 Evolution, også kjent som Aveko VL-3 Sprint, er et tsjekkisk fly som regnes som det raskeste ultralette side-ved-side-flyet i verden. Det ble designet av Vanessa Air i 2004 og opprinnelig produsert av Aveko av Brno, men modellen produseres nå av JMB Aircraft of Choceň.<br/><br/>Flyet, som er designet for å være i samsvar med Fédération Aéronautique Internationale sine regler for mikrofly, har en cantilever-konfigurasjon med lav vinge, fast eller inntrekkbart landingsstell med tre hjul, og én enkel Rotax-motor i trekkflykonfigurasjon. <br/><br/>Med et flyskrog konstruert av kun komposittmaterialer har VL-3 utmerket styrke og minimal materialtretthet, og flyets nøye utformede aerodynamiske vingedesign gir gode fallegenskaper og jevn, smidig håndtering.<br/><br/>Inne i den stilrene og minimalistiske kabinen er det plass til to piloter ved siden av hverandre, og Garmin-avionikk samt et luksuriøst interiør gjør det like behagelig å fly flyet som flyet er raskt. Legg til en hette av akrylglass som gir spektakulær sikt, og VL-3 Evolution kan fort være det perfekte flyet for din neste reise."
+          },
+          "sv-SE": {
+            "Text": "VL-3 Evolution, även känd som Aveko VL-3 Sprint, är ett tjeckiskt flygplan som anses vara världens snabbaste ultralätta flygplan med sätena placerade sida vid sida. Modellen designades av Vanessa Air år 2004 och producerades ursprungligen av Aveko i Brno, men produceras nu av JMB Aircraft i Choceň.<br/><br/>Flygplanet, som är utformat för att uppfylla kraven för Fédération Aéronautique Internationales mikrolätta kategori, har en fribärande lågvingekonfiguration, fast eller infällbart trehjuligt landningsställ och en enda Rotax-motor i traktorkonfiguration. <br/><br/>Med ett skrov som är konstruerat helt i kompositmaterial har VL-3 utmärkta egenskaper gällande hållfasthet och uthållighet, medan dess noggrant utformade aerodynamiska vingdesign säkerställer bra fallegenskaper och mjuk, smidig styrning.<br/><br/>Inuti den rena och minimalistiska kabinen har sätena plats för två piloter sida vid sida, medan avionik från Garmin och en lyxig interiör gör att planet är lika bekvämt som det är snabbt. Lägg där till en huv i akrylglas för fantastisk sikt så kan VL-3 Evolution inte bli något annat än det perfekta planet för din nästa resa."
+          },
+          "fi-FI": {
+            "Text": "VL-3 Evolution, joka tunnetaan myös nimellä Aveko VL-3 Sprint, on tšekkiläinen lentokone, jota pidetään maailman nopeimpana ultrakevyenä koneena, jossa istutaan vierekkäin. Vanessa Airin vuonna 2004 suunnittelema ja alun perin brnolaisen Avekon tuottaman mallin valmistaa nykyään Choceňissa sijaitseva JMB Aircraft.<br/><br/>Lentokoneessa, joka on suunniteltu noudattamaan Kansainvälisen ilmailuliiton kevytilmailun sääntöjä, on vapaasti kantava matalasiipinen kokoonpano, kiinteä tai sisään vedettävä kolmipyöräinen laskuteline ja yksi Rotax-moottori vetävällä potkurilla. <br/><br/>Täysin komposiittimateriaaleista rakennetun rungon ansiosta VL-3:lla on määrätyt lujuus- ja väsymisominaisuudet erinomaisen hyvät, samalla kun sen huolellisesti muotoiltu aerodynaaminen siipisuunnittelu tarjoaa hyvät putoamisominaisuudet ja sujuvan, ketterän käsiteltävyyden.<br/><br/>Puhtaan ja minimalistisen matkustamon sisällä vierekkäisiin istuimiin mahtuu kaksi ohjaajaa, kun taas Garminin avioniikka ja ylellinen sisustus tekevät koneen lentämisestä yhtä mukavaa kuin se on nopeaa. Lisää sekoitukseen akryylilasikuomu, joka mahdollistaa upeat näkymät, ja VL-3 Evolution saattaisi hyvinkin olla täydellinen kone seuraavalle matkallesi."
           }
         }
       },
       "AIRCRAFT.UI_MANUFACTURER": {
         "UUID": "225e01ba-3dd0-4581-9cee-c5c3f66a3c15",
-        "LastModifiedBy": "akeyte",
-        "LastModifiedDate": "2020-03-24 17:19:41",
+        "LastModifiedBy": "jreynaud",
+        "LastModifiedDate": "2021-04-30 16:44:57",
         "LocalizationStatus": "TranslationNeeded",
         "Languages": {
           "en-US": {
@@ -83,13 +103,28 @@
           "ru-RU": {
             "Text": "JMB Aircraft",
             "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "JMB 航空機"
+          },
+          "nl-NL": {
+            "Text": "JMB Aircraft"
+          },
+          "nb-NO": {
+            "Text": "JMB Aircraft"
+          },
+          "sv-SE": {
+            "Text": "JMB Aircraft"
+          },
+          "fi-FI": {
+            "Text": "JMB Aircraft"
           }
         }
       },
       "AIRCRAFT.UI_MODEL": {
         "UUID": "b4d15fb4-2a38-4b00-88d8-ae182319e73d",
-        "LastModifiedBy": "akeyte",
-        "LastModifiedDate": "2020-03-24 17:17:58",
+        "LastModifiedBy": "jreynaud",
+        "LastModifiedDate": "2021-04-30 16:44:57",
         "LocalizationStatus": "TranslationNeeded",
         "Languages": {
           "en-US": {
@@ -123,6 +158,21 @@
           "ru-RU": {
             "Text": "VL-3",
             "LocalizationStatus": "TranslationNeeded"
+          },
+          "ja-JP": {
+            "Text": "VL-3"
+          },
+          "nl-NL": {
+            "Text": "VL-3"
+          },
+          "nb-NO": {
+            "Text": "VL-3"
+          },
+          "sv-SE": {
+            "Text": "VL-3"
+          },
+          "fi-FI": {
+            "Text": "VL-3"
           }
         }
       }
