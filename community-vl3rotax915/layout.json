@@ -26,11 +26,6 @@
 	  "date": 1609309112000
 	},
 	{
-	  "path": "msfs-downloader-updater.json",
-	  "size": 5,
-	  "date": 1627554061355
-	},
-	{
 	  "path": "pl-PL.locPak",
 	  "size": 1371,
 	  "date": 1609309112000
@@ -47,8 +42,8 @@
 	},
 	{
 	  "path": "Effects/LIGHT_VL3_Glareshield.fx",
-	  "size": 1353,
-	  "date": 1627654915062
+	  "size": 1355,
+	  "date": 1627783221806
 	},
 	{
 	  "path": "Effects/LIGHT_VL3_NavigationGreen.fx",
@@ -141,54 +136,49 @@
 	  "date": 1609309110000
 	},
 	{
-	  "path": "RTC/Asobo_VL3_915/RTC_Hangar.spb",
-	  "size": 1676,
-	  "date": 1609309110000
-	},
-	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/ai.cfg",
 	  "size": 747,
 	  "date": 1609309112000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/aircraft.cfg",
-	  "size": 14414,
-	  "date": 1627674295439
+	  "size": 14418,
+	  "date": 1627926456756
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/aircraft.loc",
-	  "size": 14134,
-	  "date": 1609309112000
+	  "size": 21387,
+	  "date": 1627523330000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/Approach.flt",
-	  "size": 2695,
-	  "date": 1609309110000
+	  "size": 2696,
+	  "date": 1627523330000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/apron.flt",
 	  "size": 2757,
-	  "date": 1609309112000
+	  "date": 1627523330000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/cameras.cfg",
 	  "size": 17926,
-	  "date": 1627562219419
+	  "date": 1627562218000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/Climb.flt",
 	  "size": 2699,
-	  "date": 1609309110000
+	  "date": 1627523330000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/cockpit.cfg",
 	  "size": 5285,
-	  "date": 1627559535430
+	  "date": 1627559534000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/Cruise.flt",
-	  "size": 2695,
-	  "date": 1609309110000
+	  "size": 2696,
+	  "date": 1627523330000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/engines.cfg",
@@ -198,7 +188,7 @@
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/Final.flt",
 	  "size": 2696,
-	  "date": 1609309110000
+	  "date": 1627523330000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/flight_model.cfg",
@@ -213,17 +203,17 @@
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/hangar.flt",
 	  "size": 2630,
-	  "date": 1609309112000
+	  "date": 1627523330000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/runway.FLT",
 	  "size": 2708,
-	  "date": 1609309112000
+	  "date": 1627523332000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/systems.cfg",
 	  "size": 8436,
-	  "date": 1627654803750
+	  "date": 1627654802000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/target_performance.cfg",
@@ -233,227 +223,227 @@
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/taxi.flt",
 	  "size": 2683,
-	  "date": 1609309112000
+	  "date": 1627523330000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/checklist/Library.xml",
-	  "size": 1782,
-	  "date": 1609309112000
+	  "size": 2281,
+	  "date": 1627523330000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/checklist/VL3_Checklist.xml",
-	  "size": 3959,
-	  "date": 1609309112000
+	  "size": 3698,
+	  "date": 1627523330000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.03/model.CFG",
 	  "size": 732,
-	  "date": 1627684215009
+	  "date": 1627684214000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.BLACKHAWKE/model.CFG",
 	  "size": 732,
-	  "date": 1627684215009
+	  "date": 1627684214000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/model.CFG",
 	  "size": 664,
-	  "date": 1627684208902
+	  "date": 1627684208000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3.xml",
 	  "size": 3860,
-	  "date": 1627555653465
+	  "date": 1627555652000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3_cockpit.xml",
 	  "size": 14268,
-	  "date": 1627602643019
+	  "date": 1627602642000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3_cockpit_lod0.bin",
 	  "size": 4989352,
-	  "date": 1627523332440
+	  "date": 1627523332000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3_cockpit_lod0.gltf",
 	  "size": 283658,
-	  "date": 1627523332441
+	  "date": 1627523332000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3_cockpit_lod1.bin",
 	  "size": 3128610,
-	  "date": 1627523332451
+	  "date": 1627523332000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3_cockpit_lod1.gltf",
 	  "size": 268095,
-	  "date": 1627523332452
+	  "date": 1627523332000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3_cockpit_lod2.bin",
 	  "size": 1436300,
-	  "date": 1627523332034
+	  "date": 1627523332000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3_cockpit_lod2.gltf",
 	  "size": 204288,
-	  "date": 1627523332034
+	  "date": 1627523332000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3_cockpit_lod3.bin",
 	  "size": 747402,
-	  "date": 1627523331078
+	  "date": 1627523330000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3_cockpit_lod3.gltf",
 	  "size": 74307,
-	  "date": 1627523332035
+	  "date": 1627523332000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3_cockpit_lod4.bin",
 	  "size": 239746,
-	  "date": 1627523332036
+	  "date": 1627523332000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3_cockpit_lod4.gltf",
 	  "size": 45314,
-	  "date": 1627523332036
+	  "date": 1627523332000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3_cockpit_lod6.bin",
 	  "size": 114,
-	  "date": 1627523331990
+	  "date": 1627523330000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3_cockpit_lod6.gltf",
 	  "size": 3553,
-	  "date": 1627523331990
+	  "date": 1627523330000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3_LOD00.bin",
 	  "size": 6219198,
-	  "date": 1627523332545
+	  "date": 1627523332000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3_LOD00.gltf",
 	  "size": 115842,
-	  "date": 1627523332546
+	  "date": 1627523332000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3_LOD01.bin",
 	  "size": 4021900,
-	  "date": 1627523332073
+	  "date": 1627523332000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3_LOD01.gltf",
 	  "size": 113792,
-	  "date": 1627523332074
+	  "date": 1627523332000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3_LOD02.bin",
 	  "size": 2482372,
-	  "date": 1627523332083
+	  "date": 1627523332000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3_LOD02.gltf",
 	  "size": 113595,
-	  "date": 1627523332083
+	  "date": 1627523332000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3_LOD03.bin",
 	  "size": 1130980,
-	  "date": 1627523332087
+	  "date": 1627523332000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3_LOD03.gltf",
 	  "size": 111073,
-	  "date": 1627523332087
+	  "date": 1627523332000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3_LOD04.bin",
 	  "size": 804670,
-	  "date": 1627523332090
+	  "date": 1627523332000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3_LOD04.gltf",
 	  "size": 88126,
-	  "date": 1627523332091
+	  "date": 1627523332000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3_LOD05.bin",
 	  "size": 184940,
-	  "date": 1627523332091
+	  "date": 1627523332000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3_LOD05.gltf",
 	  "size": 58872,
-	  "date": 1627523332092
+	  "date": 1627523332000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3_LOD06.bin",
 	  "size": 4020,
-	  "date": 1627523331135
+	  "date": 1627523330000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.DEFAULT/VL3_LOD06.gltf",
 	  "size": 2699,
-	  "date": 1627523332092
+	  "date": 1627523332000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.EXECUTIVE/model.CFG",
 	  "size": 732,
-	  "date": 1627684215009
+	  "date": 1627684214000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.LION/model.CFG",
 	  "size": 732,
-	  "date": 1627684215009
+	  "date": 1627684214000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.RACING/model.CFG",
 	  "size": 732,
-	  "date": 1627684215009
+	  "date": 1627684214000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.REDHAWKE/model.CFG",
 	  "size": 732,
-	  "date": 1627684215009
+	  "date": 1627684214000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/model.VOLT/model.CFG",
 	  "size": 732,
-	  "date": 1627684215009
+	  "date": 1627684214000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/panel/PANEL.CFG",
 	  "size": 1103,
-	  "date": 1627554388971
+	  "date": 1627554388000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/panel/panel.xml",
 	  "size": 18346,
-	  "date": 1627672624209
+	  "date": 1627672624000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/panel.BLACKHAWKE/PANEL.CFG",
 	  "size": 1103,
-	  "date": 1627653267547
+	  "date": 1627653266000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/panel.BLACKHAWKE/panel.xml",
 	  "size": 18339,
-	  "date": 1627554520919
+	  "date": 1627554520000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/panel.NOREG/PANEL.CFG",
 	  "size": 1103,
-	  "date": 1627554388971
+	  "date": 1627554388000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/panel.NOREG/panel.xml",
 	  "size": 18339,
-	  "date": 1627554520919
+	  "date": 1627554520000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/sound/Asobo_VL3.PC.PCK",
@@ -1384,6 +1374,11 @@
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_PROP_STILL_COMP.PNG.DDS",
 	  "size": 1398276,
 	  "date": 1609309112000
+	},
+	{
+	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_PROP_STILL_COMP.PNG.DDS.json",
+	  "size": 191,
+	  "date": 1609309110000
 	},
 	{
 	  "path": "SimObjects/Airplanes/Asobo_VL3_915/TEXTURE.LION/JMB_VL3_AIRFRAME_WINGS_ALBD.PNG.DDS",
