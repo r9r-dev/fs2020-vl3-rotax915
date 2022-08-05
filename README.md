@@ -22,7 +22,7 @@ We have gone through great lengths to simulate every aspect of this powerplant, 
 
 ### The Propeller
 
-The real VL-3 915 comes with an upgraded propeller, and so does ours. The 3 bladed constant speed and variable pitch 173.8cm / 5.7ft [Woodcomp KW-31](http://www.woodcomp.cz/wp-content/uploads/2016/09/kw-31-easa.pdf).  
+The real VL-3 915 comes with an upgraded propeller, and so does ours. The 3 bladed constant speed and variable pitch 173.8cm / 5.7ft [Woodcomp KW-31](http://www.woodcomp.cz/wp-content/uploads/2018/10/UM-05-EN_1-User-Manual-KW-31_01-.pdf).  
 
 While updating the actual 3D model is currently beyond our project scope (you will still see 2 blades), the KW-31's performance is simulated in excruciating detail.
 
